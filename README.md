@@ -1,6 +1,7 @@
 # To get and update the repositories
 
 ```shell
+pip3 install gitpython
 python3 get_repositories.py
 ```
 
