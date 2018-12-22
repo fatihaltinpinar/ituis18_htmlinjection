@@ -42,30 +42,3 @@ def get_repositories(repo_data):
 # For calling function directly
 if __name__ == '__main__':
     get_repositories('repo_data.json')
-
-
-
-
-# except git.exc.GitCommandError as e:
-#     print('no repo ', e)
-
-# git.Repo.clone_from(repo_dict[repo_keys[2]], './'+repo_keys[2])
-# git.Git('./').clone(repo_dict[repo_keys[x]])
-
-
-# searching through
-# with open('repo_data.json') as repo_json:
-#     repo_dict = json.load(repo_json)
-# i = 0
-# for repo_name in repo_dict:
-#     print(i, " ", repo_name)
-#     i = i + 1
-
-#
-#     repo = git.Repo('a2-batuhanfaik')
-#     o = repo.remote.origin
-#     o.pull()
-# except git.exc.NoSuchPathError:
-#     print("cloning")
-#     git.Repo.clone_from('https://github.com/ituis18/a2-batuhanfaik.git', './batuhanfaik/')
-#
