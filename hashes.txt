@@ -1,11 +1,16 @@
 ./repositories/a2-lalverdacakir/repl_comments.py:9:13a965e03bd53a70ab69c1a0d7f246afb8295c322c9cb1d9d56aab1b0a826b12
 ./repositories/a2-keremperq/repl_comments.py:3:e40aa9d56ec908c9d868bad75e3079f772bbf5778b2264bd1abe2bf488cbddaf
+Binary file ./repositories/a2-gultekinmet/images/metot_semaver.jpg matches
+./repositories/a2-gultekinmet/bottle_app.py:289:401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece
 ./repositories/a2-gultekinmet/repl_comments.py:7:401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece
 ./repositories/a2-yesildal17/repl_comments.py:4:b1e79532d5b97c775ed657e6aea1de1cb3728443c6b35ad80fa7c3c4ed0f4d1e
 ./repositories/a2-yasinuyuk/repl_comments.py:11:aa6ed97b3cbba442fafe730d7c0dd31cb117c86c6a57649c1b5958241cb95382
+./repositories/a2-tevfikozgu/repl_comments.py:8:296c5085ec73266197571b2e34fa91eab32789af00994f6fb04e4026028accf1
 ./repositories/a2-yesilay17/repl_comments.py:5:a7c18f1e470e97275fe14be700dd74dcf94969eccb92901d1474e75b0361f161
+./repositories/a2-enesituce/repl_comments.py:3:344300781b2a5159efc11fbb0bd2f2c7c604568f2b2f22975f4c036db326625c
 ./repositories/a2-fatihaltinpinar/bottle_app.py:22:b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e
 ./repositories/a2-fatihaltinpinar/repl_comments.py:31:e4ba5cbd251c98e6cd1c23f126a3b81d8d8328abc95387229850952b3ef9f904
+./repositories/a2-Ykanber/repl_comments.py:7:401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece
 ./repositories/a2-umitbasak/repl_comments.py:9:b66e0bdd3e0931b2bd49f091021081da36215019cbae16eba5789e2b0cf279cb
 Binary file ./repositories/a2-kilical17/EL.png matches
 ./repositories/a2-itubilgas/bottle_app.py:31:932f3c1b56257ce8539ac269d7aab42550dacf8818d075f0bdf1990562aae3ef
@@ -22,6 +27,7 @@ Binary file ./repositories/a2-kilical17/EL.png matches
 ./repositories/a2-metinatmaca/repl_comments.py:8:60ed156c6b4c696741e6065fdeafc6a5b386735a9d07b1720a58fb62dd7deb0f
 ./repositories/a2-demirba18/repl_comments.py:12:8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
 Binary file ./repositories/a2-pearlescen7/images/bg10.jpg matches
+./repositories/a2-pearlescen7/bottle_app.py:12:312d88cf9740313e8a98368ea3d8b7adc62dccec05ca51237771e84e789bcf01
 ./repositories/a2-pearlescen7/repl_comments.py:4:312d88cf9740313e8a98368ea3d8b7adc62dccec05ca51237771e84e789bcf01
 ./repositories/a2-asederf/repl_comments.py:9:77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e
 ./repositories/a2-Cem6Akalin/repl_comments.py:5:5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
