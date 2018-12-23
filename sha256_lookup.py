@@ -51,7 +51,9 @@ try:
                     passwords.append({
                         'pass_owner': pass_owner,
                         'password': password,
+                        'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
+                        'SUCCESSFUL :)'
                     })
                 else:
                     print('{}\'s password is way too strong!'.format(pass_owner))
@@ -60,6 +62,7 @@ try:
                         'pass_owner': pass_owner,
                         'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
+                        'TOO STRONK :('
                     })
             except requests.exceptions as e:
                 print('Error:{} \nWhile trying to solve {}'.format(e,pass_owner))
