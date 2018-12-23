@@ -47,7 +47,19 @@ try:
 
                 # Server returns empty string if password can not be found
                 # WE NEED TO ADD ERROR CODES HERE! Provided at https://md5decrypt.net/en/Api/#erreurs
-                if password != '':
+                errcode_check = {
+                        'ERROR CODE : 001' : 'You exceeded the 400 allowed request per day',
+                        'ERROR CODE : 002' : 'There is an error in your email / code',
+                        'ERROR CODE : 003' : 'Your request includes more than 400 hashes',
+                        'ERROR CODE : 004' : 'hash_type is not valid',
+                        'ERROR CODE : 005' : 'Your hash doesn\'t match hash_type',
+                        'ERROR CODE : 006' : 'You didn\'t provide all the arguments, or you mispell one of them',
+                        'ERROR CODE : 007' : 'The premium code you entered is not valid',
+                        'ERROR CODE : 008' : 'The premium variable is not correct, it must be 1',
+                        'ERROR CODE : 009' : 'Your premium account ran out of time',
+                }
+
+                if password != '' and errcode_check.get(password,'no_error') == 'no_error':
                     print('Found password {}:{}'.format(pass_owner, password))
                     passwords.append({
                         'pass_owner': pass_owner,
@@ -55,6 +67,8 @@ try:
                         'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
                     })
+                elif errcode_check.get(password,'no_error') != 'no_error':
+                    print('Got an error: {}'.format(errcode_check.get(password)))
                 else:
                     print('{}\'s password is way too strong!'.format(pass_owner))
 
