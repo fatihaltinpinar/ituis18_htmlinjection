@@ -30,8 +30,9 @@ try:
             # From every line we extract the owner repository's name and the hash itself
             hashed_pass = line[-1:-66:-1][::-1].replace('\n', '')
 
-            # REQUIRES FIXING IN ORDER TO WORK FOR EVERY HASH
-            pass_owner = line[15:line.find('/repl')]
+            # Getting owner of the hashes
+            pass_owner = line[15:]
+            pass_owner = pass_owner[:pass_owner.find('/')]
 
             # We add hash to the dict in order to be used in a request.
             parameters['hash'] = hashed_pass
@@ -53,7 +54,6 @@ try:
                         'password': password,
                         'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
-                        'SUCCESSFUL :)'
                     })
                 else:
                     print('{}\'s password is way too strong!'.format(pass_owner))
@@ -62,7 +62,6 @@ try:
                         'pass_owner': pass_owner,
                         'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
-                        'TOO STRONK :('
                     })
             except requests.exceptions as e:
                 print('Error:{} \nWhile trying to solve {}'.format(e,pass_owner))
