@@ -46,7 +46,6 @@ try:
                 password = response.content.decode('utf-8')
 
                 # Server returns empty string if password can not be found
-                # WE NEED TO ADD ERROR CODES HERE! Provided at https://md5decrypt.net/en/Api/#erreurs
                 errcode_check = {
                         'ERROR CODE : 001' : 'You exceeded the 400 allowed request per day',
                         'ERROR CODE : 002' : 'There is an error in your email / code',
