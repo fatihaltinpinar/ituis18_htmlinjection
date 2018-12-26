@@ -52,15 +52,15 @@ try:
 
                 # Server returns empty string if password can not be found
                 errcode_check = {
-                        'ERROR CODE : 001' : 'You exceeded the 400 allowed request per day',
-                        'ERROR CODE : 002' : 'There is an error in your email / code',
-                        'ERROR CODE : 003' : 'Your request includes more than 400 hashes',
-                        'ERROR CODE : 004' : 'hash_type is not valid',
-                        'ERROR CODE : 005' : 'Your hash doesn\'t match hash_type',
-                        'ERROR CODE : 006' : 'You didn\'t provide all the arguments, or you mispell one of them',
-                        'ERROR CODE : 007' : 'The premium code you entered is not valid',
-                        'ERROR CODE : 008' : 'The premium variable is not correct, it must be 1',
-                        'ERROR CODE : 009' : 'Your premium account ran out of time',
+                        'ERROR CODE : 001': 'You exceeded the 400 allowed request per day',
+                        'ERROR CODE : 002': 'There is an error in your email / code',
+                        'ERROR CODE : 003': 'Your request includes more than 400 hashes',
+                        'ERROR CODE : 004': 'hash_type is not valid',
+                        'ERROR CODE : 005': 'Your hash doesn\'t match hash_type',
+                        'ERROR CODE : 006': 'You didn\'t provide all the arguments, or you mispell one of them',
+                        'ERROR CODE : 007': 'The premium code you entered is not valid',
+                        'ERROR CODE : 008': 'The premium variable is not correct, it must be 1',
+                        'ERROR CODE : 009': 'Your premium account ran out of time',
                 }
 
                 if password != '' and errcode_check.get(password, 'no_error') == 'no_error':
@@ -84,7 +84,7 @@ try:
                         'link': 'https://github.com/ituis18/' + pass_owner
                     })
             except requests.exceptions as e:
-                print('Error:{} \nWhile trying to solve {}'.format(e,pass_owner))
+                print('Error:{} \nWhile trying to solve {}'.format(e, pass_owner))
 
 except FileNotFoundError:
     exitcode = '''
