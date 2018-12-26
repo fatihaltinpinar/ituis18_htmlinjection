@@ -1,1 +1,1 @@
-grep -ronE "[a-fA-F0-9]{64}" ./repositories/ > hashes.txt
+grep -ronE "[a-fA-F0-9]{64}" --include=\*.{py,html} ./repositories/ > hashes.txt
