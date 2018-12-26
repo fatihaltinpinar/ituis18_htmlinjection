@@ -3,6 +3,10 @@ import json
 
 parameters = {}
 
+# Counting passwords
+passCount = 0
+solvedPassCount = 0
+
 # Taking secret.json file for api mail and api key.
 try:
     with open('secret.json') as f:
@@ -36,6 +40,7 @@ try:
 
             # We add hash to the dict in order to be used in a request.
             parameters['hash'] = hashed_pass
+            passCount += 1
 
             # Requesting answer from the api via.
             try:
@@ -58,15 +63,17 @@ try:
                         'ERROR CODE : 009' : 'Your premium account ran out of time',
                 }
 
-                if password != '' and errcode_check.get(password,'no_error') == 'no_error':
+                if password != '' and errcode_check.get(password, 'no_error') == 'no_error':
                     print('Found password {}:{}'.format(pass_owner, password))
+                    solvedPassCount += 1
                     passwords.append({
                         'pass_owner': pass_owner,
                         'password': password,
                         'hash = ': hashed_pass,
                         'link': 'https://github.com/ituis18/' + pass_owner
                     })
-                elif errcode_check.get(password,'no_error') != 'no_error':
+                    # .get on dictionaries :puke:
+                elif errcode_check.get(password, 'no_error') != 'no_error':
                     print('Got an error: {}'.format(errcode_check.get(password)))
                 else:
                     print('{}\'s password is way too strong!'.format(pass_owner))
@@ -90,6 +97,8 @@ grep -ronE "[a-fA-F0-9]{64}" ./repositories/ > hashes.txt
     # I'm using exitcode to print things because they look red. I liked it that's why.
     exit(exitcode)
 
+print('{} passwords out of {} are solved. Success rate={}'.format(solvedPassCount, passCount,
+                                                                  (solvedPassCount/passCount) * 100))
 try:
     with open('passwords.json', 'w') as output_file:
         print('\nDumping passwords into json file')
