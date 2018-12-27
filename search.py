@@ -9,8 +9,8 @@ def find_py_files(repository):
 
 def find_post_method(file_list):
 
-
-
+#Testing smth
+def batu_test():
 
 if __name__ == '__main__':
     find_readme('a2-abdinli18')
