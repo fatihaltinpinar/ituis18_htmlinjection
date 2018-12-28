@@ -31,7 +31,9 @@ def get_repositories(repo_data):
 
                 # If a repository is copied already, we pull the changes
                 # from GitHub
+
                 git.Repo('./repositories/' + repo_name).remotes.origin.pull()
+
                 print('Pulled {}'.format(repo_name))
 
             # In case anything else:

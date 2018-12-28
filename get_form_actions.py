@@ -1,35 +1,39 @@
 import os
 import glob
 import re
+from bs4 import BeautifulSoup
 
 file_types_to_search = ('*.py', '*.html')
 root = 'repositories/'
 
 
-def get_files(base_dir, filetype_extension):
-    return glob.glob(f"{base_dir}/**/*.{filetype_extension}", recursive=True)
+def get_files(base_dir, file_extension):
+    return glob.glob(f"{base_dir}/**/*.{file_extension}", recursive=True)
 
 
 for repo in os.listdir(root):
 
-    for pyfile in get_files(root + repo, 'py'):
-        with open(pyfile) as file:
-            # 'asdf=5;(.*)123jasd'
+    for py_file in get_files(root + repo, 'py'):
+
+        with open(py_file) as file:
             file_text = file.read()
-            a = re.findall(r'(<form.*?</form>)', file_text, flags=re.DOTALL)
 
+            form_html = re.findall(r'<form.*?</form>', file_text, flags=re.DOTALL)
 
-            # ADD HTNL PARSING ALL THE INPUTS
-            if len(a) != 0:
-                print('lengt = ' , len(a), a)
-            # forms = re.findall(r'<forms(.+?)</forms>', file_text)
-    for htmlfile in get_files(root + repo, 'html'):
-        with open(htmlfile) as file:
-            # 'asdf=5;(.*)123jasd'
+    for html_file in get_files(root + repo, 'html'):
+
+        with open(html_file) as file:
             file_text = file.read()
-            a = re.findall(r'(<form.*?</form>)', file_text, flags=re.DOTALL)
 
-            # ADD HTNL PARSING ALL THE INPUTS
-            if len(a) != 0:
-                print('lengt = ', len(a), a)
-            # forms = re.findall(r'<forms(.+?)</forms>', file_text)
+            form_html.extend(re.findall(r'<form.*?</form>', file_text, flags=re.DOTALL))
+
+    if len(form_html) != 0:
+        print(form_html)
+
+    for form in form_html:
+        soup = BeautifulSoup(form, 'html')
+        form_inputs = soup.findAll(attrs={"name": True})
+
+        # forms_inputs.attrs can be used in here
+        print(form_inputs)
+
