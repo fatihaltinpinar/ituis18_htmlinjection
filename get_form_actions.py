@@ -3,9 +3,10 @@ import glob
 import re
 from bs4 import BeautifulSoup
 
-file_types_to_search = ('*.py', '*.html')
+fileTypesToSearch = ('*.py', '*.html')
 root = 'repositories/'
 count = 0
+
 
 def get_files(base_dir, file_extension):
     return glob.glob(f"{base_dir}/**/*.{file_extension}", recursive=True)
@@ -13,31 +14,31 @@ def get_files(base_dir, file_extension):
 
 for repo in os.listdir(root):
 
-    for py_file in get_files(root + repo, 'py'):
+    for pyFile in get_files(root + repo, 'py'):
 
-        with open(py_file) as file:
-            file_text = file.read()
+        with open(pyFile) as file:
+            fileText = file.read()
 
-            form_html = re.findall(r'<form.*?</form>', file_text, flags=re.DOTALL)
+            formHtml = re.findall(r'<form.*?</form>', fileText, flags=re.DOTALL)
 
-    for html_file in get_files(root + repo, 'html'):
+    for htmlFile in get_files(root + repo, 'html'):
 
-        with open(html_file) as file:
-            file_text = file.read()
+        with open(htmlFile) as file:
+            fileText = file.read()
 
-            form_html.extend(re.findall(r'<form.*?</form>', file_text, flags=re.DOTALL))
+            formHtml.extend(re.findall(r'<form.*?</form>', fileText, flags=re.DOTALL))
 
-    if len(form_html) != 0:
-        print(form_html)
+    if len(formHtml) != 0:
+        print(formHtml)
 
-    for form in form_html:
+    for form in formHtml:
         soup = BeautifulSoup(form, "html")
 
         # finds every element that has a name attribute in html
-        form_inputs = soup.findAll(attrs={"name": True})
+        formInputs = soup.findAll(attrs={"name": True})
 
         # goes over every element that has a name attribute
-        for x in form_inputs:
+        for x in formInputs:
 
             # gets all attributes of these elements and looks for what type they are
             if x.attrs.get('type') == 'password':
@@ -57,8 +58,5 @@ for repo in os.listdir(root):
             #  that runs a javascript code from another hijacked user available if they are using get method.
             #  I don't know if this is possible.
 
-
-        # forms_inputs.attrs can be used in here
-        # print(form_inputs)
 
 print('this many password fields found', count)
