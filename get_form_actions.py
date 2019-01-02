@@ -29,6 +29,7 @@ for repo in os.listdir(root):
             formHtml.extend(re.findall(r'<form.*?</form>', fileText, flags=re.DOTALL))
 
     if len(formHtml) != 0:
+        count += 1
         print(formHtml)
 
     for form in formHtml:
@@ -45,7 +46,6 @@ for repo in os.listdir(root):
 
                 # since people can put different names but will put type as password(to make field invisible while
                 # typing) we can find password's name that'll be used in post method.
-                count += 1
                 print(x.attrs['name'])
 
             # TODO: 1
@@ -59,4 +59,4 @@ for repo in os.listdir(root):
             #  I don't know if this is possible.
 
 
-print('this many password fields found', count)
+print('this many password forms found', count)
