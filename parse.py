@@ -77,22 +77,61 @@ for repo in os.listdir(root):
             # finds hex. Which is what forms SHA256.
             hashedPass = re.findall(r'[a-fA-F0-9]{64}', fileText)
 
+        # allForms contains all the form elements of a single repo user.(Only from .py files)
         allForms.extend(formHtml)
-        # print('formHTML of', repo, allForms)
-    repoData['raw'] = allForms
-    for form in allForms:
-        soup = BeautifulSoup(form, 'html.parser')
-        formInputs = soup.findAll(attrs={"name": True})
-        inputList = []
-        for formInput in formInputs:
-            if formInput.attrs.get('type') == 'password':
-                repoData['passfield'] = formInput.attrs.get('name')
-            else:
-                inputList.append(formInput.attrs.get('name'))
-        repoData['nonpassfields'] = inputList
 
+    # goes over every form element that we found per repo.
+    for form in allForms:
+
+        # We parse our string with BeautifulSoup since we have it as txt.
+        # We get a BeautifulSoup object that has all the information about html file.
+        # It allows us to find elements, their attributes, children, parents with ease.
+        soup = BeautifulSoup(form, 'html.parser')
+
+        # Fields is where we hold 'name' attributes of every input in a form.
+        fields = []
+
+        # Since a html input has to have a name attribute in order to be sent to the server
+        # we look for inputs wia this tag. It returns a list of objects which are html elements that
+        # have 'name' attribute.
+        formInputs = soup.findAll(attrs={"name": True})
+
+        # We need to find 'action' attribute of the form. Thus we need the object that represents
+        # the form itself. formAction is a object that represents form element that has a 'action' attribute
+        # We already go over forms but I was not able to find the value of 'action' attribute. This one
+        # worked so I don't care :)
+        formAction = soup.find(attrs={"action": True})
+
+        # We go over every input element we found
+        for formInput in formInputs:
+
+            # We only look for forms that has a password field. We check if any of the inputs
+            # has 'type' attribute that is set to 'password'
+            if formInput.attrs.get('type') == 'password':
+
+                # In HTML if you do not write 'action' attribute it'll be set to '/' by default.
+                if formAction is None:
+                    repoData['action'] = '/'
+                else:
+                    # We set the action in our dictionary to it's value in HTML
+                    repoData['action'] = formAction.attrs.get('action')
+
+                # Since this part are in the if block formInput will be representing the input that is
+                # password input. We need the name to send password to the server.
+                passField = formInput.attrs.get('name')
+                repoData['passField'] = passField
+
+                # I had to go over every input again. Sad but I can not find a solution
+                # for this now.
+                for formI in formInputs:
+                    fields.append(formI.attrs.get('name'))
+                fields.remove(passField)
+                repoData['fields'] = fields
+                repoData['raw'] = form
+    # Adds repo's data to all data.
     data[repo] = repoData
 
-with open('test.txt', 'w') as f:
+# Dumping into a json file
+with open('parsed.json', 'w') as f:
     #  json.dump(passwords, output_file, indent=2)
     json.dump(data, f, indent=2)
