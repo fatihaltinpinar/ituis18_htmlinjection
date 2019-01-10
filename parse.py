@@ -26,6 +26,7 @@ data = {}
 #      'a2-reponame2'
 #      }
 
+
 def get_files(base_dir, file_extension):
     return glob.glob(f"{base_dir}/**/*.{file_extension}", recursive=True)
 
@@ -57,11 +58,6 @@ for repo in os.listdir(root):
     if len(readmeFile) != 0:
         with open(readmeFile[0]) as file:
             fileText = file.read()
-            # TODO:
-            #  Fix required. It finds results such as below.
-            #  Excluding symbols like []() should do the job
-            # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
-            # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
             pageLink = re.search(r'https://[^w].*?\.herokuapp\.com.*?|$', fileText).group()
             repoData['pageLink'] = pageLink
 
