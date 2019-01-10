@@ -62,7 +62,7 @@ for repo in os.listdir(root):
             #  Excluding symbols like []() should do the job
             # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
             # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
-            pageLink = re.search(r'https://.*?\.herokuapp\.com.*?|$', fileText).group()
+            pageLink = re.search(r'https://[^w].*?\.herokuapp\.com.*?|$', fileText).group()
             repoData['pageLink'] = pageLink
 
     # Searching in python files
