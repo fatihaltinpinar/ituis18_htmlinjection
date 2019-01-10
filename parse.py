@@ -7,7 +7,7 @@ import json
 
 
 root = 'repositories/'
-data = []
+data = {}
 
 # TODO:
 #  Determine the tree of the data. How it is going to be stored
@@ -50,8 +50,7 @@ You can get your key at https://md5decrypt.net/en/Api/'''
 for repo in os.listdir(root):
 
     # Initialing repo_data
-    repoData = {'name': repo,
-                'repoLink': 'https://github.com/ituis18/' + repo}
+    repoData = {'repoLink': 'https://github.com/ituis18/' + repo}
 
     # Searching heroku link in README.md files.
     readmeFile = glob.glob(f"{root + repo}/README.md")
@@ -67,6 +66,7 @@ for repo in os.listdir(root):
             repoData['pageLink'] = pageLink
 
     # Searching in python files
+    allForms = []
     for pyFile in get_files(root + repo, 'py'):
         with open(pyFile) as file:
             fileText = file.read()
@@ -77,13 +77,22 @@ for repo in os.listdir(root):
             # finds hex. Which is what forms SHA256.
             hashedPass = re.findall(r'[a-fA-F0-9]{64}', fileText)
 
-    # Searching in HTML files
+        allForms.extend(formHtml)
+        # print('formHTML of', repo, allForms)
+    repoData['raw'] = allForms
+    for form in allForms:
+        soup = BeautifulSoup(form, 'html.parser')
+        formInputs = soup.findAll(attrs={"name": True})
+        inputList = []
+        for formInput in formInputs:
+            if formInput.attrs.get('type') == 'password':
+                repoData['passfield'] = formInput.attrs.get('name')
+            else:
+                inputList.append(formInput.attrs.get('name'))
+        repoData['nonpassfields'] = inputList
 
-    data.append(repoData)
+    data[repo] = repoData
 
-
-
-number = 0
-for repoData in data:
-    number += 1
-    print(number, repoData)
+with open('test.txt', 'w') as f:
+    #  json.dump(passwords, output_file, indent=2)
+    json.dump(data, f, indent=2)
