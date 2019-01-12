@@ -1,41 +1,269 @@
 {
-  "a2-oguzhankarabacak": {
-    "repoLink": "https://github.com/ituis18/a2-oguzhankarabacak",
-    "pageLink": "https://blg101oguzhankarabacak.herokuapp.com",
-    "action": "/login",
+  "a2-umitbasak": {
+    "repoLink": "https://github.com/ituis18/a2-umitbasak",
+    "pageLink": "https://phantom-assassin.herokuapp.com",
+    "hash": "8f37491f3a3539f0b9a6306efb9efe520251a15b4d6317b741de73ae05f3a4f5",
+    "password": "sifre"
+  },
+  "a2-sinansar123": {
+    "repoLink": "https://github.com/ituis18/a2-sinansar123",
+    "pageLink": "https://myblg101assignment-2.herokuapp.com",
+    "hash": "bf0e7af75e74c6ffcca5f6dfc5aade500c5f379bd5cd6bdce952e667f1b27d89",
+    "password": "",
+    "action": "/submit",
     "passField": "password",
     "fields": [
-      "message",
-      "team",
-      "team",
-      "username",
-      "login"
+      "userid",
+      "guest",
+      "comment_text"
     ],
-    "raw": "<form action=\"/login\" method=\"post\">\n    \t\t\t\t\t\t\t<textarea name=\"message\" rows=\"5\" cols=\"100\" placeholder=\"WHY?(Total 250 Character)\" maxlength=\"250\" ></textarea>\n    \t\t\t\t\t\t\t<br/>\n    \t\t\t\t\t\t\t\n    \t\t\t\t\t\t\t<input type=\"radio\" name=\"team\" value=\"real\" /> Real Madrid\n    \t\t\t\t\t\t\t \t\t\t\t\t\n    \t\t\t\t\t\t\t<input type=\"radio\" name=\"team\" value=\"other\" /> Other Teams\n    \t\t\t\t\t\t\t<br/>\n    \t\t\t\t\t\t\t<br/>\n            Username: <input name=\"username\" type=\"text\" />\n            Password: <input name=\"password\" type=\"password\" />\n            <br/>\n            <br/>\n            <input name=\"login\" value=\"Login\" type=\"submit\" class=\"send\" />\n        </form>"
+    "raw": "<form action=\"/submit\" method=\"post\">\n\t\t\t\t\t\t<div class=\"userID\">\n\t\t\t\t\t\t\t<input id=\"useridbox\" name=\"userid\" placeholder=\"Your Name\" type=\"text\"/>\n\t\t\t\t\t\t\t<div><input name=\"guest\" id=\"guestbox\" type=\"checkbox\" onclick=\"myFunction()\" value=\"yes\" > Comment as a guest(without username)  </div>\n\t\t\t\t\t\t\t<input id=\"passwordBox\" name=\"password\" type=\"password\" placeholder=\"Password\"/>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<input id=\"commentBox\" name=\"comment_text\" type=\"text\" placeholder=\"Enter your comment here\"/>\n\t\t\t\t\t\t<input value=\"Send\" type=\"submit\" />\n\t\t\t\t\t</form>"
+  },
+  "a2-buseayyldz": {
+    "repoLink": "https://github.com/ituis18/a2-buseayyldz",
+    "pageLink": "",
+    "hash": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b",
+    "password": "apple",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"POST\">\n                                <h1>Share your comment with us</h1>\n                                    <h2>comment:</h2>\n                                    <textarea name=\"comment\" placeholder=\"Your Comment\" style=\"height: 200px; width: 500px\"></textarea>\n\n\n                                    <h2 id=\"passbox\">Password:</h2>\n                                    <input type=\"password\" placeholder=\"Password\" name=\"password\"><br><br>\n                                    <input class=\"submit\" type=\"submit\" value=\"SEND\">\n                            </form>"
+  },
+  "a2-Ardach": {
+    "repoLink": "https://github.com/ituis18/a2-Ardach",
+    "pageLink": "https://ardach17assignment.herokuapp.com",
+    "hash": "d9d52b938ba38d8fa69f1100d760421856569584429ecee3f8f34630184ab8cf",
+    "password": "amazingpassword",
+    "action": "/comment.html",
+    "passField": "pass",
+    "fields": [
+      "name",
+      "msag",
+      "region",
+      "region",
+      "namebox",
+      "submit"
+    ],
+    "raw": "<form class=\"form\" method=\"post\" action=\"/comment.html\">\n      <label for=\"name\">Name: </label>\n      <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\"> \n      <label for=\"pwd\">Password: </label>\n      <input type=\"password\" id=\"pwd\" name=\"pass\" placeholder=\"PassWord\">\n      <label for=\"msag\">Your message: </label>\n      <textarea name=\"msag\" id=\"msag\" rows=\"8\" cols=\"54\" placeholder=\"Write your comment, Please!\"></textarea>\n      <div class=\"radio\">\n\t\t \t\n  \t\t\t\t<input type=\"radio\" name=\"region\" value=\"tr\" checked> Turkey<br>\n  \t\t\t\t<input type=\"radio\" name=\"region\" value=\"other\"> Other<br>\n  \t\t\t\t\n             \n\t\t</div>\n      \n      <label class=\"container\">Please show my name.\n  <input type=\"checkbox\" name=\"namebox\" id=\"namebox\">\n  \n  <span class=\"checkmark\"></span>\n  \n</label><input type=\"submit\" name=\"submit\" value=\"Submit\">\n</form>"
+  },
+  "a2-serdargoktug": {
+    "repoLink": "https://github.com/ituis18/a2-serdargoktug",
+    "pageLink": ""
+  },
+  "a2-ozaycank": {
+    "repoLink": "https://github.com/ituis18/a2-ozaycank",
+    "pageLink": "https://ozaycank.herokuapp.com"
+  },
+  "a2-ReiH213": {
+    "repoLink": "https://github.com/ituis18/a2-ReiH213",
+    "pageLink": "https://reipy.herokuapp.com"
+  },
+  "a2-kilicaslane": {
+    "repoLink": "https://github.com/ituis18/a2-kilicaslane",
+    "pageLink": ""
+  },
+  "a2-aydinbugra": {
+    "repoLink": "https://github.com/ituis18/a2-aydinbugra",
+    "pageLink": "",
+    "hash": "2427cbeb59247945407eed6a4703b95fa60a97586bec14b3e333f9e5e1d2c5af",
+    "password": "Chess28",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "human",
+      "human"
+    ],
+    "raw": "<form action=\"/comments\" method=\"GET\">\n\t\t  <h3>Enter Comment</h3>\n\t\t  <p>Comment:</p>\n          <div class=\"Input_Text\">\n          <input type=\"text\" name=\"comment\" size=\"50\" />\n          </div>\n          <p>Password:</p>\n          <div class=\"Input_Pass\">\n          <input type=\"password\" name=\"password\" />\n          <input type=\"radio\" name=\"human\" value=\"on\"/>\n          <label>I'm not a robot</label>\n          <input type=\"radio\" name=\"human\" value=\"off\" checked=\"checked\"/>\n          <label>I'm a robot</label>\n          </div>\n          <div>\n          <input type=\"submit\" value=\"Submit\" />\n          </div>\n        </form>"
+  },
+  "a2-yilmazmuhammed": {
+    "repoLink": "https://github.com/ituis18/a2-yilmazmuhammed",
+    "pageLink": "https://ituis18-a2-yilmazmuhammed.herokuapp.com",
+    "hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "password": "admin"
+  },
+  "a2-yesilay17": {
+    "repoLink": "https://github.com/ituis18/a2-yesilay17",
+    "pageLink": "https://assignment2blg.herokuapp.com",
+    "hash": "a7c18f1e470e97275fe14be700dd74dcf94969eccb92901d1474e75b0361f161",
+    "password": "",
+    "action": "/comment",
+    "passField": "password_input",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/comment\">\n\t\t<div>Enter your comment:</div>\n\t\t<input type = \"text\" name = \"comment\">\n\t\t<div>Enter your password:</div>\n\t\t<input type = \"password\" name= \"password_input\">\n\t\t<button>Confirm</button>\n\t\t</form>"
+  },
+  "a2-Bekci": {
+    "repoLink": "https://github.com/ituis18/a2-Bekci",
+    "pageLink": "https://bekci-black-books.herokuapp.com",
+    "hash": "fb5eecd64e214c5a2ea19da8ab5ed64d2fee778d0a7807ceb10578aae6b8de9c",
+    "password": ""
+  },
+  "a2-guz18": {
+    "repoLink": "https://github.com/ituis18/a2-guz18",
+    "pageLink": "https://assignment2guz18.herokuapp.com",
+    "hash": "4c4c6c86f825f2e5a49a52a6bd1d50dd34edde1a56bbcfce0eb6073a9ab64f38",
+    "password": ""
+  },
+  "a2-yemre2104": {
+    "repoLink": "https://github.com/ituis18/a2-yemre2104",
+    "pageLink": "",
+    "hash": "60a0ea3fc8880f54084de085392d2db6799bd6007d7319eccf16e7f3dd26da02",
+    "password": "",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "username"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n                    <h1>Username:</h1>\n                    <input name=\"username\" type=\"text\" />\n                <h1>Password:</h1> \n                <input name=\"password\" type=\"password\" />\n                    <button value=\"Login\" type=\"submit\" />Login</button>\n                </form>"
+  },
+  "a2-ismettt08": {
+    "repoLink": "https://github.com/ituis18/a2-ismettt08",
+    "pageLink": "https://blg101assigment2.herokuapp.com",
+    "hash": "5cdc0c75f819b67dd6ded138045c1a74165779f1ca1adf7bab1b6fa0ae6b6764",
+    "password": "ismet"
+  },
+  "a2-Cem6Akalin": {
+    "repoLink": "https://github.com/ituis18/a2-Cem6Akalin",
+    "pageLink": "https://pandaspandas.herokuapp.com",
+    "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password": "password",
+    "action": "/comment",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "checkbox"
+    ],
+    "raw": "<form action=\"/comment\" style=\"font-size:22px;\"><br>\nPassword:<br>\n<input type=\"password\" name=\"password\" style=\"border: 2px solid black;\"><br>\nYour Comment:<br>\n<input type=\"text\" name=\"comment\" style=\"border: 2px solid black;\"><br>\n<button type=\"button\">Submit</button> <input type=\"checkbox\" name=\"checkbox\" value=\"cb\">I am not a robot\n</form>"
+  },
+  "a2-MyLittleKnight": {
+    "repoLink": "https://github.com/ituis18/a2-MyLittleKnight",
+    "pageLink": "https://myblg101assgnment.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "comments",
+      "gender",
+      "gender",
+      "seviye"
+    ],
+    "raw": "<form method=\"POST\"> \n\t\t                    <fieldset>\n\t\t\t                    <legend>Admin comment:</legend>\n\t\t\t                    <input type=\"password\" name=\"password\" id=\"password\" maxlength=\"6\"> \n\t\t\t                    <label for=\"password\"> Type password here</label>\n\t\t\t                     <br>\n\t\t\t                    <div>\n\t\t\t                    <textarea name=\"comments\" id=\"comments\"  rows=\"4\" cols=\"50\" style=\"font-family:sans-serif;font-size:1.2em;\">\n\t\t\t                    </textarea>\n\t\t\t                    </div>\n\t\t\t                     <input type=\"radio\" name=\"gender\" value=\"male\" checked> Male<br>\n  \t\t\t                    <input type=\"radio\" name=\"gender\" value=\"female\"> Female<br>\n\t\t\t                    <input type=\"submit\" value=\"Submit\"> \n                                <select name=\"seviye\" multiple>\n                                  <option value=\"1\" selected=\"selected\">1.seviye</option>\n                                  <option value=\"2\">2.seviye</option>\n                                  <option value=\"3\">3.seviye</option>\n                                  <option value=\"4\">4.seviye</option>\n                                </select>\n\t\t                    </fieldset>\n\t                    </form>"
+  },
+  "a2-ekremugur17": {
+    "repoLink": "https://github.com/ituis18/a2-ekremugur17",
+    "hash": "034c5253b305b3105104304670429ff4cf6a502d5732ecef2f511f0582a04584",
+    "password": "0511",
+    "action": "/contact.html",
+    "passField": "pass",
+    "fields": [
+      "name",
+      "msag",
+      "cbox",
+      "submit"
+    ],
+    "raw": "<form class=\"form\" method=\"post\" action=\"/contact.html\">\n      <label for=\"name\">Name: </label>\n      <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\">\n      <label for=\"key\">Key: </label>\n      <input type=\"password\" id=\"key\" name=\"pass\" placeholder=\"Key Word\">\n      <label for=\"msag\">Your message: </label>\n      <textarea name=\"msag\" id=\"msag\" rows=\"8\" cols=\"54\" placeholder=\"Give us something!\"></textarea>\n      <label class=\"container\">I want my name to be visible to other users.\n  <input type=\"checkbox\" name=\"cbox\" id=\"cbox\">\n  <span class=\"checkmark\"></span>\n</label><input type=\"submit\" name=\"submit\" value=\"Submit\">\n    </form>"
+  },
+  "a2-mfatihkocabas": {
+    "repoLink": "https://github.com/ituis18/a2-mfatihkocabas",
+    "pageLink": "",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-kereemyildiz": {
+    "repoLink": "https://github.com/ituis18/a2-kereemyildiz",
+    "pageLink": "",
+    "hash": "e2343762889bdc76538f76285aed9ca3050c44af3ed15cd0c430b8cdc63af7aa",
+    "password": "",
+    "action": "/comment",
+    "passField": "psw",
+    "fields": [
+      "word",
+      "checkbox",
+      "checkbox"
+    ],
+    "raw": "<form action=\"/comment\" method=\"get\">\n                <input type=\"text\" name=\"word\" />\n                <input type=\"password\" name=\"psw\" />\n                <input type=\"submit\" value=\"Click\" /><br>\n                <input type=\"radio\" name=\"checkbox\" value=\"RememberMe\" /><p style=\"font-size:20px;color:orange;\">i)</p><br>\n                <input type=\"radio\" name=\"checkbox\" value=\"Forgotyourpassword?\" /><p style=\"font-size:20px;color:orange;\">ii)</p>\n                </form>"
+  },
+  "a2-hayirli18": {
+    "repoLink": "https://github.com/ituis18/a2-hayirli18",
+    "pageLink": "",
+    "hash": "f6e0161d44c5b76a358822be375f9a0d709168c696a55f3fe814626524abe148",
+    "password": "ogi123"
+  },
+  "a2-furkanpala": {
+    "repoLink": "https://github.com/ituis18/a2-furkanpala",
+    "pageLink": "https://earth-and-beyond.herokuapp.com",
+    "hash": "eec9722ae40c0e71fefb0c782f78759c4209fbf1f6dee169ae9e412d2ec0c06f",
+    "password": ""
   },
   "a2-Mastslon": {
     "repoLink": "https://github.com/ituis18/a2-Mastslon",
-    "pageLink": "https://furkan-homework.herokuapp.com"
+    "pageLink": "https://furkan-homework.herokuapp.com",
+    "hash": "781e93df1363a3015496e767c17412880d33d4ac3c81855c91985ac455b72b63",
+    "password": ""
   },
-  "a2-Kirchhoff3": {
-    "repoLink": "https://github.com/ituis18/a2-Kirchhoff3",
-    "pageLink": "",
-    "action": "/commentp",
-    "passField": "pw1",
-    "fields": [],
-    "raw": "<form action=\"/commentp\" method=\"post\">\nPassword:\n<input type=\"password\" name=\"pw1\">\n<input type=\"submit\" value=\"Enter\">\n</form>"
+  "a2-iamjasd": {
+    "repoLink": "https://github.com/ituis18/a2-iamjasd",
+    "pageLink": "https://mywebappassignment.herokuapp.com",
+    "hash": "12D22B4737C8E69FF4340F84CDCE0B201B225B3578E373BB58F9CC2FB405B8B7",
+    "password": "",
+    "action": "/login",
+    "passField": "password",
+    "fields": [
+      "name",
+      "race",
+      "race",
+      "race",
+      "race",
+      "race",
+      "race",
+      "comments"
+    ],
+    "raw": "<form action=\"/login\" method=\"get\">\n\t\t<h1>Talk My Friend,Share Your Thoughts</h1>\n\t\t\n\t\t<table style=\"text-align:center\" >\n           <tr>\n              <th> <p>Name:</p> </th>\n              <th style=\"padding:5pt\" > <p>Race:</p> </th>\n              \n              \n             \n           </tr>    \n                       \n           <tr>\n\t\t\t   <td> <input type=\"text\" name=\"name\" placeholder=\"Enter Your Name\" ></td>\n\t\t\t   <th rowspan=\"3\" >\n\t\t\t\t<input type=\"radio\" name=\"race\" value=\"Uruk-Hai\" checked=\"checked\" > Uruk-Hai<br>\n\t            <input type=\"radio\" name=\"race\" value=\"Elves\" > Elves <br>\n\t\t        <input type=\"radio\" name=\"race\" value=\"Dwarves\"> Dwarves <br>\n\t            <input type=\"radio\" name=\"race\" value=\"Hobbits\"> Hobbits <br>\n                <input type=\"radio\" name=\"race\" value=\"Wizards\"> Wizards <br>\n                <input type=\"radio\" name=\"race\" value=\"Gollum\"> Gollum <br> </th>\n           </tr> \n           \n           \n           <tr>\n\t\t\t   \n\t\t\t   <td> <p>Password:</p> </td>\n           \n           \n           </tr> \n         \n           <tr>\n               \n               <td><input type=\"password\" name=\"password\" placeholder=\"Speak 'friend', and enter\" > <br></td>\n                \n           \n           </tr>  \t\t \n\t\t   \n\t\t\n\t\t</table>\n\t\t\n\t\t \n\t\t \n\t\n\t\t\n\t\t<textarea name=\"comments\" rows=\"6\" cols=\"50\" placeholder=\"You can share your comment right here mellon..\"></textarea> \n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<input size=\"15\" type=\"submit\" value=\"Submit\">\n\t</form>"
   },
-  "a2-msadikk": {
-    "repoLink": "https://github.com/ituis18/a2-msadikk",
-    "pageLink": ""
+  "a2-aykutatmaca": {
+    "repoLink": "https://github.com/ituis18/a2-aykutatmaca",
+    "pageLink": "https://blg101eaykutatmaca.herokuapp.com",
+    "hash": "4f630a1c0c7dd182d2737456e14c89c723c5fce25cae39da4b93f00e90a365cb",
+    "password": "badpass",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "gender",
+      "gender",
+      "gender",
+      "gender"
+    ],
+    "raw": "<form method=\"post\">\n            Enter your comment please:<br>\n            <input type=\"text\" name=\"comment\"><br>\n            Password please:<br>\n            <input type=\"password\" name=\"password\"><br>\n            <input type=\"radio\" name=\"gender\" value=\"Male\">Male<br>\n            <input type=\"radio\" name=\"gender\" value=\"Female\">Female<br>\n            <input type=\"radio\" name=\"gender\" value=\"Other\">Other<br>\n            <input type=\"radio\" name=\"gender\" value=\"Boeing AH-64 Apache Atack Helicopter\" checked>Boeing AH-64 Apache Atack Helicopter<br>\n            <input type=\"submit\" value=\"Send Comment\">\n            <p>COMMENTS</P>\n            <p>%s</p>\n        </form>"
   },
-  "a2-ilya-nuhi": {
-    "repoLink": "https://github.com/ituis18/a2-ilya-nuhi",
-    "pageLink": "https://ilyablg101assignment.herokuapp.com"
+  "a2-frkngry": {
+    "repoLink": "https://github.com/ituis18/a2-frkngry",
+    "pageLink": "https://blg101assgn.herokuapp.com",
+    "hash": "b2547aa06de503c7bd16e63ef3483e826622672c0d05ca0a75dd997e14df1303",
+    "password": "stars"
+  },
+  "a2-hakverir": {
+    "repoLink": "https://github.com/ituis18/a2-hakverir",
+    "pageLink": "https://nonetto.herokuapp.com",
+    "hash": "369890a763ace1d36db3c779784466e366c3f3f7c1d8ece108368ba4afa6967c",
+    "password": ""
+  },
+  "a2-pearlescen7": {
+    "repoLink": "https://github.com/ituis18/a2-pearlescen7",
+    "pageLink": "https://ff-webapp.herokuapp.com",
+    "hash": "312d88cf9740313e8a98368ea3d8b7adc62dccec05ca51237771e84e789bcf01",
+    "password": "Leviathan"
   },
   "a2-cafozer": {
     "repoLink": "https://github.com/ituis18/a2-cafozer",
     "pageLink": "https://blg-101assignment-2.herokuapp.com",
+    "hash": "2f343a6ef872537ca443a22c0975a7cdf73698946383d7a8265c303a601b8b8b",
+    "password": "drogba",
     "action": "/",
     "passField": "password",
     "fields": [
@@ -49,301 +277,17 @@
     ],
     "raw": "<form action=\"/\" method=\"post\">\n              <p>User Name:<input type=\"text\" name=\"user_name\"/></p>\n              <p>Your Comment:<input type=\"text\" name=\"comment\"/> </p>\n              <p>Password: <input type=\"password\" name=\"password\"/> </p>\n              <br>\n              <input type=\"radio\" name=\"topic\" value=\"His Childhood\"> His Childhood <br />\n              <input type=\"radio\" name=\"topic\" value=\"His Ametour Career\"> His Ametour Career <br />\n              <input type=\"radio\" name=\"topic\" value=\"His Professional Career\"> His Professional Career  <br/>\n              <input type=\"radio\" name=\"topic\" value=\"His Achievements\"> His Achievements <br/>\n              <input type=\"radio\" name=\"topic\" value=\"His Family\"> His Family <br/> <br/>\n              <input type=\"submit\" value=\"Send Your Review\" />\n            </form>"
   },
-  "a2-lghtr35": {
-    "repoLink": "https://github.com/ituis18/a2-lghtr35",
-    "pageLink": "",
-    "action": "/mkmk",
-    "passField": "password",
-    "fields": [
-      "name",
-      "comment",
-      "checker"
-    ],
-    "raw": "<form action=\"/mkmk\">\n        <label for=\"name\">Name: </label>\n        <input type=\"text\" id=\"name\" name=\"name\" />\n        <br>\n        <label for=\"password\">Password: </label>\n        <input type=\"password\" id=\"password\" name=\"password\">\n        <br>\n        <label for=\"comment\">Enter your comment: </label><br>\n        <textarea name=\"comment\" id=\"comment\" cols=\"40\" rows=\"3\"></textarea>\n        <br>\n        <label for=\"checkbox\">\n          <input type=\"checkbox\" name=\"checker\" value=\"accept\">I have agreed the terms<br>\n          <input type=\"submit\" value=\"submit\">\n          <br>\n          <p style=\"color:black; text-shadow: 2px 2px 1px red\"> %s </p>\n        </label>\n      </form>"
-  },
-  "a2-oguzhanbasturk": {
-    "repoLink": "https://github.com/ituis18/a2-oguzhanbasturk",
-    "pageLink": "https://www.herokucdn.com/deploy/button.png)](https://blg101assignment150160525.herokuapp.com",
-    "action": "/add_submit",
-    "passField": "password",
-    "fields": [
-      "title",
-      "year",
-      "director",
-      "username"
-    ],
-    "raw": "<form method=\"POST\" action=\"/add_submit\">\n                    <div class=\"row\">\n                        <div class=\"left\">\n                            Title:<br />\n                            Year:<br />\n                            Director:<br />\n                        </div>\n                        <div class=\"right\">\n                            <input type=\"text\" name=\"title\" maxlength=\"40\" required/><br />\n                            <input type=\"number\" name=\"year\" value=\"1996\" min=\"1700\" max=\"2100\" required/><br />\n                            <input type=\"text\" name=\"director\" maxlength=\"40\" required/><br />\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        Userame: <input type=\"text\" name=\"username\" value=\"\" required/>\n                        Password: <input type=\"password\" name=\"password\" value=\"\" required/>\n                        <input type=\"submit\" value=\"Add\" />\n                    </div>\n                </form>"
-  },
-  "a2-CihatBostanci": {
-    "repoLink": "https://github.com/ituis18/a2-CihatBostanci",
-    "pageLink": "",
-    "action": "/signup_complete",
-    "passField": "password",
-    "fields": [
-      "userName"
-    ],
-    "raw": "<form method=\"POST\" action=\"/signup_complete\">\\n\n                <p  style=\"color=blue;\">USERNAME</p>  <input type=\"text\" name=\"userName\" /><br/>\\n\n                 <p style=\"color=blue;\">PASSWORD</p> <input type=\"password\" name=\"password\" /><br/>\\n\n                 <input type=\"submit\" value=\"Approve\" />\\n\n                </form>"
-  },
-  "a2-buseayyldz": {
-    "repoLink": "https://github.com/ituis18/a2-buseayyldz",
-    "pageLink": "",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/comments\" method=\"POST\">\n                                <h1>Share your comment with us</h1>\n                                    <h2>comment:</h2>\n                                    <textarea name=\"comment\" placeholder=\"Your Comment\" style=\"height: 200px; width: 500px\"></textarea>\n\n\n                                    <h2 id=\"passbox\">Password:</h2>\n                                    <input type=\"password\" placeholder=\"Password\" name=\"password\"><br><br>\n                                    <input class=\"submit\" type=\"submit\" value=\"SEND\">\n                            </form>"
-  },
-  "a2-rizafairuzzabadi": {
-    "repoLink": "https://github.com/ituis18/a2-rizafairuzzabadi",
-    "pageLink": "https://fairuzzabadi101.herokuapp.com",
-    "action": "/all_comments",
-    "passField": "password",
-    "fields": [
-      "your_name",
-      "your_comment"
-    ],
-    "raw": "<form action='/all_comments' method='POST'>\n\t<br><input type='password' name='password' value='your password'> <br>\n\t<input name ='your_name' value='your name'> <br>\n\t<input name='your_comment' value='your comment'> <br>\n\t<input type='submit' value='Submit'> \n</form>"
-  },
-  "a2-PsychoGenius13": {
-    "repoLink": "https://github.com/ituis18/a2-PsychoGenius13",
-    "pageLink": ""
-  },
-  "a2-xwededa": {
-    "repoLink": "https://github.com/ituis18/a2-xwededa",
-    "pageLink": ""
-  },
-  "a2-ecesancar": {
-    "repoLink": "https://github.com/ituis18/a2-ecesancar",
-    "pageLink": "https://ecesancar-assignment2.herokuapp.com",
-    "action": "/static/index.html",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "kindly",
-      "kindly",
-      "kindly",
-      "Submit"
-    ],
-    "raw": "<form action = \"/static/index.html\" method = \"post\">\n\t<fieldset>\n\t<legend>Visitors's Comments:</legend>\n    <fieldset>\n    <legend>Your Comment:</legend>\n\t<textarea name=\"comment\" rows=\"5\" cols=\"100\">Please write your comments here :)</textarea>\n    </fieldset>\n    <br>\n    <fieldset>\n    <legend> Did you write your comment kindly? </legend>\n    Yes<input type=\"radio\" name=\"kindly\" value=\"yes\" checked>\n\tNo<input type=\"radio\" name=\"kindly\" value=\"no\">\n    Not Sure <input type=\"radio\" name=\"kindly\" value=\"?\">\n    </fieldset>\n    <br>\n    <fieldset>\n    <legend>Password:</legend>\n    <input type = \"password\" name = \"password\" ><br>\n    <input type = \"submit\" name=\"Submit\">\n    </fieldset>\n    </fieldset>\n    </form>"
-  },
-  "a2-fzehraa": {
-    "repoLink": "https://github.com/ituis18/a2-fzehraa",
-    "pageLink": "https://fdfdfdfdfd.herokuapp.com"
-  },
-  "a2-YCT1": {
-    "repoLink": "https://github.com/ituis18/a2-YCT1",
-    "pageLink": "https://my101assigment.herokuapp.com",
-    "action": "/comment",
-    "passField": "pass",
-    "fields": [
-      "word",
-      "colorText",
-      "colorText"
-    ],
-    "raw": "<form action=\"/comment\" method=\"get\" style=\"color:black;text-align: center;padding:20px;\">\n                Your Comment: <br><input type=\"text\" name=\"word\" /><br>\n                Password: <br><input type=\"password\" name=\"pass\" value=\"\" /><br><br>\n                <input type=\"submit\" value=\"Submit\" /><br>\n                <input type=\"radio\" name=\"colorText\" value=\"Black\" checked> Black<br>\n                <input type=\"radio\" name=\"colorText\" value=\"Red\"> Red<br>\n                </form>"
-  },
-  "a2-hancero": {
-    "repoLink": "https://github.com/ituis18/a2-hancero",
-    "pageLink": "https://commenth.herokuapp.com"
-  },
-  "a2-CanselRt": {
-    "repoLink": "https://github.com/ituis18/a2-CanselRt",
-    "pageLink": "https://assignmentaboutpython.herokuapp.com"
-  },
-  "a2-Aykutisik": {
-    "repoLink": "https://github.com/ituis18/a2-Aykutisik",
-    "pageLink": "https://aykutisik.herokuapp.com"
-  },
-  "a2-lalverdacakir": {
-    "repoLink": "https://github.com/ituis18/a2-lalverdacakir",
-    "pageLink": "https://ituis18-a2-lalverdacakir.herokuapp.com"
-  },
-  "a2-atacanyavuz": {
-    "repoLink": "https://github.com/ituis18/a2-atacanyavuz",
-    "pageLink": "https://atacan-blg101assignment.herokuapp.com",
-    "action": "/comments.html",
-    "passField": "password",
-    "fields": [
-      "username",
-      "comment",
-      "rate",
-      "rate"
-    ],
-    "raw": "<form action = \"/comments.html\" method = \"post\">\n                <h2>Username:</h2>\n                <input name=\"username\" placeholder=\"Username\" >\n                <br><h3>Password\\t:</h3>\n    \t\t\t<input type = \"password\" name = \"password\" placeholder=\"Password\"><br>\n    \t\t\t<h2>Comment:</h2>\n    \t\t\t<textarea name=\"comment\" rows=\"10\" cols=\"160\" placeholder=\"Please Enter Your Comment\"></textarea><br>\n\t\t\t    <input type=\"radio\" name=\"rate\" value=\"good\" checked=\"checked\">Good Comment\n                <input type=\"radio\" name=\"rate\" value=\"bad\">Bad Comment<br>\n                <input type = \"submit\" value=\"Submit\">\t\t\n    \t\t\t\n    \t</form>"
-  },
-  "a2-pazara18": {
-    "repoLink": "https://github.com/ituis18/a2-pazara18",
-    "pageLink": "https://ituis18-a2-pazara18.herokuapp.com",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "name",
-      "comment",
-      "notabot",
-      "notabot",
-      "submit"
-    ],
-    "raw": "<form method=\"POST\" action=\"/comments\">\n\t\t\t\t\t\t\t<input type=\"text\" placeholder=\"Name\" name=\"name\"><br><br>\n\t\t\t\t\t\t\t<input type=\"password\" placeholder=\"Password\" name=\"password\"><br><br>\n\t\t\t\t\t\t\t<textarea rows=\"4\" cols=\"80\" placeholder=\"Write your comments here\" name=\"comment\"></textarea><br>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"notabot\" value=\"on\"> I'm not a robot. &nbsp;\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"notabot\" value=\"off\" checked> I'm not sure.\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" value=\"SEND\" >\n\t\t\t\t\t\t</form>"
-  },
-  "a2-erenkjaer": {
-    "repoLink": "https://github.com/ituis18/a2-erenkjaer",
-    "pageLink": "",
-    "action": "./temp",
-    "passField": "password",
-    "fields": [
-      "ad",
-      "comment",
-      "anonym"
-    ],
-    "raw": "<form  action=\"./temp\" >\n\t\t\t<label for=\"ad\">Name:</label>\n\t\t\t<input type=\"text\" id=\"ad\" name=\"ad\">\n\t\t\t<label for=\"password\">Password:</label>\n\t\t\t<input type=\"password\" id=\"password\" name=\"password\" /><br>\n\t\t\t<label for=\"comment\">Comment:</label><br>\n\t\t\t<textarea name=\"comment\" id=\"comment\" rows=\"7\" cols=\"60\"></textarea><br>\n\t\t\t<input type=\"checkbox\" name=\"anonym\" value=\"hide\"/>Post your code anonymously<br>\n\t\t\t<input type=\"submit\" value=\"submit\"><br>\n\t\t\t%s\n\t</form>"
-  },
-  "a2-keremperq": {
-    "repoLink": "https://github.com/ituis18/a2-keremperq",
-    "pageLink": "https://itu18-a2-keremperq.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "nick",
-      "comment"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n                    <h3>Nickname:</h3> <input name=\"nick\" type=\"text\" />\n                    <h3>Comment:</h3>  <input name=\"comment\" type=\"text\" />\n                    <h3>Password:</h3> <input name=\"password\" type=\"password\" />\n                    <input value=\"Submit\" type=\"submit\">\n                </form>"
-  },
-  "a2-yemre2104": {
-    "repoLink": "https://github.com/ituis18/a2-yemre2104",
-    "pageLink": "https://webappyigit.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "username"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n                    <h1>Username:</h1>\n                    <input name=\"username\" type=\"text\" />\n                <h1>Password:</h1> \n                <input name=\"password\" type=\"password\" />\n                    <button value=\"Login\" type=\"submit\" />Login</button>\n                </form>"
-  },
-  "a2-frkntplglu": {
-    "repoLink": "https://github.com/ituis18/a2-frkntplglu",
-    "pageLink": "https://a2-frkntplglu.herokuapp.com",
-    "action": "/addcomment",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "human",
-      "human"
-    ],
-    "raw": "<form action=\"/addcomment\" method=\"post\">\n                                <div class=\"form-group\">\n                                    <p>Please enter comment password :  </p>\n                                    <input type=\"password\" name=\"password\">\n                                </div>\n                                <div class=\"form-group\">\n                                    <p>Your ideas :  </p>\n                                    <textarea name=\"comment\"></textarea>\n                                </div>\n                                <div class=\"form-group\">\n                                    <p>Are you human :  </p>\n                                    YES <input type=\"radio\" name=\"human\" value=\"yes\" /> <br/>\n                                    NO <input type=\"radio\" name=\"human\" value=\"no\" />\n                                </div>\n                                <input type=\"submit\" value=\"make comment\">\n                            </form>"
-  },
-  "a2-kcocalak": {
-    "repoLink": "https://github.com/ituis18/a2-kcocalak",
-    "pageLink": "",
-    "action": "/do_comment",
-    "passField": "passwordd",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/do_comment\" method=\"post\">\n            Comment: <input name=\"comment\" type=\"text\" value=\"\" /></br>\n            Password: <input name=\"passwordd\" type=\"password\" value=\"\" />\n            <input value=\"Click me\" type=\"submit\" />\n        </form>"
-  },
-  "a2-ortacalper": {
-    "repoLink": "https://github.com/ituis18/a2-ortacalper"
-  },
-  "a2-sbcoksak": {
-    "repoLink": "https://github.com/ituis18/a2-sbcoksak",
-    "pageLink": "https://sbcblg101app.herokuapp.com"
-  },
-  "a2-raifmirza": {
-    "repoLink": "https://github.com/ituis18/a2-raifmirza",
-    "pageLink": "https://itu18-a2-raifmirza.herokuapp.com",
-    "action": "/comment",
-    "passField": "pass",
-    "fields": [
-      "name",
-      "message",
-      "grade",
-      "grade",
-      "grade",
-      "submit"
-    ],
-    "raw": "<form class=\"form\" method=\"post\" action=\"/comment\">\n      <label for=\"name\">Name: </label>\n      <br>\n      <input type=\"text\" rows=\"8\" id=\"name\" name=\"name\" placeholder=\"Name and Surname\">\n      <br>\n      <label for=\"key\">Key: </label>\n      <br>\n      <input type=\"password\" rows=\"8\" id=\"key\" name=\"pass\" placeholder=\"Password\">\n      <br>\n      <label for=\"message\">Your message: </label>\n      <br>\n      <textarea name=\"message\" id=\"message\" rows=\"8\" cols=\"54\" placeholder=\"Add Comment\"></textarea>\n      <br>\n      <input type=\"radio\" name=\"grade\" value=\"good\" checked> Good\n      <input type=\"radio\" name=\"grade\" value=\"neutral\"> Neutral\n      <input type=\"radio\" name=\"grade\" value=\"bad\"> Bad<br><br>\n      <input type=\"submit\" name=\"submit\" value=\"Submit\">\n      <input type=\"reset\"><br>\n\n    </form>"
-  },
-  "a2-aydinmu17": {
-    "repoLink": "https://github.com/ituis18/a2-aydinmu17",
-    "pageLink": "https://aydinmu17app.herokuapp.com",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "name",
-      "comment",
-      "checkbox",
-      "checkbox"
-    ],
-    "raw": "<form action=\"/comments\" method=\"POST\">\n                                <h1>Share your comment with us</h1>\n                                <table style=\"text-align:center; width: 500px\">\n                                    <tr class=\"NamePass\">\n                                        <td class=\"NamePass\"><h2>Name:</h2></td>\n                                        <td class=\"NamePass\"><h2>Password:</h2></td>\n                                    </tr>\n                                    <tr>\n                                        <td><input type=\"text\" placeholder=\"Name\" name=\"name\"></td>                                 \n                                        <td><input type=\"password\" placeholder=\"Password: muzo \" name=\"password\"></td>\n                                    </tr>\n                                    \n                                </table>\n                                \n                                    <h2>comment:</h2>\n                                    <textarea name=\"comment\" placeholder=\"Your Comment\" style=\"height: 200px; width: 500px\"></textarea><br>\n\n\n                                    \n                                    <input type=\"radio\" name=\"checkbox\" value=\"on\">\n                                    <label style=\"color: #d3b46a\">I agree full responsibilty about my comments</label><br><br>\n                                    <input type=\"radio\" name=\"checkbox\" value=\"off\" checked>\n                                    <label style=\"color: #d3b46a\">I dont care responsibilty </label><br><br>\n                                    <input class=\"submit\" type=\"submit\" value=\"SEND\">\n                            </form>"
-  },
-  "a2-ugur17": {
-    "repoLink": "https://github.com/ituis18/a2-ugur17",
-    "pageLink": "",
-    "action": "/Comment",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"/Comment\" method=\"post\">\n\t\n\t<fieldset>\n\t<legend>Password Page</legend>\n\t\n\tPassword:<br>\n\t<input type=\"password\" name=\"password\"><br>\n\t<input type=\"submit\" value=\"Submit\">\n\t</fieldset>\n\t</form>"
-  },
-  "a2-xdebron": {
-    "repoLink": "https://github.com/ituis18/a2-xdebron",
-    "pageLink": ""
-  },
-  "a2-gultekinmet": {
-    "repoLink": "https://github.com/ituis18/a2-gultekinmet",
-    "pageLink": "",
-    "action": "/contact",
-    "passField": "password",
-    "fields": [
-      "name",
-      "message",
-      "honest"
-    ],
-    "raw": "<form action=\"/contact\" method=\"post\">\n            <label for=\"name\">Name:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Stevie Wonders\">\n            \n            <label for=\"password\">Password:</label>\n            <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"******\">\n            \n            <label for=\"message\">Message:</label>\n            <textarea id=\"message\" name=\"message\" placeholder=\"Hello, Metehan...\" ></textarea>\n            \n            <label for=\"honest\">Are you being honest?</label>\n            <select id=\"honest\" name=\"honest\">\n                <option value=\"Yes\">Yes</option>\n                <option value=\"No\">No</option>\n            </select>\n\n            <input type=\"submit\" value=\"Send\" />\n        </form>"
-  },
-  "a2-AtalayKucukoglu": {
-    "repoLink": "https://github.com/ituis18/a2-AtalayKucukoglu",
-    "pageLink": "https://itu-blg101-web-app.herokuapp.com"
-  },
-  "a2-yesildal17": {
-    "repoLink": "https://github.com/ituis18/a2-yesildal17",
-    "pageLink": "https://myblg101-python-assignment.herokuapp.com",
-    "action": "password",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"password\" method=\"get\">\n\t\t\t\t\t<div class=\"form\">\n\t\t\t\t\t<input type=\"password\" name=\"password\" size=\"64\" /> <!-- here i used text box -->\n\t\t\t\t\t<hr/>\n\t\t\t\t\t\n                    <br/>\n\t\t\t\t\t<input type=\"submit\" value=\"Confirm\" /> <!-- here i used submission button -->\n\t\t\t\t\t</div>\n\t\t\t\t\t</form>"
-  },
-  "a2-yasinuyuk": {
-    "repoLink": "https://github.com/ituis18/a2-yasinuyuk",
-    "pageLink": "https://yasinkuyuk.herokuapp.com"
-  },
-  "a2-CahitCem": {
-    "repoLink": "https://github.com/ituis18/a2-CahitCem",
-    "pageLink": "",
-    "action": "/comment",
-    "passField": "paw",
-    "fields": [
-      "word",
-      "wrestlers",
-      "wrestlers",
-      "wrestlers"
-    ],
-    "raw": "<form action=\"/comment\" method=\"get\">\n                <input type=\"text\" name=\"word\" />\n                <input type=\"password\" name=\"paw\" />\n                <input type=\"submit\" value=\"login\" /><br>\n                <input type=\"radio\" name=\"wrestlers\" value=\"Edge\"> Edge<br>\n\t\t        <input type=\"radio\" name=\"wrestlers\" value=\"Undertaker\"> Undertaker<br>\n\t\t\t\t<input type=\"radio\" name=\"wrestlers\" value=\"Kane\"> Kane<br>\n                                     \n\t\t\t\t</form>"
-  },
-  "a2-Zaferyildiz": {
-    "repoLink": "https://github.com/ituis18/a2-Zaferyildiz",
-    "pageLink": "https://zaferyildizblg101hw2.herokuapp.com"
-  },
-  "a2-muhammetakcan": {
-    "repoLink": "https://github.com/ituis18/a2-muhammetakcan",
-    "pageLink": "",
-    "action": "/comment",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"/comment\" method=\"post\">\n            <input name=\"password\" type=\"password\" placeholder=\"password\" >\n            <input type=\"submit\" value=\"submit\" /></form>"
+  "a2-incipasa": {
+    "repoLink": "https://github.com/ituis18/a2-incipasa",
+    "pageLink": "https://incipasa-assignmet2.herokuapp.com",
+    "hash": "f72cc6a2d2cdd6d9954beba30f070c7a8951db246fb60be0e86e27b96fc915cf",
+    "password": ""
   },
   "a2-appleren-the-original": {
     "repoLink": "https://github.com/ituis18/a2-appleren-the-original",
     "pageLink": "https://appleren-bil101assignment.herokuapp.com",
+    "hash": "8af81a42ac59744de942a08da35689c4de3f2ef4be9c0c7599f872ed76c24ce9",
+    "password": "appleren",
     "action": "/discussion",
     "passField": "password",
     "fields": [
@@ -355,178 +299,119 @@
     ],
     "raw": "<form action=\"/discussion\" method=\"post\">\n            Username: <input type=\"text\" name=\"username\" placeholder=\"your username\"> \n            <br />\n            Password:  <input type=\"password\" name=\"password\" placeholder=\"your password\" />\n            <br />\n            <br />\n            Enter your message here:\n            <br />\n            <input type=\"text\" name=\"discussion\" placeholder=\"your message\"/>\n            <input type=\"submit\" value=\"send\" />\n            <br />\n            \n            <input type=\"radio\" name=\"message_type\" value=\"0\" checked> Discussion \n            <input type=\"radio\" name=\"message_type\" value=\"1\"> Question \n            <input type=\"radio\" name=\"message_type\" value=\"2\"> Announcement \n\n            <br />            \n        </form>"
   },
-  "a2-aliozkan7": {
-    "repoLink": "https://github.com/ituis18/a2-aliozkan7",
+  "a2-frkndmr": {
+    "repoLink": "https://github.com/ituis18/a2-frkndmr",
     "pageLink": ""
   },
-  "a2-saykara": {
-    "repoLink": "https://github.com/ituis18/a2-saykara",
-    "pageLink": ""
+  "a2-burakthtl": {
+    "repoLink": "https://github.com/ituis18/a2-burakthtl",
+    "pageLink": "https://burakthtl.herokuapp.com",
+    "hash": "983589f68a61012b2fda3650f4de287b194ba5bfa64a0028dc97a12bdadfee03",
+    "password": "2173",
+    "action": "/signup_complete",
+    "passField": "password",
+    "fields": [
+      "username"
+    ],
+    "raw": "<form method=\"POST\" action=\"/signup_complete\">\\n\n                 Userame: <input type=\"text\" name=\"username\" /><br />\\n\n                Password: <input type=\"password\" name=\"password\" /><br />\\n\n                 <input type=\"submit\" value=\"Send\" />\\n\n                </form>"
   },
-  "a2-MyLittleKnight": {
-    "repoLink": "https://github.com/ituis18/a2-MyLittleKnight",
-    "pageLink": "https://myblg101assgnment.herokuapp.com",
+  "a2-yalcinilgin": {
+    "repoLink": "https://github.com/ituis18/a2-yalcinilgin",
+    "pageLink": "https://yalcinilgin.herokuapp.com",
+    "hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "password": "1234",
     "action": "/",
     "passField": "password",
     "fields": [
-      "comments",
-      "gender",
-      "gender",
-      "seviye"
+      "username",
+      "comment",
+      "robot"
     ],
-    "raw": "<form method=\"POST\"> \n\t\t                    <fieldset>\n\t\t\t                    <legend>Admin comment:</legend>\n\t\t\t                    <input type=\"password\" name=\"password\" id=\"password\" maxlength=\"6\"> \n\t\t\t                    <label for=\"password\"> Type password here</label>\n\t\t\t                     <br>\n\t\t\t                    <div>\n\t\t\t                    <textarea name=\"comments\" id=\"comments\"  rows=\"4\" cols=\"50\" style=\"font-family:sans-serif;font-size:1.2em;\">\n\t\t\t                    </textarea>\n\t\t\t                    </div>\n\t\t\t                     <input type=\"radio\" name=\"gender\" value=\"male\" checked> Male<br>\n  \t\t\t                    <input type=\"radio\" name=\"gender\" value=\"female\"> Female<br>\n\t\t\t                    <input type=\"submit\" value=\"Submit\"> \n                                <select name=\"seviye\" multiple>\n                                  <option value=\"1\" selected=\"selected\">1.seviye</option>\n                                  <option value=\"2\">2.seviye</option>\n                                  <option value=\"3\">3.seviye</option>\n                                  <option value=\"4\">4.seviye</option>\n                                </select>\n\t\t                    </fieldset>\n\t                    </form>"
+    "raw": "<form method=\"get\" >\n  \t\t\t\tUsername: <span style=\"margin-left:34px\"></span><input type=\"text\" name=\"username\" required><br>\n  \t\t\t\tPassword: <span></span><input type=\"password\" name=\"password\" required ><br>\n\t\t\t\t\tYour comment:<span style=\"margin-left:9px\"></span> <input type=\"text\" name=\"comment\" required><br>\n\t\t\t\t\t<input type=\"radio\" name=\"robot\" value=\"robot\" required > I am not a robot!<br>\n  \t\t\t<input type=\"submit\" value=\"Send\">\n\t\t\t</form>"
   },
-  "a2-tevfikozgu": {
-    "repoLink": "https://github.com/ituis18/a2-tevfikozgu",
+  "a2-erenkjaer": {
+    "repoLink": "https://github.com/ituis18/a2-erenkjaer",
     "pageLink": "",
-    "action": "/Comment",
+    "hash": "8606cf38f741da32f3130dd27c5e181f5df9954133140a522a2a3014ebb88e4d",
+    "password": "itu",
+    "action": "./temp",
     "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"/Comment\" method=\"post\">\n\t<fieldset>\n\t<legend>Password</legend>\n\tPassword:<br>\n\t<input type=\"password\" name=\"password\"><br>\n\t<input type=\"submit\" value=\"Pass\">\n\t<input type=\"reset\">\n\t</fieldset>\n\t</form>"
+    "fields": [
+      "ad",
+      "comment",
+      "anonym"
+    ],
+    "raw": "<form  action=\"./temp\" >\n\t\t\t<label for=\"ad\">Name:</label>\n\t\t\t<input type=\"text\" id=\"ad\" name=\"ad\">\n\t\t\t<label for=\"password\">Password:</label>\n\t\t\t<input type=\"password\" id=\"password\" name=\"password\" /><br>\n\t\t\t<label for=\"comment\">Comment:</label><br>\n\t\t\t<textarea name=\"comment\" id=\"comment\" rows=\"7\" cols=\"60\"></textarea><br>\n\t\t\t<input type=\"checkbox\" name=\"anonym\" value=\"hide\"/>Post your code anonymously<br>\n\t\t\t<input type=\"submit\" value=\"submit\"><br>\n\t\t\t%s\n\t</form>"
   },
-  "a2-ebraromer": {
-    "repoLink": "https://github.com/ituis18/a2-ebraromer",
-    "pageLink": "https://a2-ebraromer.herokuapp.com",
-    "action": "/direct/",
+  "a2-karaaslan18": {
+    "repoLink": "https://github.com/ituis18/a2-karaaslan18",
+    "pageLink": "https://elmam.herokuapp.com",
+    "hash": "f155a9176a400fd61286391e4cb7dfba3b139fffcf6bc219cd258981cc01c628",
+    "password": "",
+    "action": "/index.html",
     "passField": "password",
-    "fields": [],
-    "raw": "<form style=float:center; action=\"/direct/\" method=\"post\">\n                Password: <input type=\"password\" name=\"password\">\n                <input type=\"SUBMIT\" value=\"SUBMIT\">\n            </form>"
-  },
-  "a2-yesilay17": {
-    "repoLink": "https://github.com/ituis18/a2-yesilay17",
-    "pageLink": "https://assignment2blg.herokuapp.com",
-    "action": "/comment",
-    "passField": "password_input",
     "fields": [
       "comment"
     ],
-    "raw": "<form action=\"/comment\">\n\t\t<div>Enter your comment:</div>\n\t\t<input type = \"text\" name = \"comment\">\n\t\t<div>Enter your password:</div>\n\t\t<input type = \"password\" name= \"password_input\">\n\t\t<button>Confirm</button>\n\t\t</form>"
+    "raw": "<form action=\"/index.html\" method=\"post\">\n            <fieldset>\n                <legend>Would you like say anything</legend>\n                What is your comment?\n                <br>\n                <input type=\"text\" name=\"comment\">\n                <br>\n                Enter your password please.\n                <br>\n                <input type=\"password\" name=\"password\">\n                <br>\n                <input type=submit value=\"SEND\">\n            </fieldset>\n        </form>"
   },
-  "a2-cetinkayaevren": {
-    "repoLink": "https://github.com/ituis18/a2-cetinkayaevren",
-    "pageLink": "https://ketchap.herokuapp.com"
-  },
-  "a2-uslan17": {
-    "repoLink": "https://github.com/ituis18/a2-uslan17",
-    "pageLink": "https://uslan-webapp.herokuapp.com"
-  },
-  "a2-onatsahin": {
-    "repoLink": "https://github.com/ituis18/a2-onatsahin",
-    "pageLink": "https://onatsahin-blg101-a2.herokuapp.com",
-    "action": "/new_comment",
+  "a2-atacanyavuz": {
+    "repoLink": "https://github.com/ituis18/a2-atacanyavuz",
+    "pageLink": "https://atacan-blg101assignment.herokuapp.com",
+    "hash": "31f6f1aad57141f6591923a6fb5dcb428ff17bd0517e63f219775cef12020ddf",
+    "password": "atacan",
+    "action": "/comments.html",
     "passField": "password",
     "fields": [
+      "username",
       "comment",
-      "topic",
-      "submit_button"
+      "rate",
+      "rate"
     ],
-    "raw": "<form action=\"/new_comment\" method=\"post\" id=\"comment_form\">\n            Comment: <input type=\"text\" name=\"comment\" size=\"50\"/>\n            &nbsp;\n            Topic:\n            <select name=\"topic\" form=\"comment_form\">\n                <option value=\"Back to the Future Part 2\">Back to the Future Part 2</option>\n                <option value=\"Blade Runner\">Blade Runner</option>\n                <option value=\"Mobile Suit Gundam\">Mobile Suit Gundam</option>\n                <option value=\"Cowboy Bebop\">Cowboy Bebop</option>\n                <option value=\"Ghost in the Shell\">Ghost in the Shell</option>\n                <option value=\"We\">We</option>\n                <option value=\"Other\">Other</option>\n            </select> <br/><br/>\n            Password: <input type=\"password\" name=\"password\"/> <br/><br/>\n            <input type=\"submit\" name=\"submit_button\"/>\n        </form>"
+    "raw": "<form action = \"/comments.html\" method = \"post\">\n                <h2>Username:</h2>\n                <input name=\"username\" placeholder=\"Username\" >\n                <br><h3>Password\\t:</h3>\n    \t\t\t<input type = \"password\" name = \"password\" placeholder=\"Password\"><br>\n    \t\t\t<h2>Comment:</h2>\n    \t\t\t<textarea name=\"comment\" rows=\"10\" cols=\"160\" placeholder=\"Please Enter Your Comment\"></textarea><br>\n\t\t\t    <input type=\"radio\" name=\"rate\" value=\"good\" checked=\"checked\">Good Comment\n                <input type=\"radio\" name=\"rate\" value=\"bad\">Bad Comment<br>\n                <input type = \"submit\" value=\"Submit\">\t\t\n    \t\t\t\n    \t</form>"
   },
-  "a2-mfatihkocabas": {
-    "repoLink": "https://github.com/ituis18/a2-mfatihkocabas",
+  "a2-unuvar17": {
+    "repoLink": "https://github.com/ituis18/a2-unuvar17",
     "pageLink": ""
   },
-  "a2-berkayolg": {
-    "repoLink": "https://github.com/ituis18/a2-berkayolg",
-    "pageLink": "https://a2-berkayolg.herokuapp.com",
-    "action": "/static/soundtracks.html",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "comment_type",
-      "comment_type"
-    ],
-    "raw": "<form action = \"/static/soundtracks.html\" method = \"post\">\n\t<fieldset>\n\t<legend>Comment Section:</legend>\n\tComment:<br>\n\t<textarea name=\"comment\" rows=\"10\" cols=\"60\">Please be nice on your comments</textarea>\n\t<br>Is it a good comment?<br>\n\tYes<input type=\"checkbox\" name=\"comment_type\" value=\"yes\" checked>\n\tNo<input type=\"checkbox\" name=\"comment_type\" value=\"no\"> \n\t<br>Password:<br>\n\t<input type = \"password\" name = \"password\" ><br>\n\t<input type = \"submit\">\n\t</fieldset>\n\t</form>"
+  "a2-Demirmu18": {
+    "repoLink": "https://github.com/ituis18/a2-Demirmu18",
+    "pageLink": "https://a2demirmu18.herokuapp.com"
   },
-  "a2-Mayasiz": {
-    "repoLink": "https://github.com/ituis18/a2-Mayasiz",
-    "pageLink": "https://a2-mayasiz.herokuapp.com",
-    "action": "../comments/",
-    "passField": "password_input",
-    "fields": [
-      "comment_input",
-      "happiness",
-      "happiness"
-    ],
-    "raw": "<form action=\"../comments/\" method=\"get\"><p>Your Comment:</p>\n                   \t<input type=\"text\" name=\"comment_input\" placeholder=\"Comment\">\n                   \t<br>\n                   \t<p>Password?</p>\n                   \t<input type=\"password\" name=\"password_input\" placeholder=\"Password\">\n                   \t<br><br><br> <p>Please choose one of the buttons below</p>\n                   \t<input type=\"radio\" name=\"happiness\" value=\"yes\" checked><p>I am happy i saw this site.</p>\n                   \t<input type=\"radio\" name=\"happiness\" value=\"no\"><p>I am not happy i saw this site.</p>\n                   \t<input type=\"submit\" value=\"submit\">\n                   \t</form>"
+  "a2-sametcancobanli": {
+    "repoLink": "https://github.com/ituis18/a2-sametcancobanli",
+    "pageLink": "https://cobanli-assigment-2.herokuapp.com",
+    "hash": "36ed32051ffec84e28aa004aeef621f511cb9f272070e7f2bb1a3f5111ece152",
+    "password": "samet"
   },
-  "a2-yasarbunyamin": {
-    "repoLink": "https://github.com/ituis18/a2-yasarbunyamin",
-    "pageLink": "https://www.herokucdn.com/deploy/button.png)](https://myapplication-app.herokuapp.com"
+  "a2-hilmist34": {
+    "repoLink": "https://github.com/ituis18/a2-hilmist34",
+    "pageLink": "https://myblg101assignment2.herokuapp.com"
   },
-  "a2-guz18": {
-    "repoLink": "https://github.com/ituis18/a2-guz18",
-    "pageLink": "https://assignment2guz18.herokuapp.com"
-  },
-  "a2-bbuyukozis": {
-    "repoLink": "https://github.com/ituis18/a2-bbuyukozis",
-    "pageLink": "https://a2-bbuyukozis.herokuapp.com"
-  },
-  "a2-egecansigirci": {
-    "repoLink": "https://github.com/ituis18/a2-egecansigirci",
-    "pageLink": "https://a2-egecansigirci.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "age",
-      "age",
-      "age",
-      "age"
-    ],
-    "raw": "<form method=\"post\">\n            Enter your comment please:<br>\n            <input type=\"text\" name=\"comment\"><br>\n            Password please:<br>\n            <input type=\"password\" name=\"password\"><br>\n            <input type=\"radio\" name=\"age\" value=\"0-17\">0-17<br>\n            <input type=\"radio\" name=\"age\" value=\"18-30\">18-30<br>\n            <input type=\"radio\" name=\"age\" value=\"31-50\">31-50<br>\n            <input type=\"radio\" name=\"age\" value=\"51-99\">51-99<br>\n            <input type=\"submit\" value=\"Send Comment\">\n            <p>COMMENTS</P>\n        </form>"
-  },
-  "a2-mlkmhmtbiyik": {
-    "repoLink": "https://github.com/ituis18/a2-mlkmhmtbiyik",
-    "pageLink": "https://melikhw2.herokuapp.com"
-  },
-  "a2-incipasa": {
-    "repoLink": "https://github.com/ituis18/a2-incipasa",
-    "pageLink": "https://incipasa-assignmet2.herokuapp.com"
-  },
-  "a2-enesituce": {
-    "repoLink": "https://github.com/ituis18/a2-enesituce",
+  "a2-msadikk": {
+    "repoLink": "https://github.com/ituis18/a2-msadikk",
     "pageLink": ""
   },
-  "a2-burakssen": {
-    "repoLink": "https://github.com/ituis18/a2-burakssen",
-    "pageLink": "https://www.herokucdn.com/deploy/button.png)](https://burakssen.herokuapp.com",
-    "action": "/a",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "radio",
-      "radio"
-    ],
-    "raw": "<form class=\"form\" method=\"GET\" action=\"/a\">\n        <input class=\"com\" type=\"text\" name=\"comment\" placeholder=\"Write Your Comments\"/>\n        <input class=\"pass\" type=\"password\" name=\"password\" placeholder=\"Write Your Password\"/>\n        <input class=\"sub\" type=\"submit\" value=\"SEND\"/><br/>\n        <div class=\"rad\">\n        <input type=\"radio\" name=\"radio\" value=\"on\" checked=\"checked\"/>\n        <label>Greater Then 18</label>\n        <input type=\"radio\" name=\"radio\" value=\"off\"/>\n        <label>Less Then 18</label>\n        </div>\n    </form>"
+  "a2-yifka": {
+    "repoLink": "https://github.com/ituis18/a2-yifka",
+    "pageLink": ""
   },
-  "a2-mfteloglu": {
-    "repoLink": "https://github.com/ituis18/a2-mfteloglu",
-    "pageLink": "https://mfteloglublg101.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "who",
-      "who"
-    ],
-    "raw": "<form method=\"post\">\n\t\t\t<fieldset>\n\t\t\t<legend>Your comments about website?</legend><br>\n\t\t\t<input type=\"text\" name=\"comment\">\n\t\t\t</fieldset>\n\t\t\t<fieldset>\n\t\t\t<legend>Your Password?</legend><br>\n\t\t\t<input type=\"password\" name=\"password\">\n\t\t\t<input type=\"radio\" name=\"who\" value=\"Meerkat\" checked=\"checked\"> Meerkat \n\t\t\t<input type=\"radio\" name=\"who\" value=\"Other\" checked=\"checked\"> Other <br>\n\t\t\t</fieldset>\n\t\t<input type=\"submit\" value=\"SUBMIT\">\n\t\t</form>"
-  },
-  "a2-fsakcglyn": {
-    "repoLink": "https://github.com/ituis18/a2-fsakcglyn",
-    "pageLink": "https://fsena.herokuapp.com"
-  },
-  "a2-Maelboss": {
-    "repoLink": "https://github.com/ituis18/a2-Maelboss",
-    "pageLink": "https://highestgradesweblaze.herokuapp.com",
+  "a2-cbetul": {
+    "repoLink": "https://github.com/ituis18/a2-cbetul",
+    "pageLink": "https://juliadream.herokuapp.com",
+    "hash": "2a12b609acd253ffc1344deae5a8c106d3649f479b4ba48f9d8d140a032c789d",
+    "password": "LynyrdSkynyrd",
     "action": "/comments",
-    "passField": "password",
+    "passField": "pas",
     "fields": [
-      "answer",
-      "answer",
-      "comment"
+      "com",
+      "film",
+      "film",
+      "film",
+      "film",
+      "film"
     ],
-    "raw": "<form action=\"/comments\" method=\"post\">\n<span style=\"color:white; background-color:black;\">Did you enjoy your stay here?</span> <br>\n            <label class=\"question\"> <input type=\"radio\" name=\"answer\" value=\"accept\" checked /> YES </label> <br> <br> <br> <br> \n            <label class=\"question\" style=\"color:Black;\"> <input type=\"radio\" name=\"answer\" value=\"accept again\" /> NO </label> <br> <br> <br> <br> <hr> <br>\n            <span style=\"color:white; background-color:black;\">Which Beach did you enjoy the most ?:</span>: <input name=\"comment\" type=\"text\" />\n            <span style=\"color:white; background-color:black;\" >Password:</span>: <input name=\"password\" type=\"password\" />\n            <input value=\"ADD\" type=\"submit\" />\n        </form>"
+    "raw": "<form action=\"/comments\" method=\"get\">\n\t\tComment: <input type=\"text\" name=\"com\" /><br>\n\t\tPassword: <input type=\"password\" name=\"pas\" /><br>\n\t\t<p>What is your favourite Wong Kar Wai movie?</p>\n\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Chungking Express\">Chungking Express<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Happy Together\">Happy Together<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"In the Mood for Love\">In the Mood for Love<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Fallen Angels\">Fallen Angels</p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\":(\" checked = \"checked\">I hate Wong Kar Wai</p>\n\t\t  <p><input type=\"submit\" value=\"Submit\"></p>\t  \n\t\t</form>"
   },
   "a2-fatihaltinpinar": {
     "repoLink": "https://github.com/ituis18/a2-fatihaltinpinar",
@@ -540,135 +425,434 @@
     ],
     "raw": "<form action=\"/submit\" method=\"post\">\n\t\t\t\t\t\t<div class=\"usernameSection\">\n\t\t\t\t\t\t\t<input id=\"usernameBox\" name=\"username\" placeholder=\"Author\" type=\"text\"/>\n\t\t\t\t\t\t\t<div><input name=\"anonymous\" id=\"anonymousBox\" type=\"checkbox\" value=\"yes\"> Write anonymously </div>\n\t\t\t\t\t\t\t<input id=\"passwordBox\" name=\"password\" type=\"password\" placeholder=\"Password\"/>\n\t\t\t\t\t\t\t<input value=\"Send Comment\" type=\"submit\" />\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input id=\"commentBox\" name=\"commentText\" type=\"text\" placeholder=\"Enter your toughts here!\"/>\n\t\t\t\t\t</form>"
   },
-  "a2-ferhat-kacar": {
-    "repoLink": "https://github.com/ituis18/a2-ferhat-kacar",
-    "pageLink": "https://itu-hw2.herokuapp.com"
-  },
-  "a2-ayberkbozkus": {
-    "repoLink": "https://github.com/ituis18/a2-ayberkbozkus",
-    "pageLink": "https://www.herokucdn.com/deploy/button.png)](https://ayberkbozkus.herokuapp.com"
-  },
   "a2-enesasmaz": {
     "repoLink": "https://github.com/ituis18/a2-enesasmaz",
-    "pageLink": "https://myblg101assignmentenesasmaz.herokuapp.com"
+    "pageLink": "https://myblg101assignmentenesasmaz.herokuapp.com",
+    "hash": "821250fbbb10f15dfa31d845fce24b86d27d794a92b2f1cc781f590f559d8728",
+    "password": "15963214"
   },
-  "a2-onurbozova": {
-    "repoLink": "https://github.com/ituis18/a2-onurbozova",
-    "pageLink": "https://onurbozova.herokuapp.com"
+  "a2-lalverdacakir": {
+    "repoLink": "https://github.com/ituis18/a2-lalverdacakir",
+    "pageLink": "https://ituis18-a2-lalverdacakir.herokuapp.com"
+  },
+  "a2-mgunseber": {
+    "repoLink": "https://github.com/ituis18/a2-mgunseber",
+    "pageLink": ""
+  },
+  "a2-mfteloglu": {
+    "repoLink": "https://github.com/ituis18/a2-mfteloglu",
+    "pageLink": "https://mfteloglublg101.herokuapp.com",
+    "hash": "bf5db7d59d8985a15333dc2d53f6d2643d60be11a1bdeb81e330aae7f24da2a5",
+    "password": "matiaz",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "who",
+      "who"
+    ],
+    "raw": "<form method=\"post\">\n\t\t\t<fieldset>\n\t\t\t<legend>Your comments about website?</legend><br>\n\t\t\t<input type=\"text\" name=\"comment\">\n\t\t\t</fieldset>\n\t\t\t<fieldset>\n\t\t\t<legend>Your Password?</legend><br>\n\t\t\t<input type=\"password\" name=\"password\">\n\t\t\t<input type=\"radio\" name=\"who\" value=\"Meerkat\" checked=\"checked\"> Meerkat \n\t\t\t<input type=\"radio\" name=\"who\" value=\"Other\" checked=\"checked\"> Other <br>\n\t\t\t</fieldset>\n\t\t<input type=\"submit\" value=\"SUBMIT\">\n\t\t</form>"
+  },
+  "a2-buyuktas18": {
+    "repoLink": "https://github.com/ituis18/a2-buyuktas18",
+    "pageLink": "https://my-blg-101-project.herokuapp.com",
+    "hash": "d85442472d423a6842678bf1d4c09dd90e38676dc077d0929e50bfee289f89e5",
+    "password": "Galatasaray1905"
+  },
+  "a2-eminedari": {
+    "repoLink": "https://github.com/ituis18/a2-eminedari",
+    "pageLink": "https://eminedariblg101a2.herokuapp.com",
+    "hash": "5dde896887f6754c9b15bfe3a441ae4806df2fde94001311e08bf110622e0bbe",
+    "password": "xx",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "checkbox",
+      "comment"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n\t\t  <input id=\"checkbox\" type=\"checkbox\" name=\"checkbox\"> I've read the book series that this page is about.<br>\n\t\t\tComment:\n\t\t\t<input type=\"text\" name=\"comment\"><br>\n\t\t\tPassword:\n\t\t\t<input type=\"password\" name=\"password\">\n\t\t\t<input value=\"Enter\" type=\"submit\" />\n\t\t\t<br><br>\n\t        <p><span style=\"font-weight:bold;\"><i>Comments Entered So Far:</i></<span></p>\n\t\t\t<hr>\n\t      %s\n\t   </form>"
+  },
+  "a2-bbuyukozis": {
+    "repoLink": "https://github.com/ituis18/a2-bbuyukozis",
+    "pageLink": "https://a2-bbuyukozis.herokuapp.com"
+  },
+  "a2-saykara": {
+    "repoLink": "https://github.com/ituis18/a2-saykara",
+    "pageLink": "",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-sbcoksak": {
+    "repoLink": "https://github.com/ituis18/a2-sbcoksak",
+    "pageLink": "https://sbcblg101app.herokuapp.com",
+    "hash": "0ebb43b7bc4e92673a4fa933d8c1757688b5ea17fe090624f0d6dbcb22dc714a",
+    "password": "sbc"
+  },
+  "a2-fsakcglyn": {
+    "repoLink": "https://github.com/ituis18/a2-fsakcglyn",
+    "pageLink": "https://fsena.herokuapp.com",
+    "hash": "081e7ddb4f4d75be1fe962d205e9e77cad34f321a5cdc7f013c3bbc4fbaf3d36",
+    "password": "fsafsa"
+  },
+  "a2-hancero": {
+    "repoLink": "https://github.com/ituis18/a2-hancero",
+    "pageLink": "https://commenth.herokuapp.com",
+    "hash": "1af36dd2293e9a589fa31a72aaa894617eb662957914d98ee35d159fcf3fb7ab",
+    "password": ""
+  },
+  "a2-gultekinmet": {
+    "repoLink": "https://github.com/ituis18/a2-gultekinmet",
+    "pageLink": "",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": "",
+    "action": "/contact",
+    "passField": "password",
+    "fields": [
+      "name",
+      "message",
+      "honest"
+    ],
+    "raw": "<form action=\"/contact\" method=\"post\">\n            <label for=\"name\">Name:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Stevie Wonders\">\n            \n            <label for=\"password\">Password:</label>\n            <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"******\">\n            \n            <label for=\"message\">Message:</label>\n            <textarea id=\"message\" name=\"message\" placeholder=\"Hello, Metehan...\" ></textarea>\n            \n            <label for=\"honest\">Are you being honest?</label>\n            <select id=\"honest\" name=\"honest\">\n                <option value=\"Yes\">Yes</option>\n                <option value=\"No\">No</option>\n            </select>\n\n            <input type=\"submit\" value=\"Send\" />\n        </form>"
+  },
+  "a2-abdullahkul98": {
+    "repoLink": "https://github.com/ituis18/a2-abdullahkul98",
+    "pageLink": "https://mywebbrowser.herokuapp.com"
+  },
+  "a2-gulserliler18": {
+    "repoLink": "https://github.com/ituis18/a2-gulserliler18",
+    "pageLink": "",
+    "hash": "96daed7d9a3de4eb1cb907733860d98de806e25330e38221972cd09225fd73ef",
+    "password": ""
+  },
+  "a2-tugberkozmen": {
+    "repoLink": "https://github.com/ituis18/a2-tugberkozmen",
+    "pageLink": "https://blg101.herokuapp.com",
+    "hash": "a45c4618d6014d6711df5a8115a3168aa7bcc85bd958f5d4c4cf20fc0be16b27",
+    "password": "heisenberg",
+    "action": "/comments.html",
+    "passField": "password",
+    "fields": [
+      "cmnt",
+      "gender",
+      "gender",
+      "submit"
+    ],
+    "raw": "<form action=\"/comments.html\" method=\"POST\">\n      <label for=\"pwd\">Password: </label>\n      <input type=\"password\" id=\"pwd\" name=\"password\" />\n      <div>\n      <label for=\"cmnt\">Comment:</label>\n      <textarea name=\"cmnt\" id=\"cmnt\" rows=\"4\" cols=\"30\" ></textarea>\n      </div>\n      <div>\n            <input type=\"radio\" name=\"gender\" value=\"male\"> Male<br>\n            <input type=\"radio\" name=\"gender\" value=\"female\"> Female<br>\n    </div>\n\n      <input type=\"submit\" name=\"submit\" value=\"Submit\">\n            </form>"
+  },
+  "a2-akkoc16": {
+    "repoLink": "https://github.com/ituis18/a2-akkoc16",
+    "pageLink": "https://blg101asssignment2.herokuapp.com",
+    "hash": "51447d39ee4c9a8b7f54b58d8d4dd3eab587969dc3229eb51191fa3a4eaaa1df",
+    "password": "enver",
+    "action": "/repl",
+    "passField": "password",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/repl\" method=\"post\">\n                Comment: <input name=\"comment\" type=\"text\" value=\"\" /></br>\n                Password: <input name=\"password\" type=\"password\" value=\"\" />\n                <input value=\"Submit\" type=\"submit\" />\n            </form>"
   },
   "a2-Ykanber": {
     "repoLink": "https://github.com/ituis18/a2-Ykanber",
     "pageLink": "https://yegerge.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": "",
     "action": "/Comment",
     "passField": "password",
     "fields": [],
     "raw": "<form action=\"/Comment\" method=\"post\">\n\t <fieldset>\n\t  Password:<br>\n\t \n\t <input type=\"password\" name=\"password\"><br>\n\t <input type=\"submit\" value=\"Pass\">\n\t <input type=\"reset\">\n\t </fieldset>\n\t </form>"
   },
-  "a2-gimmefiv5": {
-    "repoLink": "https://github.com/ituis18/a2-gimmefiv5",
-    "pageLink": "https://zirka101.herokuapp.com"
+  "a2-Bedir2131": {
+    "repoLink": "https://github.com/ituis18/a2-Bedir2131",
+    "pageLink": "https://homewrk2.herokuapp.com",
+    "action": "/SignIn",
+    "passField": "password",
+    "fields": [
+      "username"
+    ],
+    "raw": "<form action=\"/SignIn\"  method=\"POST\">\n      <div>\n        <input type=\"text\" name=\"username\" placeholder=\"Username\" required>\n        <input type=\"password\" name=\"password\" placeholder=\"Password\" required>\n        <input type=\"submit\" value=\"Login\">\n      </div>\n  </form>"
   },
-  "a2-hayirli18": {
-    "repoLink": "https://github.com/ituis18/a2-hayirli18",
-    "pageLink": ""
+  "a2-ferhat-kacar": {
+    "repoLink": "https://github.com/ituis18/a2-ferhat-kacar",
+    "pageLink": "https://itu-hw2.herokuapp.com"
   },
-  "a2-ReiH213": {
-    "repoLink": "https://github.com/ituis18/a2-ReiH213",
-    "pageLink": "https://reipy.herokuapp.com"
+  "a2-mlkmhmtbiyik": {
+    "repoLink": "https://github.com/ituis18/a2-mlkmhmtbiyik",
+    "pageLink": "https://melikhw2.herokuapp.com"
+  },
+  "a2-kcocalak": {
+    "repoLink": "https://github.com/ituis18/a2-kcocalak",
+    "pageLink": "",
+    "hash": "05aebb21178ce70f5c29fc090aab3f50001a73f0f624e6f5789410f855ca2d8c",
+    "password": "kagan",
+    "action": "/do_comment",
+    "passField": "passwordd",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/do_comment\" method=\"post\">\n            Comment: <input name=\"comment\" type=\"text\" value=\"\" /></br>\n            Password: <input name=\"passwordd\" type=\"password\" value=\"\" />\n            <input value=\"Click me\" type=\"submit\" />\n        </form>"
+  },
+  "a2-CihatBostanci": {
+    "repoLink": "https://github.com/ituis18/a2-CihatBostanci",
+    "pageLink": "",
+    "action": "/signup_complete",
+    "passField": "password",
+    "fields": [
+      "userName"
+    ],
+    "raw": "<form method=\"POST\" action=\"/signup_complete\">\\n\n                <p  style=\"color=blue;\">USERNAME</p>  <input type=\"text\" name=\"userName\" /><br/>\\n\n                 <p style=\"color=blue;\">PASSWORD</p> <input type=\"password\" name=\"password\" /><br/>\\n\n                 <input type=\"submit\" value=\"Approve\" />\\n\n                </form>"
+  },
+  "a2-nazilli": {
+    "repoLink": "https://github.com/ituis18/a2-nazilli",
+    "pageLink": "https://nazilli.herokuapp.com",
+    "hash": "6e3065c8012cc8965ddbc264d908572f4b84f76cdd8dba2e47d03fc5881c0354",
+    "password": "nazilli"
+  },
+  "a2-Zaferyildiz": {
+    "repoLink": "https://github.com/ituis18/a2-Zaferyildiz",
+    "pageLink": "https://zaferyildizblg101hw2.herokuapp.com",
+    "hash": "e7fca264bc39d9a39a1b89e6ed819f9e28290be64c265c361df1967441462a4e",
+    "password": ""
+  },
+  "a2-aydinmu17": {
+    "repoLink": "https://github.com/ituis18/a2-aydinmu17",
+    "pageLink": "https://aydinmu17app.herokuapp.com",
+    "hash": "926ea6eac7f15f4781824d55a00759bcd149a41315a524cddfc80bd10b69eb52",
+    "password": "muzo",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "name",
+      "comment",
+      "checkbox",
+      "checkbox"
+    ],
+    "raw": "<form action=\"/comments\" method=\"POST\">\n                                <h1>Share your comment with us</h1>\n                                <table style=\"text-align:center; width: 500px\">\n                                    <tr class=\"NamePass\">\n                                        <td class=\"NamePass\"><h2>Name:</h2></td>\n                                        <td class=\"NamePass\"><h2>Password:</h2></td>\n                                    </tr>\n                                    <tr>\n                                        <td><input type=\"text\" placeholder=\"Name\" name=\"name\"></td>                                 \n                                        <td><input type=\"password\" placeholder=\"Password: muzo \" name=\"password\"></td>\n                                    </tr>\n                                    \n                                </table>\n                                \n                                    <h2>comment:</h2>\n                                    <textarea name=\"comment\" placeholder=\"Your Comment\" style=\"height: 200px; width: 500px\"></textarea><br>\n\n\n                                    \n                                    <input type=\"radio\" name=\"checkbox\" value=\"on\">\n                                    <label style=\"color: #d3b46a\">I agree full responsibilty about my comments</label><br><br>\n                                    <input type=\"radio\" name=\"checkbox\" value=\"off\" checked>\n                                    <label style=\"color: #d3b46a\">I dont care responsibilty </label><br><br>\n                                    <input class=\"submit\" type=\"submit\" value=\"SEND\">\n                            </form>"
+  },
+  "a2-salihfc": {
+    "repoLink": "https://github.com/ituis18/a2-salihfc",
+    "pageLink": "https://bottle-apptest.herokuapp.com"
+  },
+  "a2-oytuncoban": {
+    "repoLink": "https://github.com/ituis18/a2-oytuncoban",
+    "pageLink": "https://itu18-a2-oytuncoban.herokuapp.com"
+  },
+  "a2-ebraromer": {
+    "repoLink": "https://github.com/ituis18/a2-ebraromer",
+    "pageLink": "https://a2-ebraromer.herokuapp.com",
+    "action": "/direct/",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form style=float:center; action=\"/direct/\" method=\"post\">\n                Password: <input type=\"password\" name=\"password\">\n                <input type=\"SUBMIT\" value=\"SUBMIT\">\n            </form>"
+  },
+  "a2-kilical17": {
+    "repoLink": "https://github.com/ituis18/a2-kilical17",
+    "pageLink": "",
+    "hash": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+    "password": "abc"
+  },
+  "a2-ayberkbozkus": {
+    "repoLink": "https://github.com/ituis18/a2-ayberkbozkus",
+    "pageLink": "https://ayberkbozkus.herokuapp.com",
+    "hash": "4668ec6787a179128f59930129e370637a31d9a225019cd0d760a379b3f84b67",
+    "password": "ayberk"
+  },
+  "a2-bengisuozbek": {
+    "repoLink": "https://github.com/ituis18/a2-bengisuozbek",
+    "pageLink": "https://myblgassignment.herokuapp.com",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "username",
+      "comment",
+      "anonymous"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n\t\t\t\t\t\t\t<input name=\"username\" type=\"text\" placeholder=\"Username\" /> <br />\n\t\t\t\t\t\t\t<input name=\"password\" type=\"password\" placeholder=\"Password\" /> <br />\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<textarea rows=\"8\" cols=\"50\" name=\"comment\"></textarea>\n\t\t\t\t\t\t\t <br />\n\t\t\t\t\t\t\t <input type=\"checkbox\" name=\"anonymous\" value=\"False\"> Anonymous </br>\n\t\t\t\t\t\t\t<input value=\"Submit\" type=\"submit\" />\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</form>"
+  },
+  "a2-cihnalp": {
+    "repoLink": "https://github.com/ituis18/a2-cihnalp",
+    "pageLink": "https://myassignmentblg101.herokuapp.com",
+    "hash": "05d43dd4fafef79d568e08c5821bc1f1c5f4369def05c986cee8b6e8e3ef0862",
+    "password": "cihan"
+  },
+  "a2-koraykural": {
+    "repoLink": "https://github.com/ituis18/a2-koraykural",
+    "pageLink": "https://poetrysociety.herokuapp.com",
+    "hash": "4c7a56ed0fd08ca4496a36c2d5cf3756f0b11e93fa8f6ea2e9c2265e4d5dc59e",
+    "password": "ilovepoems",
+    "action": "/donate",
+    "passField": "password",
+    "fields": [
+      "author",
+      "author",
+      "author_name",
+      "donation"
+    ],
+    "raw": "<form action=\"/donate\" method=\"post\">\n\tChoose whether you want your name visible or not please.<br>\t\n\t<input type=\"radio\" name=\"author\" value=\"visible\" checked> Visible<br/>\n\t<input type=\"radio\" name=\"author\" value=\"hidden\"> NOT <br/> \n  Your name:<br>\n  <input type=\"text\" name=\"author_name\"><br>  \n  Donation:<br>\n  <input type=\"text\" name=\"donation\"><br>\n  Password:<br>\n  <input type=\"password\" name=\"password\"><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>"
+  },
+  "a2-metinatmaca": {
+    "repoLink": "https://github.com/ituis18/a2-metinatmaca",
+    "pageLink": "https://metinatmaca.herokuapp.com",
+    "hash": "60ed156c6b4c696741e6065fdeafc6a5b386735a9d07b1720a58fb62dd7deb0f",
+    "password": "557030",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "entered_comment",
+      "dropdown"
+    ],
+    "raw": "<form action=\"/comments\" method=\"POST\">\n\t\t   Comment: <input type=\"text\" name=\"entered_comment\" />\n\t\t   Password: <input type=\"password\" name=\"password\" />\n\t\t   <select name=\"dropdown\">\n\t\t   <option value=\"1\">1</option>\n\t\t   <option value=\"2\">2</option>\n\t\t   <option value=\"3\">3</option>\n\t\t   <option value=\"4\">4</option>\n\t\t   <option value=\"5\" selected >5</option>\n\t\t   </select>\n\t\t   <input type=\"submit\" value=\"Submit\" />\n\t\t</form>"
+  },
+  "a2-uslan17": {
+    "repoLink": "https://github.com/ituis18/a2-uslan17",
+    "pageLink": "https://uslan-webapp.herokuapp.com",
+    "hash": "b6e960ec6edf18c15c6384996a2546fff7f45eb18dda2316be3c94bb5faa5288",
+    "password": "leyla"
+  },
+  "a2-polatpasa": {
+    "repoLink": "https://github.com/ituis18/a2-polatpasa",
+    "pageLink": "https://a2-polatpasa.herokuapp.com"
+  },
+  "a2-berkayolg": {
+    "repoLink": "https://github.com/ituis18/a2-berkayolg",
+    "pageLink": "https://a2-berkayolg.herokuapp.com",
+    "hash": "2e4d172380133b1a43f9faec17ab2be5bf8f3e189b96eb6354e1e4b6e4cdab89",
+    "password": "GoodPass",
+    "action": "/static/soundtracks.html",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "comment_type",
+      "comment_type"
+    ],
+    "raw": "<form action = \"/static/soundtracks.html\" method = \"post\">\n\t<fieldset>\n\t<legend>Comment Section:</legend>\n\tComment:<br>\n\t<textarea name=\"comment\" rows=\"10\" cols=\"60\">Please be nice on your comments</textarea>\n\t<br>Is it a good comment?<br>\n\tYes<input type=\"checkbox\" name=\"comment_type\" value=\"yes\" checked>\n\tNo<input type=\"checkbox\" name=\"comment_type\" value=\"no\"> \n\t<br>Password:<br>\n\t<input type = \"password\" name = \"password\" ><br>\n\t<input type = \"submit\">\n\t</fieldset>\n\t</form>"
+  },
+  "a2-fzehraa": {
+    "repoLink": "https://github.com/ituis18/a2-fzehraa",
+    "pageLink": "https://fdfdfdfdfd.herokuapp.com",
+    "hash": "e564b4081d7a9ea4b00dada53bdae70c99b87b6fce869f0c3dd4d2bfa1e53e1c",
+    "password": "hidden"
+  },
+  "a2-ugur17": {
+    "repoLink": "https://github.com/ituis18/a2-ugur17",
+    "pageLink": "",
+    "hash": "d49de7ec3c915b8f2826718c57cb919cda28f986a64c10cb291ccad47101bb5f",
+    "password": "benimsifrem",
+    "action": "/Comment",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form action=\"/Comment\" method=\"post\">\n\t\n\t<fieldset>\n\t<legend>Password Page</legend>\n\t\n\tPassword:<br>\n\t<input type=\"password\" name=\"password\"><br>\n\t<input type=\"submit\" value=\"Submit\">\n\t</fieldset>\n\t</form>"
   },
   "a2-isaraj18": {
     "repoLink": "https://github.com/ituis18/a2-isaraj18",
     "pageLink": "https://myblg101e.herokuapp.com",
+    "hash": "15f0810f0205bdd47cdaecf014639ec672ab75a87ffbfe77db06adb2654ee7a3",
+    "password": "greta123",
     "action": "/submit",
     "passField": "password",
     "fields": [],
     "raw": "<form method=\"post\" action=\"/submit\">\nPass:<input type=\"password\" name=\"password\" />\n<input type=\"submit\" value=\"Submit\" />\n</form>"
   },
-  "a2-hasan-gok": {
-    "repoLink": "https://github.com/ituis18/a2-hasan-gok",
-    "pageLink": ""
+  "a2-PsychoGenius13": {
+    "repoLink": "https://github.com/ituis18/a2-PsychoGenius13",
+    "pageLink": "",
+    "hash": "f25297859cf0a70af5c053a5464a5fa647a35ceee1d91397331903846d79ffc1",
+    "password": "whoami"
   },
-  "a2-brkdnmz": {
-    "repoLink": "https://github.com/ituis18/a2-brkdnmz",
-    "pageLink": "https://brkdnmz-app.herokuapp.com",
-    "action": "/comments.html",
+  "a2-ecesancar": {
+    "repoLink": "https://github.com/ituis18/a2-ecesancar",
+    "pageLink": "https://ecesancar-assignment2.herokuapp.com",
+    "hash": "9d777935627a29c77604c57273520eb42635fd1847d2eeea1e7441fbaeb26253",
+    "password": "qazxsw",
+    "action": "/static/index.html",
     "passField": "password",
     "fields": [
-      "nickname",
-      "lecturer",
-      "lecturer",
-      "gender"
+      "comment",
+      "kindly",
+      "kindly",
+      "kindly",
+      "Submit"
     ],
-    "raw": "<form action=\"/comments.html\" autocomplete=\"on\">\n\t <fieldset>\n\t  <legend>You Should Fill Those:</legend>\n\t  Name you want to be seen with:\n\t  <input type=\"text\" name=\"nickname\" size=\"36\"\n\t  placeholder=\"Like 'crazy_boi', 'ituis18_student', 'ignore_me'...\" autofocus required><br><br>\n      The secret password you have to put in there:\n\t  <input type=\"password\" name=\"password\" placeholder=\"A very secret password :) ...\" autocomplete=\"off\" required><br><br>\n\t  Whose student are you?<br><br>\n\t  <input type=\"radio\" name=\"lecturer\" value=\"djduff\">Damien Jade Duff<br>\n\t  <input type=\"radio\" name=\"lecturer\" value=\"turgutuyar\">Hayri Turgut Uyar\n\t  <br><br>\n\t  Are you a boy or a girl?\n\t  <select name=\"gender\">\n\t   <option value=\"boy\">Boy</option>\n\t   <option value=\"girl\">Girl</option>\n\t  <br><br>\n\t  <input type=\"image\" src=\"./static/login_icon.gif\" title=\"Login\" alt=\"Login\" width=100 height=100>\n\t </fieldset>\n\t</form>"
+    "raw": "<form action = \"/static/index.html\" method = \"post\">\n\t<fieldset>\n\t<legend>Visitors's Comments:</legend>\n    <fieldset>\n    <legend>Your Comment:</legend>\n\t<textarea name=\"comment\" rows=\"5\" cols=\"100\">Please write your comments here :)</textarea>\n    </fieldset>\n    <br>\n    <fieldset>\n    <legend> Did you write your comment kindly? </legend>\n    Yes<input type=\"radio\" name=\"kindly\" value=\"yes\" checked>\n\tNo<input type=\"radio\" name=\"kindly\" value=\"no\">\n    Not Sure <input type=\"radio\" name=\"kindly\" value=\"?\">\n    </fieldset>\n    <br>\n    <fieldset>\n    <legend>Password:</legend>\n    <input type = \"password\" name = \"password\" ><br>\n    <input type = \"submit\" name=\"Submit\">\n    </fieldset>\n    </fieldset>\n    </form>"
   },
-  "a2-zeynepdndr": {
-    "repoLink": "https://github.com/ituis18/a2-zeynepdndr",
-    "pageLink": "https://itu18-a2-zeynepdndrstudent.herokuapp.com"
+  "a2-asederf": {
+    "repoLink": "https://github.com/ituis18/a2-asederf",
+    "pageLink": "https://blg101assignment-2.herokuapp.com",
+    "hash": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e",
+    "password": "cat"
   },
-  "a2-sabah150170": {
-    "repoLink": "https://github.com/ituis18/a2-sabah150170",
-    "pageLink": "https://blg101-a2-sabah.herokuapp.com"
+  "a2-onurbozova": {
+    "repoLink": "https://github.com/ituis18/a2-onurbozova",
+    "pageLink": "https://onurbozova.herokuapp.com",
+    "hash": "3fb0a50e69a3bd10bd006726cf744fa50e779bd652b0dda9733137d78af42de5",
+    "password": "123459"
   },
-  "a2-hakverir": {
-    "repoLink": "https://github.com/ituis18/a2-hakverir",
-    "pageLink": "https://nonetto.herokuapp.com"
-  },
-  "a2-frkndmr": {
-    "repoLink": "https://github.com/ituis18/a2-frkndmr",
-    "pageLink": ""
-  },
-  "a2-Elaa-jamazi": {
-    "repoLink": "https://github.com/ituis18/a2-Elaa-jamazi",
-    "pageLink": "https://elaapp.herokuapp.com",
+  "a2-pazara18": {
+    "repoLink": "https://github.com/ituis18/a2-pazara18",
+    "pageLink": "https://ituis18-a2-pazara18.herokuapp.com",
+    "hash": "49d5e810dbe161e09226b6a65e7894be59ba096b0d0716701bf9dfd50d458f0a",
+    "password": "",
     "action": "/comments",
     "passField": "password",
     "fields": [
-      "answer",
-      "answer",
+      "name",
+      "comment",
+      "notabot",
+      "notabot",
+      "submit"
+    ],
+    "raw": "<form method=\"POST\" action=\"/comments\">\n\t\t\t\t\t\t\t<input type=\"text\" placeholder=\"Name\" name=\"name\"><br><br>\n\t\t\t\t\t\t\t<input type=\"password\" placeholder=\"Password\" name=\"password\"><br><br>\n\t\t\t\t\t\t\t<textarea rows=\"4\" cols=\"80\" placeholder=\"Write your comments here\" name=\"comment\"></textarea><br>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"notabot\" value=\"on\"> I'm not a robot. &nbsp;\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"notabot\" value=\"off\" checked> I'm not sure.\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" value=\"SEND\" >\n\t\t\t\t\t\t</form>"
+  },
+  "a2-hasan-gok": {
+    "repoLink": "https://github.com/ituis18/a2-hasan-gok",
+    "pageLink": "",
+    "hash": "41b91af651d3b5f9d58ea113ee62cd34e66b1cd9c9f72cc8558a10451ef4ef45",
+    "password": "hasangok"
+  },
+  "a2-cetina16": {
+    "repoLink": "https://github.com/ituis18/a2-cetina16",
+    "pageLink": "https://a2-cetina16.herokuapp.com",
+    "hash": "c2e2de13717990810a222f960c2b73f7d981a7a230a8c5b05ea622ddcc6e1710",
+    "password": "betul"
+  },
+  "a2-drummerkoala": {
+    "repoLink": "https://github.com/ituis18/a2-drummerkoala",
+    "pageLink": "https://cutestprojectavailable.herokuapp.com",
+    "hash": "32e5ef0d5fbd0dd86b2d31995ba47f3378074375a99355569629ca04ed263096",
+    "password": "",
+    "action": "/comment",
+    "passField": "password",
+    "fields": [
+      "name",
+      "answerforall",
       "comment"
     ],
-    "raw": "<form action=\"/comments\" method=\"post\">\n<span style=\"color:white; background-color:black;\">Do You Like One Direction?</span> <br>\n            <label class=\"question\"> <input type=\"radio\" name=\"answer\" value=\"accept\" checked /> YES </label> <br> <br> <br> <br> \n            <label class=\"question\" style=\"color:#cc00ff;\"> <input type=\"radio\" name=\"answer\" value=\"accept again\" /> YES but in Purple!!! </label> <br> <br> <br> <br> <hr> <br>\n\n            <span style=\"color:white; background-color:black;\">What's your favorite thing about One Direction:</span>: <input name=\"comment\" type=\"text\" />\n            <span style=\"color:white; background-color:black;\" >Password:</span>: <input name=\"password\" type=\"password\" />\n            <input value=\"ADD\" type=\"submit\" />\n        </form>"
+    "raw": "<form action=\"/comment\" method=\"POST\">\n\n            <label for=\"name\">Name</label>\n                <input type=\"text\" name=\"name\" placeholder=\"Enter your name..\">\n\n            <label for=\"password\">Password</label>\n                <input type=\"password\" name=\"password\" placeholder=\"Enter the password(it's drummerkoala)..\">\n\n            <label for=\"answerforall\">Answer to the Ultimate Question of Life, the Universe, and Everything</label>\n                <select name=\"answerforall\">\n                  <option value=\"God\">God</option>\n                  <option value=\"Love\">Love</option>\n                  <option value=\"42\">42</option>\n                  <option value=\"Chuck Norris\">Chuck Norris</option>\n            \t  <option value=\"Music\">Music</option>\n            \t  <option value=\"Keyboards\">Keyboards</option>\n                </select>\n\n\n<label for=\"comment\">Comment</label>\n<textarea id=\"subject\" name=\"comment\" placeholder=\"Write something..\" style=\"height:75px\"></textarea>\n\n<input type=\"submit\" value=\"Submit\">{error}\n    </form>"
   },
-  "a2-sahnerkin": {
-    "repoLink": "https://github.com/ituis18/a2-sahnerkin",
-    "pageLink": "https://sahnerkin.herokuapp.com",
-    "action": "/",
+  "a2-ersozser": {
+    "repoLink": "https://github.com/ituis18/a2-ersozser",
+    "pageLink": "https://hubpipboy.herokuapp.com",
+    "hash": "f91ee66e078a37ad34c7a815a3ff9bf655074b5296d2079231b820efd5b43656",
+    "password": "goodsprings"
+  },
+  "a2-lghtr35": {
+    "repoLink": "https://github.com/ituis18/a2-lghtr35",
+    "pageLink": "",
+    "hash": "cc6347a5c519502d4fb20f08761a42450642b25f93f91b5dedd22543a13488c0",
+    "password": "",
+    "action": "/mkmk",
     "passField": "password",
     "fields": [
-      "nickname",
-      "visibility",
-      "visibility",
+      "name",
       "comment",
-      "send_button"
+      "checker"
     ],
-    "raw": "<form class=\"comment-box\" action=\"/\" method=\"POST\">\n\t\t\t\t\t\t\t<div class=\"comment-box-password\">\n\t\t\t\t\t\t\t\t<label for=\"password\">Password:</label>\n\t\t\t\t\t\t\t\t<input type=\"password\" name=\"password\" id=\"password\" placeholder=\"The password is...\" required>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-nickname\">\n\t\t\t\t\t\t\t<label for=\"nickname\">Nickname:</label>\n\t\t\t\t\t\t\t<input type=\"text\" name=\"nickname\" id=\"nickname\" placeholder=\"Call me...\" required>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-visibility\">\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"visibility\" value=\"visible\" checked=\"checked\"> Show my nickname<br>\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"visibility\" value=\"anon\"> Don't show my nickname<br>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-comment\">\n\t\t\t\t\t\t\t\t<label for=\"comment\">Your comment:</label>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\t<textarea name=\"comment\" id=\"comment\" placeholder=\"The thing is...\" required></textarea>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"send_button\" value=\"Send\"/>\n\t\t\t\t\t\t</form>"
-  },
-  "a2-nxavierb": {
-    "repoLink": "https://github.com/ituis18/a2-nxavierb",
-    "pageLink": "https://ituis18-a2-nxavierb.herokuapp.com"
-  },
-  "a2-SharumKa": {
-    "repoLink": "https://github.com/ituis18/a2-SharumKa",
-    "pageLink": "https://sharumka.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "registr"
-    ],
-    "raw": "<form action=\"/\">\n\n\t\t<p>\n\t        Write your comment :  <input type=\"text\" name=\"comment\" placeholder=\"Comment Place ..\" required>\n\t\t</p>\n\n\t\t<p>\n\t        Write your password :  <input type=\"password\" name=\"password\" placeholder=\"Password Place ..\" required>\n\t\t</p>\n\t\t\n\t\t<p>\n\t\tRegister <input type=\"checkbox\" name=\"registr\">\n\t    </p>\n          <p>\n              <input type=\"submit\" value=\"Submit\">\n          </p>\n\n    </form>"
-  },
-  "a2-ozaycank": {
-    "repoLink": "https://github.com/ituis18/a2-ozaycank",
-    "pageLink": "https://ozaycank.herokuapp.com"
-  },
-  "a2-sevvalyildiz": {
-    "repoLink": "https://github.com/ituis18/a2-sevvalyildiz",
-    "pageLink": "https://sevvalyildizbil101assigment.herokuapp.com"
+    "raw": "<form action=\"/mkmk\">\n        <label for=\"name\">Name: </label>\n        <input type=\"text\" id=\"name\" name=\"name\" />\n        <br>\n        <label for=\"password\">Password: </label>\n        <input type=\"password\" id=\"password\" name=\"password\">\n        <br>\n        <label for=\"comment\">Enter your comment: </label><br>\n        <textarea name=\"comment\" id=\"comment\" cols=\"40\" rows=\"3\"></textarea>\n        <br>\n        <label for=\"checkbox\">\n          <input type=\"checkbox\" name=\"checker\" value=\"accept\">I have agreed the terms<br>\n          <input type=\"submit\" value=\"submit\">\n          <br>\n          <p style=\"color:black; text-shadow: 2px 2px 1px red\"> %s </p>\n        </label>\n      </form>"
   },
   "a2-fmurat17": {
     "repoLink": "https://github.com/ituis18/a2-fmurat17",
-    "pageLink": "https://webappblg101.herokuapp.com",
+    "pageLink": "",
+    "hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "password": "1",
     "action": "/",
     "passField": "pw",
     "fields": [
@@ -681,75 +865,567 @@
     ],
     "raw": "<form>\n\t\t\t<h3>Select the teams you liked</h3>\n                    <input type=\"radio\" name=\"team\" value=\"C9\" checked> Cloud9 <br>\n                    <input type=\"radio\" name=\"team\" value=\"NaVi\"> Natus Vincere <br>\n                    <input type=\"radio\" name=\"team\" value=\"NiP\"> Ninjas in Pyjamas <br>\n                    <input type=\"radio\" name=\"team\" value=\"Astralis\"> Astralis <br>\n                    <input type=\"radio\" name=\"team\" value=\"VP\"> Virtus Pro<br>\n\t\t\tYour comment:<br>\n  \t\t\t\t\t<input type=\"text\" name=\"comment\">\n  \t\t\t\t\t<br>\n  \t\t\tPassword:<br>\n\n\t\t\t\t  <input type=\"password\" name=\"pw\">\n\t\t\t\t  <br><br>\n\t\t\t\t  <input type=\"submit\" value=\"Submit\">\n\t\t\t</form>"
   },
-  "a2-gulserliler18": {
-    "repoLink": "https://github.com/ituis18/a2-gulserliler18",
+  "a2-yesildal17": {
+    "repoLink": "https://github.com/ituis18/a2-yesildal17",
+    "pageLink": "https://myblg101-python-assignment.herokuapp.com",
+    "hash": "b1e79532d5b97c775ed657e6aea1de1cb3728443c6b35ad80fa7c3c4ed0f4d1e",
+    "password": "stability",
+    "action": "password",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form action=\"password\" method=\"get\">\n\t\t\t\t\t<div class=\"form\">\n\t\t\t\t\t<input type=\"password\" name=\"password\" size=\"64\" /> <!-- here i used text box -->\n\t\t\t\t\t<hr/>\n\t\t\t\t\t\n                    <br/>\n\t\t\t\t\t<input type=\"submit\" value=\"Confirm\" /> <!-- here i used submission button -->\n\t\t\t\t\t</div>\n\t\t\t\t\t</form>"
+  },
+  "a2-oguzhanbasturk": {
+    "repoLink": "https://github.com/ituis18/a2-oguzhanbasturk",
+    "pageLink": "https://blg101assignment150160525.herokuapp.com",
+    "action": "/add_submit",
+    "passField": "password",
+    "fields": [
+      "title",
+      "year",
+      "director",
+      "username"
+    ],
+    "raw": "<form method=\"POST\" action=\"/add_submit\">\n                    <div class=\"row\">\n                        <div class=\"left\">\n                            Title:<br />\n                            Year:<br />\n                            Director:<br />\n                        </div>\n                        <div class=\"right\">\n                            <input type=\"text\" name=\"title\" maxlength=\"40\" required/><br />\n                            <input type=\"number\" name=\"year\" value=\"1996\" min=\"1700\" max=\"2100\" required/><br />\n                            <input type=\"text\" name=\"director\" maxlength=\"40\" required/><br />\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        Userame: <input type=\"text\" name=\"username\" value=\"\" required/>\n                        Password: <input type=\"password\" name=\"password\" value=\"\" required/>\n                        <input type=\"submit\" value=\"Add\" />\n                    </div>\n                </form>"
+  },
+  "a2-Isydmr": {
+    "repoLink": "https://github.com/ituis18/a2-Isydmr",
+    "pageLink": "https://blg101webapp.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"post\">\n                <div \"><h3>Ebooks vs traditional books, which is better?:</h3></div><input name=\"comment\" type=\"text\" />\n                <div \"><h3>Your password?:</h3></div> <input name=\"password\" type=\"password\" />\n                <input value=\"ADD\" type=\"submit\" />\n            </form>"
+  },
+  "a2-fatihfurkan46": {
+    "repoLink": "https://github.com/ituis18/a2-fatihfurkan46",
     "pageLink": ""
   },
-  "a2-serdargoktug": {
-    "repoLink": "https://github.com/ituis18/a2-serdargoktug",
-    "pageLink": ""
+  "a2-AtalayKucukoglu": {
+    "repoLink": "https://github.com/ituis18/a2-AtalayKucukoglu",
+    "pageLink": "https://itu-blg101-web-app.herokuapp.com",
+    "hash": "2ae0514924b1db04e8c45002326641b5e6c74f182288ae8702d5c7250374669e",
+    "password": "simplicity"
   },
-  "a2-huseyinakuzum": {
-    "repoLink": "https://github.com/ituis18/a2-huseyinakuzum",
-    "pageLink": "https://blg101e-assignment2.herokuapp.com"
-  },
-  "a2-abdullahkul98": {
-    "repoLink": "https://github.com/ituis18/a2-abdullahkul98",
-    "pageLink": "https://mywebbrowser.herokuapp.com"
-  },
-  "a2-umitbasak": {
-    "repoLink": "https://github.com/ituis18/a2-umitbasak",
-    "pageLink": "https://phantom-assassin.herokuapp.com"
-  },
-  "a2-kilical17": {
-    "repoLink": "https://github.com/ituis18/a2-kilical17",
-    "pageLink": ""
-  },
-  "a2-okuro15": {
-    "repoLink": "https://github.com/ituis18/a2-okuro15",
-    "pageLink": "https://blg101ass.herokuapp.com",
-    "action": "/comment",
+  "a2-burakssen": {
+    "repoLink": "https://github.com/ituis18/a2-burakssen",
+    "pageLink": "https://burakssen.herokuapp.com",
+    "hash": "59908ee7ee2eb3477e38a42f4fabd23ff95314fdbb93b66bf08ea1871e38dcaf",
+    "password": "kalemlik",
+    "action": "/a",
     "passField": "password",
     "fields": [
       "comment",
-      "isBest"
+      "radio",
+      "radio"
     ],
-    "raw": "<form action=\"/comment\" method=\"post\">\n              Comment: <input type=\"text\" name=\"comment\"/> <br>\n              Password: <input type=\"password\" name=\"password\"/> <br>\n              <input type=\"checkbox\" name=\"isBest\" value=\"1\"> Mozart is the best ever\n              <input type=\"submit\" value=\"Send Your Review\" />\n            </form>"
+    "raw": "<form class=\"form\" method=\"GET\" action=\"/a\">\n        <input class=\"com\" type=\"text\" name=\"comment\" placeholder=\"Write Your Comments\"/>\n        <input class=\"pass\" type=\"password\" name=\"password\" placeholder=\"Write Your Password\"/>\n        <input class=\"sub\" type=\"submit\" value=\"SEND\"/><br/>\n        <div class=\"rad\">\n        <input type=\"radio\" name=\"radio\" value=\"on\" checked=\"checked\"/>\n        <label>Greater Then 18</label>\n        <input type=\"radio\" name=\"radio\" value=\"off\"/>\n        <label>Less Then 18</label>\n        </div>\n    </form>"
   },
-  "a2-yalcinilgin": {
-    "repoLink": "https://github.com/ituis18/a2-yalcinilgin",
-    "pageLink": "https://yalcinilgin.herokuapp.com",
+  "a2-habili17": {
+    "repoLink": "https://github.com/ituis18/a2-habili17",
+    "pageLink": ""
+  },
+  "a2-batuhanfaik": {
+    "repoLink": "https://github.com/ituis18/a2-batuhanfaik",
+    "pageLink": "https://a2-batuhanfaik.herokuapp.com",
+    "hash": "7ca6e264880d73246ffc076f15b42a2aa5857021e4f3beb06c3c83332ce59722",
+    "password": "batuhan",
     "action": "/",
     "passField": "password",
     "fields": [
-      "username",
-      "comment",
-      "robot"
+      "nick",
+      "anon",
+      "comment"
     ],
-    "raw": "<form method=\"get\" >\n  \t\t\t\tUsername: <span style=\"margin-left:34px\"></span><input type=\"text\" name=\"username\" required><br>\n  \t\t\t\tPassword: <span></span><input type=\"password\" name=\"password\" required ><br>\n\t\t\t\t\tYour comment:<span style=\"margin-left:9px\"></span> <input type=\"text\" name=\"comment\" required><br>\n\t\t\t\t\t<input type=\"radio\" name=\"robot\" value=\"robot\" required > I am not a robot!<br>\n  \t\t\t<input type=\"submit\" value=\"Send\">\n\t\t\t</form>"
+    "raw": "<form action=\"/\" method=\"post\">\n                    Nickname: <input name=\"nick\" type=\"text\" />\n                    Anonymous: <input name=\"anon\" type=\"checkbox\" />\n                    <br /><br />\n                    Comment: <input name=\"comment\" type=\"text\" />\n                    Password: <input name=\"password\" type=\"password\" />\n                    <input value=\"Submit\" type=\"submit\" />\n                </form>"
   },
-  "a2-batuhanozdol": {
-    "repoLink": "https://github.com/ituis18/a2-batuhanozdol",
-    "pageLink": ""
+  "a2-EartaJoca": {
+    "repoLink": "https://github.com/ituis18/a2-EartaJoca",
+    "pageLink": "https://assignment2-blg101e.herokuapp.com",
+    "hash": "d9fb92e3bbe65be1f1aad4a82eef4567f7a1ebe2cd110c8049b9698be7a70c88",
+    "password": "opensesame",
+    "action": "/submit",
+    "passField": "password",
+    "fields": [
+      "Enter"
+    ],
+    "raw": "<form action = \"/submit\" method=\"post\">\n<input type= \"password\" name=\"password\"/>\n<input type=\"submit\" name= \"Enter\" value=\"Enter\"/>\n</form>"
   },
-  "a2-Ardach": {
-    "repoLink": "https://github.com/ituis18/a2-Ardach",
-    "pageLink": "https://ardach17assignment.herokuapp.com",
-    "action": "/comment.html",
+  "a2-ogzgbkn": {
+    "repoLink": "https://github.com/ituis18/a2-ogzgbkn",
+    "pageLink": "https://assignment-blg101.herokuapp.com",
+    "hash": "d13f2eadd4ed5b027fa773a29520cc0d65ce374365d641112de786f8a029c2fe",
+    "password": "oops",
+    "action": "/comments",
+    "passField": "user_password",
+    "fields": [
+      "user_name",
+      "user_surname",
+      "show_surname",
+      "show_surname",
+      "user_message"
+    ],
+    "raw": "<form action=\"/comments\" method=\"post\">\n            <p style=\"font-size:35px;color:red;\"><em>Name</em></p><br>\n            <input type=\"text\" name=\"user_name\" />      \n                 \n            <p style=\"font-size:35px;color:red;\"><em>Surname</em></p><br>\n            <input type=\"text\" name=\"user_surname\"/>        \n\n            <input type=\"radio\" name=\"show_surname\" value=\"show\">(Show my surname in my comment)\n            <input type=\"radio\" name=\"show_surname\" value=\"not_show\">(DO NOT show my surname in my comment)<br>        \n               \n            <p style=\"font-size:35px;color:red;\"><em>Message</em></p><br>    \n            <input type=\"text\" name=\"user_message\"/>        \n\n            <p style=\"font-size:35px;color:red;\"><em>Password</em></p><br>     \n            <input type=\"password\" name=\"user_password\"/>    \n            <input type=\"submit\" value=\"Submit\"/>        \n        </form>"
+  },
+  "a2-KillerJacKTM05": {
+    "repoLink": "https://github.com/ituis18/a2-KillerJacKTM05",
+    "pageLink": "https://studio146.herokuapp.com"
+  },
+  "a2-keremperq": {
+    "repoLink": "https://github.com/ituis18/a2-keremperq",
+    "pageLink": "https://itu18-a2-keremperq.herokuapp.com",
+    "hash": "e40aa9d56ec908c9d868bad75e3079f772bbf5778b2264bd1abe2bf488cbddaf",
+    "password": "2357",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "nick",
+      "comment"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n                    <h3>Nickname:</h3> <input name=\"nick\" type=\"text\" />\n                    <h3>Comment:</h3>  <input name=\"comment\" type=\"text\" />\n                    <h3>Password:</h3> <input name=\"password\" type=\"password\" />\n                    <input value=\"Submit\" type=\"submit\">\n                </form>"
+  },
+  "a2-ilya-nuhi": {
+    "repoLink": "https://github.com/ituis18/a2-ilya-nuhi",
+    "pageLink": "https://ilyablg101assignment.herokuapp.com",
+    "hash": "219aeb43c0cc62089487cc77c6603b760edac4d616186e6fea5d0aa8122f49c2",
+    "password": "zazamurtaza"
+  },
+  "a2-yalcina": {
+    "repoLink": "https://github.com/ituis18/a2-yalcina",
+    "pageLink": "https://aerobase.herokuapp.com",
+    "hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "password": "1234",
+    "action": "/",
+    "passField": "passwd",
+    "fields": [
+      "name",
+      "gender",
+      "gender",
+      "comment",
+      "rate",
+      "improving1",
+      "improving2",
+      "improving3",
+      "improving4",
+      "airplane"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n\t\t    <h3>Your Name:</h3>\n\t\t    <input type=\"text\" name=\"name\" />\n\n\t\t    <p>Password:</p>\n\t\t    <input type=\"password\" name=\"passwd\" />\n\n\t\t    <br/>\n\t\t    <br/>\n\t\t    <br/>\n\t\t    <p>Gender:</p>\n\t\t    <input type=\"radio\" name=\"gender\" value=\"male\" /> Male\n\t\t    <input type=\"radio\" name=\"gender\" value=\"female\" /> Female <br/>\n\n\t\t    <br/><br/>\n\t\t    <p>Your comment:</p>\n\t\t    <textarea name=\"comment\" rows=\"10\" cols=\"70\"></textarea>\n\n\t\t    <br/><br/>\n\t\t    <p>Rate this site:</p>\n\t\t    <select name=\"rate\">\n\t\t\t<option value=\"5\"> 5 </option>\n\t\t\t<option value=\"4\"> 4 </option>\n\t\t\t<option value=\"3\"> 3 </option>\n\t\t\t<option value=\"2\"> 2 </option>\n\t\t\t<option value=\"1\"> 1 </option>\n\t\t    </select>\n\n\n\t\t    <br/><br/><br/>\n\t\t    <p>How to improve this website:</p>\n\t\t    <input type=\"checkbox\" name=\"improving1\" value=\"image\" checked=\"checked\" /> More images can be used <br/>\n\t\t    <input type=\"checkbox\" name=\"improving2\" value=\"content\" /> More contents can be added <br/>\n\t\t    <input type=\"checkbox\" name=\"improving3\" value=\"attraction\" /> More attractive colors, styles, layouts can be applied <br/>\n\t\t    <input type=\"checkbox\" name=\"improving4\" value=\"video\" /> Related videos can be inserted <br/>\n\n\n\t\t    <br/><br/><br/>\n\t\t    <p>Choose your favorite airplanes:</p>\n\t\t    <select name=\"airplane\" size=\"5\" multiple>\n\t\t\t<option value=\"A380\"> Airbus A380 </option>\n\t\t\t<option value=\"B787\"> Boeing 787 </option>\n\t\t\t<option value=\"A320\"> Airbus A320 </option>\n\t\t\t<option value=\"B737\"> Boeing 737 </option>\n\t\t\t<option value=\"A350\"> Airbus A350 </option>\n\t\t\t<option value=\"B747\"> Boeing 747 </option>\n\t\t\t<option value=\"A340\"> Airbus A340 </option>\n\t\t\t<option value=\"B777\"> Boeing 777</option>\n\t\t\t<option value=\"A330\"> Airbus A330</option>\n\t\t    </select>\n\n\n\n\t\t    <br/><br/><br/>\n\t\t    <input type=\"submit\" value=\"Submit\" />\n\t\t</form>"
+  },
+  "a2-Elaa-jamazi": {
+    "repoLink": "https://github.com/ituis18/a2-Elaa-jamazi",
+    "pageLink": "https://elaapp.herokuapp.com",
+    "hash": "23aa4dfb300aa853e2229ca9293adafc20f2cd1e7e5f29b71241f398e92c9caf",
+    "password": "Love1D",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "answer",
+      "answer",
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"post\">\n<span style=\"color:white; background-color:black;\">Do You Like One Direction?</span> <br>\n            <label class=\"question\"> <input type=\"radio\" name=\"answer\" value=\"accept\" checked /> YES </label> <br> <br> <br> <br> \n            <label class=\"question\" style=\"color:#cc00ff;\"> <input type=\"radio\" name=\"answer\" value=\"accept again\" /> YES but in Purple!!! </label> <br> <br> <br> <br> <hr> <br>\n\n            <span style=\"color:white; background-color:black;\">What's your favorite thing about One Direction:</span>: <input name=\"comment\" type=\"text\" />\n            <span style=\"color:white; background-color:black;\" >Password:</span>: <input name=\"password\" type=\"password\" />\n            <input value=\"ADD\" type=\"submit\" />\n        </form>"
+  },
+  "a2-raifmirza": {
+    "repoLink": "https://github.com/ituis18/a2-raifmirza",
+    "pageLink": "https://itu18-a2-raifmirza.herokuapp.com",
+    "hash": "d883b52bdc5bcf4ad89a34da2a6b74c2765610f406a564ce8080868fd4befeb8",
+    "password": "",
+    "action": "/comment",
     "passField": "pass",
     "fields": [
       "name",
-      "msag",
-      "region",
-      "region",
-      "namebox",
+      "message",
+      "grade",
+      "grade",
+      "grade",
       "submit"
     ],
-    "raw": "<form class=\"form\" method=\"post\" action=\"/comment.html\">\n      <label for=\"name\">Name: </label>\n      <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\"> \n      <label for=\"pwd\">Password: </label>\n      <input type=\"password\" id=\"pwd\" name=\"pass\" placeholder=\"PassWord\">\n      <label for=\"msag\">Your message: </label>\n      <textarea name=\"msag\" id=\"msag\" rows=\"8\" cols=\"54\" placeholder=\"Write your comment, Please!\"></textarea>\n      <div class=\"radio\">\n\t\t \t\n  \t\t\t\t<input type=\"radio\" name=\"region\" value=\"tr\" checked> Turkey<br>\n  \t\t\t\t<input type=\"radio\" name=\"region\" value=\"other\"> Other<br>\n  \t\t\t\t\n             \n\t\t</div>\n      \n      <label class=\"container\">Please show my name.\n  <input type=\"checkbox\" name=\"namebox\" id=\"namebox\">\n  \n  <span class=\"checkmark\"></span>\n  \n</label><input type=\"submit\" name=\"submit\" value=\"Submit\">\n</form>"
+    "raw": "<form class=\"form\" method=\"post\" action=\"/comment\">\n      <label for=\"name\">Name: </label>\n      <br>\n      <input type=\"text\" rows=\"8\" id=\"name\" name=\"name\" placeholder=\"Name and Surname\">\n      <br>\n      <label for=\"key\">Key: </label>\n      <br>\n      <input type=\"password\" rows=\"8\" id=\"key\" name=\"pass\" placeholder=\"Password\">\n      <br>\n      <label for=\"message\">Your message: </label>\n      <br>\n      <textarea name=\"message\" id=\"message\" rows=\"8\" cols=\"54\" placeholder=\"Add Comment\"></textarea>\n      <br>\n      <input type=\"radio\" name=\"grade\" value=\"good\" checked> Good\n      <input type=\"radio\" name=\"grade\" value=\"neutral\"> Neutral\n      <input type=\"radio\" name=\"grade\" value=\"bad\"> Bad<br><br>\n      <input type=\"submit\" name=\"submit\" value=\"Submit\">\n      <input type=\"reset\"><br>\n\n    </form>"
+  },
+  "a2-bakteriyofan": {
+    "repoLink": "https://github.com/ituis18/a2-bakteriyofan",
+    "pageLink": "https://bakteriyofanblg101.herokuapp.com",
+    "hash": "be0a854e9b95495c6bdb8ba76e39379179b325f16442137b24257960cea1c46a",
+    "password": "paranoidandroid",
+    "action": "/comment",
+    "passField": "pw1",
+    "fields": [],
+    "raw": "<form action=\"/comment\" method=\"post\">\n\t\t Enter Password:\n\t\t\t <input type=\"password\" name=\"pw1\">\n\t\t\t <input type=\"submit\" value=\"GO!\">\n\t\t </form>"
+  },
+  "a2-urbanassa": {
+    "repoLink": "https://github.com/ituis18/a2-urbanassa",
+    "pageLink": "https://anappforblg101.herokuapp.com",
+    "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password": "password"
+  },
+  "a2-alpgiraykacira": {
+    "repoLink": "https://github.com/ituis18/a2-alpgiraykacira",
+    "pageLink": "https://blg101alpgiray.herokuapp.com",
+    "hash": "6382deaf1f5dc6e792b76db4a4a7bf2ba468884e000b25e7928e621e27fb23cb",
+    "password": "football",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "position",
+      "position",
+      "name",
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"post\">\n    <br><br>Choose a position.<br>    \n    <input type=\"radio\" name=\"position\" value=\"offense\"> OFFENSE <br/>\n    <input type=\"radio\" name=\"position\" value=\"defence\"> DEFENCE <br/> \n  Name:<br>\n  <input type=\"text\" name=\"name\"><br>  \n  Comment:<br>\n  <input type=\"text\" name=\"comment\"><br>\n  Password:<br>\n  <input type=\"password\" name=\"password\"><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>"
+  },
+  "a2-Haytaf17": {
+    "repoLink": "https://github.com/ituis18/a2-Haytaf17",
+    "pageLink": "https://haytaf17.herokuapp.com",
+    "hash": "9df2eddc123d932ff9d73746e60b1282c4167606def08b9151139900abc8421a",
+    "password": "",
+    "action": "/Submit",
+    "passField": "security",
+    "fields": [
+      "answer",
+      "answer",
+      "comment"
+    ],
+    "raw": "<form action=\"/Submit\" method=\"GET\">\n    <p class=\"question\">When did the \"MaNga Band\" take part in eurovision?</p>\n    <div class=\"boxes\">\n    <div class=\"radio\">\n    <input type=\"radio\" name=\"answer\" value=\"No\"/>\n    <label>2008</label>\n    <input type=\"radio\" name=\"answer\" value=\"correct\" checked=\"ok\"/>\n    <label>2010</label>\n    <br><br>\n    </div>\n    <div class=\"boxes\">\n    <label>- - - - - - - - - - - - - - - - - - - - - - - - - COMMENT - - - - - - - - - - - - - - - - - - - - - - - - - - -</label>\n    <textarea name=\"comment\" rows=\"7\" cols=\"150\" placeholder=\"Write here\" maxlength=\"300\" ></textarea>\n    <div class=\"pass\">\n    <label>PASSWORD</label>\n    </div>\n    <div>\n    <input type=\"password\" name=\"security\" />\n    </div>\n    <input type=\"Submit\" value=\"Send\" />\n    </form>"
+  },
+  "a2-Maelboss": {
+    "repoLink": "https://github.com/ituis18/a2-Maelboss",
+    "pageLink": "https://highestgradesweblaze.herokuapp.com",
+    "hash": "f5885b5927323e158a49b9d6f375f39163f567658d215905eb14d6482ab96090",
+    "password": "barbados",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "answer",
+      "answer",
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"post\">\n<span style=\"color:white; background-color:black;\">Did you enjoy your stay here?</span> <br>\n            <label class=\"question\"> <input type=\"radio\" name=\"answer\" value=\"accept\" checked /> YES </label> <br> <br> <br> <br> \n            <label class=\"question\" style=\"color:Black;\"> <input type=\"radio\" name=\"answer\" value=\"accept again\" /> NO </label> <br> <br> <br> <br> <hr> <br>\n            <span style=\"color:white; background-color:black;\">Which Beach did you enjoy the most ?:</span>: <input name=\"comment\" type=\"text\" />\n            <span style=\"color:white; background-color:black;\" >Password:</span>: <input name=\"password\" type=\"password\" />\n            <input value=\"ADD\" type=\"submit\" />\n        </form>"
+  },
+  "a2-erfur": {
+    "repoLink": "https://github.com/ituis18/a2-erfur",
+    "pageLink": "",
+    "hash": "dd4765909b94d69452c2b1e6165e0dffe99034e4b8add79761e1eda3ca353e49",
+    "password": ""
+  },
+  "a2-huseyinakuzum": {
+    "repoLink": "https://github.com/ituis18/a2-huseyinakuzum",
+    "pageLink": "https://blg101e-assignment2.herokuapp.com",
+    "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password": "password"
+  },
+  "a2-CanselRt": {
+    "repoLink": "https://github.com/ituis18/a2-CanselRt",
+    "pageLink": "https://assignmentaboutpython.herokuapp.com",
+    "hash": "fb07166179b1ce3c49dff4b590c44d66119608be403d9be8c43e7372a997ee75",
+    "password": "poi"
+  },
+  "a2-cansuynk": {
+    "repoLink": "https://github.com/ituis18/a2-cansuynk",
+    "pageLink": "https://isaacasimov.herokuapp.com",
+    "action": "/contact",
+    "passField": "password",
+    "fields": [
+      "name",
+      "option",
+      "option",
+      "comment"
+    ],
+    "raw": "<form action=\"/contact\" method=\"post\">\n\t\t\t\t<br/><br/>\t\t\t\n\t\t\t\tYour Username:\n\t\t\t\t<input type=\"text\" name=\"name\" placeholder=\"Name\">\n\t\t\t\t\t  \n\t\t\t\tYour Password:\n\t\t\t\t<input type=\"password\" name=\"password\" placeholder=\"Password\">\n\t\t\t\t\t  \n\t\t\t\t<input type=\"submit\" value=\"Submit\"><br/><br/>\n\t\t\t\t\n\t\t\t\t<input type=\"radio\" name=\"option\" value=\"Register\" checked>Register\n\t\t\t\t<input type=\"radio\" name=\"option\" value=\"Comment\">Comment\n\t\t\t\t\n\t\t\t\t<br/><br/><p>%s</p>\n\t\t\t\t<div class=\"comment\">\n\t\t\t\t\t<input type=\"text\" name=\"comment\" placeholder=\"Write your comment here\"/>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</form>"
+  },
+  "a2-rahimova18": {
+    "repoLink": "https://github.com/ituis18/a2-rahimova18",
+    "pageLink": "https://a2-fatimarahimova18.herokuapp.com",
+    "hash": "c99b372e37dba009bfff86718bd015a5306acdac037a067a0cba3656d81063ee",
+    "password": "rahimova"
+  },
+  "a2-Escolhido1": {
+    "repoLink": "https://github.com/ituis18/a2-Escolhido1",
+    "pageLink": "https://blg101assignment2.herokuapp.com",
+    "hash": "04651cd5fa4e877d46f1ee74a89bc548b37471afde7b7881b150fb6b08f7e1ca",
+    "password": "toxic"
+  },
+  "a2-aliozkan7": {
+    "repoLink": "https://github.com/ituis18/a2-aliozkan7",
+    "pageLink": ""
+  },
+  "a2-mesatk": {
+    "repoLink": "https://github.com/ituis18/a2-mesatk",
+    "pageLink": ""
+  },
+  "a2-SharumKa": {
+    "repoLink": "https://github.com/ituis18/a2-SharumKa",
+    "pageLink": "https://sharumka.herokuapp.com"
+  },
+  "a2-AhmetAlperYilmaz": {
+    "repoLink": "https://github.com/ituis18/a2-AhmetAlperYilmaz",
+    "pageLink": "https://blg101assignment2-ahmetalper.herokuapp.com",
+    "hash": "219aeb43c0cc62089487cc77c6603b760edac4d616186e6fea5d0aa8122f49c2",
+    "password": "zazamurtaza"
+  },
+  "a2-khmaxim": {
+    "repoLink": "https://github.com/ituis18/a2-khmaxim",
+    "pageLink": "https://saynotodrm.herokuapp.com",
+    "hash": "c89bbbf01fa7840fdbf194a621ef899258e9210d6c77b6f033b6ebfa15f7230d",
+    "password": "SecurePassword",
+    "action": "/add_comment",
+    "passField": "password",
+    "fields": [
+      "nickname",
+      "gender",
+      "gender",
+      "comment"
+    ],
+    "raw": "<form action=\"/add_comment\" method=\"POST\">\n\t\t\t<fieldset>\n\t\t\t\t<legend>What Did You Think About The Website?</legend>\n\t\t\t\tNickname:<br/>\n\t\t\t\t<input type=\"text\" name=\"nickname\" class=\"text-input\" placeholder=\"Anonymous\" maxlength=\"32\"/><br/>\n\t\t\t\tGender:<br/>\n\t\t\t\t<input type=\"radio\" name=\"gender\" value=\"Male\" checked> Male\n\t\t\t\t<input type=\"radio\" name=\"gender\" value=\"Female\"> Female<br/>\n\t\t\t\tComment:<br/>\n\t\t\t\t<input type=\"text\" name=\"comment\" class=\"text-input\" placeholder=\"Enter what you think\" maxlength=\"140\"/><br/>\n\t\t\t\tPassword:<br/>\n\t\t\t\t<input type=\"password\" name=\"password\" class=\"text-input\" placeholder=\"SecurePassword\"/><br/>\n\t\t\t\t<input type=\"submit\" class=\"text-input\" value=\"Submit\"/>\n\t\t\t</fieldset>\n\t\t</form>"
+  },
+  "a2-mustafakucukk": {
+    "repoLink": "https://github.com/ituis18/a2-mustafakucukk",
+    "pageLink": "https://mybig101assignment.herokuapp.com",
+    "action": "/message",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "send"
+    ],
+    "raw": "<form action =\"/message\" method =\"post\" >\n\t\n\tPassword = <input type=\"password\" name=\"password\" maxlength=\"9\"/>\n\t\n\t\n\t\n\t<br><br>\n\t\n\t\n\tComment here!<br>\t\n\t<textarea name=\"comment\"  rows=\"10\" cols=\"50\"></textarea><br>\n\t\n\t\n\t\n<input type=\"submit\" name=\"send\" value=\"Send\"/>\n\t</form>"
+  },
+  "a2-muhammetakcan": {
+    "repoLink": "https://github.com/ituis18/a2-muhammetakcan",
+    "pageLink": "",
+    "hash": "f3a7496649452449ba0e58d128faa70f072fb591a0726f722e9994c860ecf4eb",
+    "password": "3421",
+    "action": "/comment",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form action=\"/comment\" method=\"post\">\n            <input name=\"password\" type=\"password\" placeholder=\"password\" >\n            <input type=\"submit\" value=\"submit\" /></form>"
+  },
+  "a2-atatrkz": {
+    "repoLink": "https://github.com/ituis18/a2-atatrkz",
+    "pageLink": "https://atatrkzblg101eassignment.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456"
+  },
+  "a2-yasinuyuk": {
+    "repoLink": "https://github.com/ituis18/a2-yasinuyuk",
+    "pageLink": "https://yasinkuyuk.herokuapp.com",
+    "hash": "aa6ed97b3cbba442fafe730d7c0dd31cb117c86c6a57649c1b5958241cb95382",
+    "password": "yasink"
+  },
+  "a2-betultr": {
+    "repoLink": "https://github.com/ituis18/a2-betultr",
+    "pageLink": "https://a2betul.herokuapp.com",
+    "hash": "b8a72255aedf3a01cb4aece302283ce9ef5df5c36290a93f324ab30af75c3be8",
+    "password": "assa"
+  },
+  "a2-occ55": {
+    "repoLink": "https://github.com/ituis18/a2-occ55",
+    "pageLink": "",
+    "hash": "b4957d6ff819e619c881b4e8dc9c0de17dae962197d9aefc487fc3d91114d476",
+    "password": ""
+  },
+  "a2-nxavierb": {
+    "repoLink": "https://github.com/ituis18/a2-nxavierb",
+    "pageLink": "https://ituis18-a2-nxavierb.herokuapp.com",
+    "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password": "password"
+  },
+  "a2-xwededa": {
+    "repoLink": "https://github.com/ituis18/a2-xwededa",
+    "pageLink": "",
+    "hash": "60562eb61e2bac4f17460fa0dad443d7e8db6e61ba98dbbb954872c4d7b34bb5",
+    "password": "furkan"
+  },
+  "a2-yasarbunyamin": {
+    "repoLink": "https://github.com/ituis18/a2-yasarbunyamin",
+    "pageLink": "https://myapplication-app.herokuapp.com",
+    "hash": "965850011f57b71c42c1fa5f8867741359787e84bccd5c0b890fd08b8fb45b47",
+    "password": ""
+  },
+  "a2-sevvalyildiz": {
+    "repoLink": "https://github.com/ituis18/a2-sevvalyildiz",
+    "pageLink": "https://sevvalyildizbil101assigment.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-elifkoseler": {
+    "repoLink": "https://github.com/ituis18/a2-elifkoseler",
+    "pageLink": "https://elifkoseler.herokuapp.com"
+  },
+  "a2-leventkuru": {
+    "repoLink": "https://github.com/ituis18/a2-leventkuru",
+    "pageLink": "https://myblg101assignmentrlk.herokuapp.com",
+    "hash": "f36baade1ed37b51097d59d21423eb8c807df43fbb437c399633339b933ac38e",
+    "password": "Levent",
+    "action": "/comments",
+    "passField": "password",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"GET\">\n\t\t  <h3>Enter your comment: </h3>\n\t\t  <p>Comment:</p>\n          <div class=\"Input_Text\">\n          <input type=\"text\" name=\"comment\" size=\"100\" />\n          </div>\n          <p>Password:</p>\n          <div class=\"Input_Pass\">\n          <input type=\"password\" name=\"password\" size=\"10\" />\n          </div>\n          <div>\n          <input type=\"submit\" value=\"Register\" />\n          </div>\n        </form>"
+  },
+  "a2-AydinDeniz": {
+    "repoLink": "https://github.com/ituis18/a2-AydinDeniz",
+    "pageLink": "https://denizblg101assignment.herokuapp.com",
+    "hash": "5fd9405602376de9b564b6a4e180722deaaa22e7e230acc354376e22068bbc99",
+    "password": "trabzon",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "safe",
+      "safe"
+    ],
+    "raw": "<form method=\"get\">\n\t\t \t <textarea name=\"comment\" rows=\"8\" cols=\"64\">\n\t\t\t </textarea><br>\n\t\t \tPassword:<br>\n\t\t \t<input type=\"password\" name=\"password\"> \n\t\t \t<input type=\"submit\" value=\"send\">\n            <input type=\"radio\" value=\"0\" name=\"safe\" checked>\n            <label>I am a robot</label>\n\t\t \t<input type=\"radio\" value=\"1\" name=\"safe\">\n            <label>I am not a robot</label>\n\t\t \t</form>"
+  },
+  "a2-yusufalptigin": {
+    "repoLink": "https://github.com/ituis18/a2-yusufalptigin",
+    "pageLink": "https://blgassignment2.herokuapp.com",
+    "hash": "8547fdd1c1d599e991fed82435c1ad3f18a88c03bc7323ca963e31b9a7ffed8c",
+    "password": ""
+  },
+  "a2-huseyinoglu17": {
+    "repoLink": "https://github.com/ituis18/a2-huseyinoglu17",
+    "pageLink": "https://keremhomework.herokuapp.com",
+    "action": "/comments",
+    "passField": "pw",
+    "fields": [
+      "comment"
+    ],
+    "raw": "<form action=\"/comments\" method=\"get\">\n                    <p style =\"margin-top:40px;margin-left:0;\" >your comment:</p>\n                    <input style =\"margin-left:0;\" type=\"text\" name=\"comment\" />\n                    <p style =\"margin-left:0;\">your password:</p>\n                    <input style =\"margin-left:0;\" type=\"password\" name=\"pw\" />\n                    <input type=\"submit\" value=\"submit\" />\n                    <input type=\"radio\" />\n                    </form>"
+  },
+  "a2-ortacalper": {
+    "repoLink": "https://github.com/ituis18/a2-ortacalper"
+  },
+  "a2-tevfikozgu": {
+    "repoLink": "https://github.com/ituis18/a2-tevfikozgu",
+    "pageLink": "",
+    "hash": "296c5085ec73266197571b2e34fa91eab32789af00994f6fb04e4026028accf1",
+    "password": "firstpassword",
+    "action": "/Comment",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form action=\"/Comment\" method=\"post\">\n\t<fieldset>\n\t<legend>Password</legend>\n\tPassword:<br>\n\t<input type=\"password\" name=\"password\"><br>\n\t<input type=\"submit\" value=\"Pass\">\n\t<input type=\"reset\">\n\t</fieldset>\n\t</form>"
+  },
+  "a2-urgancimetin": {
+    "repoLink": "https://github.com/ituis18/a2-urgancimetin",
+    "pageLink": "",
+    "hash": "f1eab585b032f17ec86d00ac6b4fd01c311719846d556c4b59fa58a5df2912ee",
+    "password": ""
+  },
+  "a2-yusufhilmi": {
+    "repoLink": "https://github.com/ituis18/a2-yusufhilmi",
+    "pageLink": "https://a2-yusufhilmi.herokuapp.com",
+    "hash": "da30e45705f79aa7555b538e098d0ab284fbc6c890f92ed8ad1722b63aa69201",
+    "password": "yoyo",
+    "action": "/",
+    "passField": "user_password",
+    "fields": [
+      "user_choice",
+      "user_choice",
+      "user_song",
+      "user_song",
+      "user_song",
+      "user_song",
+      "user_song",
+      "user_name",
+      "user_submit"
+    ],
+    "raw": "<form action=\"/\" method=\"post\">\n                <div>\n                    \n                    <label>Which one did you like most?</label>\n                    <br><br>\n                    \n                    <input type =\"radio\" name=\"user_choice\" value=\"dan\">Dan Auerbach<br>\n                    <input type =\"radio\" name=\"user_choice\" value=\"patrick\">Patrick Carney<br>\n                    <br><br><br>\n                    <h6>Select the songs you liked</h6>\n                    <input type=\"checkbox\" name=\"user_song\"> Tighten Up <br>\n                    <input type=\"checkbox\" name=\"user_song\"> Howlin For You <br>\n                    <input type=\"checkbox\" name=\"user_song\"> Little Black Submarines <br>\n                    <input type=\"checkbox\" name=\"user_song\"> Lonely Boy <br>\n                    <input type=\"checkbox\" name=\"user_song\"> Gold on the Ceiling <br>\n                </div>\n                \n                <div>\n                    <br><br><br>\n                    <label>Enter Your Comment:</label>\n                    <input class=\"comment\" type=\"text\"  name=\"user_name\">\n                </div>\n                <div>\n                    <br>\n                    <label>Enter Your Password:</label>\n                    <input class=\"password\" type=\"password\" name=\"user_password\">\n                    <br><br>\n                        \n                    <input style=\"margin-left: 150px;\" type=\"submit\" name=\"user_submit\" value=\"Submit My Comment\">\n                </div>\n                <ol>\n                    %s\n                </ol>\n            </form>"
+  },
+  "a2-ibrahimztrk61": {
+    "repoLink": "https://github.com/ituis18/a2-ibrahimztrk61",
+    "pageLink": "https://blg101a2.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-senturkm17": {
+    "repoLink": "https://github.com/ituis18/a2-senturkm17",
+    "pageLink": "https://neytblg101.herokuapp.com",
+    "hash": "bea8d2b3d24e4edfc419a1965e35dffb2a37c9cffa71e876824a0e560655ecee",
+    "password": ""
+  },
+  "a2-onatsahin": {
+    "repoLink": "https://github.com/ituis18/a2-onatsahin",
+    "pageLink": "https://onatsahin-blg101-a2.herokuapp.com",
+    "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "password": "password",
+    "action": "/new_comment",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "topic",
+      "submit_button"
+    ],
+    "raw": "<form action=\"/new_comment\" method=\"post\" id=\"comment_form\">\n            Comment: <input type=\"text\" name=\"comment\" size=\"50\"/>\n            &nbsp;\n            Topic:\n            <select name=\"topic\" form=\"comment_form\">\n                <option value=\"Back to the Future Part 2\">Back to the Future Part 2</option>\n                <option value=\"Blade Runner\">Blade Runner</option>\n                <option value=\"Mobile Suit Gundam\">Mobile Suit Gundam</option>\n                <option value=\"Cowboy Bebop\">Cowboy Bebop</option>\n                <option value=\"Ghost in the Shell\">Ghost in the Shell</option>\n                <option value=\"We\">We</option>\n                <option value=\"Other\">Other</option>\n            </select> <br/><br/>\n            Password: <input type=\"password\" name=\"password\"/> <br/><br/>\n            <input type=\"submit\" name=\"submit_button\"/>\n        </form>"
+  },
+  "a2-ArdaCuce": {
+    "repoLink": "https://github.com/ituis18/a2-ArdaCuce",
+    "pageLink": "https://blg101app.herokuapp.com",
+    "hash": "5696d539b4ffc960aacbcc0c6982392085d0a1411bc7b8eabc956d393a27c62e",
+    "password": "arda"
+  },
+  "a2-turgaytinas": {
+    "repoLink": "https://github.com/ituis18/a2-turgaytinas",
+    "pageLink": "https://tinas17build.herokuapp.com",
+    "hash": "ef92ada99b844f0290bc915973183406c82b7d54aa0e7ff075b17039dc348fd8",
+    "password": "",
+    "action": "/repl.html",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "point",
+      "point"
+    ],
+    "raw": "<form action = \"/repl.html\" method = \"post\">\n    \t\t\t<h1>Comment:</h1> <br>\n    \t\t\t<textarea name=\"comment\" rows=\"12\" cols=\"170\">Please be nice on your comments</textarea>\n    \t\t\t<br> <h3>Password:</h3> <br>\n    \t\t\t<input type = \"password\" name = \"password\" ><br>\n\t\t\t\t<input type=\"radio\" name=\"point\" value=\"yes\" checked/>good comment<br>\n\t\t\t\t<input type=\"radio\" name=\"point\" value=\"no\" />bad comment<br>\n    \t\t\t<input type = \"submit\" value=\"SEND\">\t\t\n    \t\t\t\n    \t</form>"
+  },
+  "a2-Aykutisik": {
+    "repoLink": "https://github.com/ituis18/a2-Aykutisik",
+    "pageLink": "https://aykutisik.herokuapp.com",
+    "hash": "ac13a8b534df4a28d0fbbbb64cff909b5b1e8faddb4e5ea57bb8a642ce998f66",
+    "password": "brooklyn"
+  },
+  "a2-Kirchhoff3": {
+    "repoLink": "https://github.com/ituis18/a2-Kirchhoff3",
+    "pageLink": "",
+    "action": "/commentp",
+    "passField": "pw1",
+    "fields": [],
+    "raw": "<form action=\"/commentp\" method=\"post\">\nPassword:\n<input type=\"password\" name=\"pw1\">\n<input type=\"submit\" value=\"Enter\">\n</form>"
+  },
+  "a2-brkdnmz": {
+    "repoLink": "https://github.com/ituis18/a2-brkdnmz",
+    "pageLink": "https://brkdnmz-app.herokuapp.com",
+    "hash": "378bc297aed78d68f2aa8dbb2064d8beb85f42fab45e1062e1749659a25b0524",
+    "password": "averysecretpassword",
+    "action": "/comments.html",
+    "passField": "password",
+    "fields": [
+      "nickname",
+      "lecturer",
+      "lecturer",
+      "gender"
+    ],
+    "raw": "<form action=\"/comments.html\" autocomplete=\"on\">\n\t <fieldset>\n\t  <legend>You Should Fill Those:</legend>\n\t  Name you want to be seen with:\n\t  <input type=\"text\" name=\"nickname\" size=\"36\"\n\t  placeholder=\"Like 'crazy_boi', 'ituis18_student', 'ignore_me'...\" autofocus required><br><br>\n      The secret password you have to put in there:\n\t  <input type=\"password\" name=\"password\" placeholder=\"A very secret password :) ...\" autocomplete=\"off\" required><br><br>\n\t  Whose student are you?<br><br>\n\t  <input type=\"radio\" name=\"lecturer\" value=\"djduff\">Damien Jade Duff<br>\n\t  <input type=\"radio\" name=\"lecturer\" value=\"turgutuyar\">Hayri Turgut Uyar\n\t  <br><br>\n\t  Are you a boy or a girl?\n\t  <select name=\"gender\">\n\t   <option value=\"boy\">Boy</option>\n\t   <option value=\"girl\">Girl</option>\n\t  <br><br>\n\t  <input type=\"image\" src=\"./static/login_icon.gif\" title=\"Login\" alt=\"Login\" width=100 height=100>\n\t </fieldset>\n\t</form>"
+  },
+  "a2-demirba18": {
+    "repoLink": "https://github.com/ituis18/a2-demirba18",
+    "pageLink": "https://demirba18.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456"
+  },
+  "a2-zeynepdndr": {
+    "repoLink": "https://github.com/ituis18/a2-zeynepdndr",
+    "pageLink": "https://itu18-a2-zeynepdndrstudent.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
   },
   "a2-tatoglu18": {
     "repoLink": "https://github.com/ituis18/a2-tatoglu18",
     "pageLink": "https://tatoglu18-webapp.herokuapp.com",
+    "hash": "b96b2e88c22576d72523558af3a5fe9ec80eda4c4353aab924a511b9e6b24dab",
+    "password": "youshallnotpass",
     "action": "/summary.html",
     "passField": "psw",
     "fields": [
@@ -768,74 +1444,145 @@
     ],
     "raw": "<form action=\"/summary.html\" method=\"POST\">\n    First Name:<br>\n    <input type='text' name='firstname' value='' required>\n    <br>\n    Last Name:<br>\n    <input type='text' name='lastname' value='' required><br>\n    Password:<br>\n    <input type='password' name='psw' required><br><br>\n    <input type='reset' value='Reset'>\n    \n    <p style=\"color:red\">What is your favourite Pirates of The Caribbean film?</p>\n\n    <input type=\"radio\" name=\"film\" value=\"The Curse of The Black Pearl\" checked> The Curse of The Black Pearl<br>\n    <input type=\"radio\" name=\"film\" value=\"Dead Man's Chest\"> Dead Man's Chest<br>\n    <input type=\"radio\" name=\"film\" value=\"At World's End\"> At World's End<br>\n    <input type=\"radio\" name=\"film\" value=\"On Starnger Tides\"> On Starnger Tides<br>\n    <input type=\"radio\" name=\"film\" value=\"Dead Men Tell No Tales\"> Dead Men Tell No Tales<br>\n    \n    <p style=\"color:red\">Which Pirates of The Caribbean films didn't you watch?</p>\n\n    <input type=\"checkbox\" name=\"films\" value=\"The Curse of The Black Pearl\"> The Curse of The Black Pearl<br>\n    <input type=\"checkbox\" name=\"films\" value=\"Dead Man's Chest\"> Dead Man's Chest<br>\n    <input type=\"checkbox\" name=\"films\" value=\"At World's End\"> At World's End<br>\n    <input type=\"checkbox\" name=\"films\" value=\"On Starnger Tides\"> On Starnger Tides<br>\n    <input type=\"checkbox\" name=\"films\" value=\"Dead Men Tell No Tales\"> Dead Men Tell No Tales<br>\n    <input type='submit' value='Submit'>\n</form>"
   },
-  "a2-alpgiraykacira": {
-    "repoLink": "https://github.com/ituis18/a2-alpgiraykacira",
-    "pageLink": "https://blg101alpgiray.herokuapp.com",
-    "action": "/comments",
+  "a2-Onefivezero": {
+    "repoLink": "https://github.com/ituis18/a2-Onefivezero",
+    "pageLink": "https://chessisbetterthancheckers.herokuapp.com",
+    "hash": "a9c1034fb623883b5786268bbde25a871b72c9920a4ff708d516e4852bcf7da0",
+    "password": "pancake"
+  },
+  "a2-oguzhankarabacak": {
+    "repoLink": "https://github.com/ituis18/a2-oguzhankarabacak",
+    "pageLink": "https://blg101oguzhankarabacak.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456",
+    "action": "/login",
     "passField": "password",
     "fields": [
-      "position",
-      "position",
-      "name",
-      "comment"
+      "message",
+      "team",
+      "team",
+      "username",
+      "login"
     ],
-    "raw": "<form action=\"/comments\" method=\"post\">\n    <br><br>Choose a position.<br>    \n    <input type=\"radio\" name=\"position\" value=\"offense\"> OFFENSE <br/>\n    <input type=\"radio\" name=\"position\" value=\"defence\"> DEFENCE <br/> \n  Name:<br>\n  <input type=\"text\" name=\"name\"><br>  \n  Comment:<br>\n  <input type=\"text\" name=\"comment\"><br>\n  Password:<br>\n  <input type=\"password\" name=\"password\"><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>"
+    "raw": "<form action=\"/login\" method=\"post\">\n    \t\t\t\t\t\t\t<textarea name=\"message\" rows=\"5\" cols=\"100\" placeholder=\"WHY?(Total 250 Character)\" maxlength=\"250\" ></textarea>\n    \t\t\t\t\t\t\t<br/>\n    \t\t\t\t\t\t\t\n    \t\t\t\t\t\t\t<input type=\"radio\" name=\"team\" value=\"real\" /> Real Madrid\n    \t\t\t\t\t\t\t \t\t\t\t\t\n    \t\t\t\t\t\t\t<input type=\"radio\" name=\"team\" value=\"other\" /> Other Teams\n    \t\t\t\t\t\t\t<br/>\n    \t\t\t\t\t\t\t<br/>\n            Username: <input name=\"username\" type=\"text\" />\n            Password: <input name=\"password\" type=\"password\" />\n            <br/>\n            <br/>\n            <input name=\"login\" value=\"Login\" type=\"submit\" class=\"send\" />\n        </form>"
   },
-  "a2-akkoc16": {
-    "repoLink": "https://github.com/ituis18/a2-akkoc16",
-    "pageLink": "https://blg101asssignment2.herokuapp.com",
-    "action": "/repl",
+  "a2-by-waryoq": {
+    "repoLink": "https://github.com/ituis18/a2-by-waryoq",
+    "pageLink": "https://blg101assignment.herokuapp.com",
+    "hash": "1fe4d8e670a21227e5b970edc647b890b04794499ca2eb904683d07657bfd32e",
+    "password": "varyok",
+    "action": "/control",
     "passField": "password",
     "fields": [
-      "comment"
+      "nickname",
+      "anon",
+      "content"
     ],
-    "raw": "<form action=\"/repl\" method=\"post\">\n                Comment: <input name=\"comment\" type=\"text\" value=\"\" /></br>\n                Password: <input name=\"password\" type=\"password\" value=\"\" />\n                <input value=\"Submit\" type=\"submit\" />\n            </form>"
+    "raw": "<form action=\"/control\" method=\"post\">\n\n    <div id=\"allCommentDiv\" style=\"margin:0 auto;padding:0 auto; \noverflow:hidden;\">\n    \n\t<div id=\"commentDiv\" style=\"float:left;\">\n    <label for=\"nickname\" style=\"color:whitesmoke\">Nickname :</label>\n    <input type=\"text\" id=\"nickname\" name=\"nickname\" placeholder=\"Your Nickname\"><br>\n\n    <label for=\"password\" style=\"color:whitesmoke\">Password &nbsp;: </label>\n    <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"Your Password\"><br>\n    <label style=\"color:whitesmoke\">Write as an anonymous</label>\n    <input type=\"checkbox\" name=\"anon\" value=\"selectAnon\"><br>\n    <input type=\"submit\" value=\"Send Your Comment\">\n        \n</div>\n        <div style=\"float:left;padding:11px\">\n            <textarea placeholder=\"Write your comment here\" name=\"content\" rows=\"11\" cols=\"95\" style=\"padding:10px\"></textarea>  \n       \n        </div>\n            </div>\n        </form>"
   },
-  "a2-KillerJacKTM05": {
-    "repoLink": "https://github.com/ituis18/a2-KillerJacKTM05",
-    "pageLink": "https://studio146.herokuapp.com"
-  },
-  "a2-huseyinoglu17": {
-    "repoLink": "https://github.com/ituis18/a2-huseyinoglu17",
-    "pageLink": "https://keremhomework.herokuapp.com",
-    "action": "/comments",
-    "passField": "pw",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/comments\" method=\"get\">\n                    <p style =\"margin-top:40px;margin-left:0;\" >your comment:</p>\n                    <input style =\"margin-left:0;\" type=\"text\" name=\"comment\" />\n                    <p style =\"margin-left:0;\">your password:</p>\n                    <input style =\"margin-left:0;\" type=\"password\" name=\"pw\" />\n                    <input type=\"submit\" value=\"submit\" />\n                    <input type=\"radio\" />\n                    </form>"
-  },
-  "a2-itubilgas": {
-    "repoLink": "https://github.com/ituis18/a2-itubilgas",
-    "pageLink": "https://blg101assignment2as.herokuapp.com"
-  },
-  "a2-ibrahimztrk61": {
-    "repoLink": "https://github.com/ituis18/a2-ibrahimztrk61",
-    "pageLink": "https://blg101a2.herokuapp.com"
-  },
-  "a2-kereemyildiz": {
-    "repoLink": "https://github.com/ituis18/a2-kereemyildiz",
-    "pageLink": "",
+  "a2-YCT1": {
+    "repoLink": "https://github.com/ituis18/a2-YCT1",
+    "pageLink": "https://my101assigment.herokuapp.com",
+    "hash": "b0572c0eb40f906e03b7c082d6b219b977da02f6c0b4db4f821fe38417b099bc",
+    "password": "",
     "action": "/comment",
-    "passField": "psw",
+    "passField": "pass",
     "fields": [
       "word",
-      "checkbox",
-      "checkbox"
+      "colorText",
+      "colorText"
     ],
-    "raw": "<form action=\"/comment\" method=\"get\">\n                <input type=\"text\" name=\"word\" />\n                <input type=\"password\" name=\"psw\" />\n                <input type=\"submit\" value=\"Click\" /><br>\n                <input type=\"radio\" name=\"checkbox\" value=\"RememberMe\" /><p style=\"font-size:20px;color:orange;\">i)</p><br>\n                <input type=\"radio\" name=\"checkbox\" value=\"Forgotyourpassword?\" /><p style=\"font-size:20px;color:orange;\">ii)</p>\n                </form>"
+    "raw": "<form action=\"/comment\" method=\"get\" style=\"color:black;text-align: center;padding:20px;\">\n                Your Comment: <br><input type=\"text\" name=\"word\" /><br>\n                Password: <br><input type=\"password\" name=\"pass\" value=\"\" /><br><br>\n                <input type=\"submit\" value=\"Submit\" /><br>\n                <input type=\"radio\" name=\"colorText\" value=\"Black\" checked> Black<br>\n                <input type=\"radio\" name=\"colorText\" value=\"Red\"> Red<br>\n                </form>"
   },
-  "a2-senturkm17": {
-    "repoLink": "https://github.com/ituis18/a2-senturkm17",
-    "pageLink": "https://neytblg101.herokuapp.com"
+  "a2-enesituce": {
+    "repoLink": "https://github.com/ituis18/a2-enesituce",
+    "pageLink": "",
+    "hash": "344300781b2a5159efc11fbb0bd2f2c7c604568f2b2f22975f4c036db326625c",
+    "password": ""
   },
-  "a2-oytuncoban": {
-    "repoLink": "https://github.com/ituis18/a2-oytuncoban",
-    "pageLink": "https://itu18-a2-oytuncoban.herokuapp.com"
+  "a2-sabah150170": {
+    "repoLink": "https://github.com/ituis18/a2-sabah150170",
+    "pageLink": "https://blg101-a2-sabah.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-ozdemirahm": {
+    "repoLink": "https://github.com/ituis18/a2-ozdemirahm",
+    "pageLink": "https://ozdemir.herokuapp.com",
+    "hash": "2f77bb1b61a8e2f6b958759334ed052e540d18ae2d26dcfd52df9b059caea1b6",
+    "password": "ahmet"
+  },
+  "a2-sahnerkin": {
+    "repoLink": "https://github.com/ituis18/a2-sahnerkin",
+    "pageLink": "https://sahnerkin.herokuapp.com",
+    "hash": "4f1a9e1058dd06089804da225f66f433859138e42c204856b2903fd8181dfea6",
+    "password": "primetime",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "nickname",
+      "visibility",
+      "visibility",
+      "comment",
+      "send_button"
+    ],
+    "raw": "<form class=\"comment-box\" action=\"/\" method=\"POST\">\n\t\t\t\t\t\t\t<div class=\"comment-box-password\">\n\t\t\t\t\t\t\t\t<label for=\"password\">Password:</label>\n\t\t\t\t\t\t\t\t<input type=\"password\" name=\"password\" id=\"password\" placeholder=\"The password is...\" required>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-nickname\">\n\t\t\t\t\t\t\t<label for=\"nickname\">Nickname:</label>\n\t\t\t\t\t\t\t<input type=\"text\" name=\"nickname\" id=\"nickname\" placeholder=\"Call me...\" required>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-visibility\">\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"visibility\" value=\"visible\" checked=\"checked\"> Show my nickname<br>\n\t\t\t\t\t\t\t<input type=\"radio\" name=\"visibility\" value=\"anon\"> Don't show my nickname<br>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<div class=\"comment-box-comment\">\n\t\t\t\t\t\t\t\t<label for=\"comment\">Your comment:</label>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\t<textarea name=\"comment\" id=\"comment\" placeholder=\"The thing is...\" required></textarea>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"send_button\" value=\"Send\"/>\n\t\t\t\t\t\t</form>"
+  },
+  "a2-egecansigirci": {
+    "repoLink": "https://github.com/ituis18/a2-egecansigirci",
+    "pageLink": "https://a2-egecansigirci.herokuapp.com",
+    "hash": "4f630a1c0c7dd182d2737456e14c89c723c5fce25cae39da4b93f00e90a365cb",
+    "password": "badpass",
+    "action": "/",
+    "passField": "password",
+    "fields": [
+      "comment",
+      "age",
+      "age",
+      "age",
+      "age"
+    ],
+    "raw": "<form method=\"post\">\n            Enter your comment please:<br>\n            <input type=\"text\" name=\"comment\"><br>\n            Password please:<br>\n            <input type=\"password\" name=\"password\"><br>\n            <input type=\"radio\" name=\"age\" value=\"0-17\">0-17<br>\n            <input type=\"radio\" name=\"age\" value=\"18-30\">18-30<br>\n            <input type=\"radio\" name=\"age\" value=\"31-50\">31-50<br>\n            <input type=\"radio\" name=\"age\" value=\"51-99\">51-99<br>\n            <input type=\"submit\" value=\"Send Comment\">\n            <p>COMMENTS</P>\n        </form>"
+  },
+  "a2-inesmuka": {
+    "repoLink": "https://github.com/ituis18/a2-inesmuka",
+    "pageLink": "https://a2blg101im.herokuapp.com",
+    "hash": "e740ec6abf0ebdff6a7aa60f423b92cc83737c5a045f1f79d0cd5915629440cb",
+    "password": "",
+    "action": "/submit",
+    "passField": "password",
+    "fields": [],
+    "raw": "<form method=\"post\" action=\"/submit\">\n                  Pass:<input type=\"password\" name=\"password\" />\n                  <input type=\"submit\" value=\"Submit\" />\n               </form>"
+  },
+  "a2-anilkeskin": {
+    "repoLink": "https://github.com/ituis18/a2-anilkeskin",
+    "pageLink": "https://myassignment-2.herokuapp.com"
+  },
+  "a2-batuhanozdol": {
+    "repoLink": "https://github.com/ituis18/a2-batuhanozdol",
+    "pageLink": "",
+    "hash": "ea71c25a7a602246b4c39824b855678894a96f43bb9b71319c39700a1e045222",
+    "password": "mypass"
+  },
+  "a2-Mayasiz": {
+    "repoLink": "https://github.com/ituis18/a2-Mayasiz",
+    "pageLink": "https://a2-mayasiz.herokuapp.com",
+    "hash": "00a9d320186365a294c97606facb70ae2aba5675298cf1a410a6b04fdecd7a5a",
+    "password": "",
+    "action": "../comments/",
+    "passField": "password_input",
+    "fields": [
+      "comment_input",
+      "happiness",
+      "happiness"
+    ],
+    "raw": "<form action=\"../comments/\" method=\"get\"><p>Your Comment:</p>\n                   \t<input type=\"text\" name=\"comment_input\" placeholder=\"Comment\">\n                   \t<br>\n                   \t<p>Password?</p>\n                   \t<input type=\"password\" name=\"password_input\" placeholder=\"Password\">\n                   \t<br><br><br> <p>Please choose one of the buttons below</p>\n                   \t<input type=\"radio\" name=\"happiness\" value=\"yes\" checked><p>I am happy i saw this site.</p>\n                   \t<input type=\"radio\" name=\"happiness\" value=\"no\"><p>I am not happy i saw this site.</p>\n                   \t<input type=\"submit\" value=\"submit\">\n                   \t</form>"
   },
   "a2-cuneytbatirel": {
     "repoLink": "https://github.com/ituis18/a2-cuneytbatirel",
     "pageLink": "https://blg101assignmentcb.herokuapp.com",
+    "hash": "7499aced43869b27f505701e4edc737f0cc346add1240d4ba86fbfa251e0fc35",
+    "password": "chocolate",
     "action": "/comment.html",
     "passField": "password",
     "fields": [
@@ -846,444 +1593,21 @@
     ],
     "raw": "<form action = \"/comment.html\" method = \"post\">\n      \t  <h1>Comment:</h1> <br>\n      \t  <textarea name=\"comment\" rows=\"12\" cols=\"170\" placeholder=\"Please Enter Your Comment\"></textarea>\n      \t  <br> <h3>Password:</h3> <br>\n      \t  <input type = \"password\" name = \"password\" ><br><br>\n  \t\t  <input type=\"radio\" name=\"rating\" value=\"good\" checked/>Positive Comment<br>\n  \t\t  <input type=\"radio\" name=\"rating\" value=\"neutral\" />Neutral Comment<br>\n  \t\t  <input type=\"radio\" name=\"rating\" value=\"bad\" />Negative Comment<br><br>\n      \t  <input type = \"submit\" value=\"SEND\">\t\t\n      </form>"
   },
-  "a2-mesatk": {
-    "repoLink": "https://github.com/ituis18/a2-mesatk",
-    "pageLink": ""
-  },
-  "a2-drummerkoala": {
-    "repoLink": "https://github.com/ituis18/a2-drummerkoala",
-    "pageLink": "https://cutestprojectavailable.herokuapp.com",
-    "action": "/comment",
-    "passField": "password",
-    "fields": [
-      "name",
-      "answerforall",
-      "comment"
-    ],
-    "raw": "<form action=\"/comment\" method=\"POST\">\n\n            <label for=\"name\">Name</label>\n                <input type=\"text\" name=\"name\" placeholder=\"Enter your name..\">\n\n            <label for=\"password\">Password</label>\n                <input type=\"password\" name=\"password\" placeholder=\"Enter the password(it's drummerkoala)..\">\n\n            <label for=\"answerforall\">Answer to the Ultimate Question of Life, the Universe, and Everything</label>\n                <select name=\"answerforall\">\n                  <option value=\"God\">God</option>\n                  <option value=\"Love\">Love</option>\n                  <option value=\"42\">42</option>\n                  <option value=\"Chuck Norris\">Chuck Norris</option>\n            \t  <option value=\"Music\">Music</option>\n            \t  <option value=\"Keyboards\">Keyboards</option>\n                </select>\n\n\n<label for=\"comment\">Comment</label>\n<textarea id=\"subject\" name=\"comment\" placeholder=\"Write something..\" style=\"height:75px\"></textarea>\n\n<input type=\"submit\" value=\"Submit\">{error}\n    </form>"
-  },
-  "a2-urgancimetin": {
-    "repoLink": "https://github.com/ituis18/a2-urgancimetin",
-    "pageLink": ""
-  },
-  "a2-yilmazmuhammed": {
-    "repoLink": "https://github.com/ituis18/a2-yilmazmuhammed",
-    "pageLink": "https://ituis18-a2-yilmazmuhammed.herokuapp.com"
-  },
-  "a2-batuhanfaik": {
-    "repoLink": "https://github.com/ituis18/a2-batuhanfaik",
-    "pageLink": "https://a2-batuhanfaik.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "nick",
-      "anon",
-      "comment"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n                    Nickname: <input name=\"nick\" type=\"text\" />\n                    Anonymous: <input name=\"anon\" type=\"checkbox\" />\n                    <br /><br />\n                    Comment: <input name=\"comment\" type=\"text\" />\n                    Password: <input name=\"password\" type=\"password\" />\n                    <input value=\"Submit\" type=\"submit\" />\n                </form>"
-  },
-  "a2-mgunseber": {
-    "repoLink": "https://github.com/ituis18/a2-mgunseber",
-    "pageLink": ""
-  },
-  "a2-karaaslan18": {
-    "repoLink": "https://github.com/ituis18/a2-karaaslan18",
-    "pageLink": "https://elmam.herokuapp.com",
-    "action": "/index.html",
-    "passField": "password",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/index.html\" method=\"post\">\n            <fieldset>\n                <legend>Would you like say anything</legend>\n                What is your comment?\n                <br>\n                <input type=\"text\" name=\"comment\">\n                <br>\n                Enter your password please.\n                <br>\n                <input type=\"password\" name=\"password\">\n                <br>\n                <input type=submit value=\"SEND\">\n            </fieldset>\n        </form>"
-  },
-  "a2-abdinli18": {
-    "repoLink": "https://github.com/ituis18/a2-abdinli18",
-    "pageLink": "https://ituis18-a2-abdinli18.herokuapp.com"
-  },
-  "a2-cihnalp": {
-    "repoLink": "https://github.com/ituis18/a2-cihnalp",
-    "pageLink": "https://myassignmentblg101.herokuapp.com"
-  },
-  "a2-cetina16": {
-    "repoLink": "https://github.com/ituis18/a2-cetina16",
-    "pageLink": "https://a2-cetina16.herokuapp.com"
-  },
-  "a2-leventkuru": {
-    "repoLink": "https://github.com/ituis18/a2-leventkuru",
-    "pageLink": "https://myblg101assignmentrlk.herokuapp.com",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/comments\" method=\"GET\">\n\t\t  <h3>Enter your comment: </h3>\n\t\t  <p>Comment:</p>\n          <div class=\"Input_Text\">\n          <input type=\"text\" name=\"comment\" size=\"100\" />\n          </div>\n          <p>Password:</p>\n          <div class=\"Input_Pass\">\n          <input type=\"password\" name=\"password\" size=\"10\" />\n          </div>\n          <div>\n          <input type=\"submit\" value=\"Register\" />\n          </div>\n        </form>"
-  },
-  "a2-occ55": {
-    "repoLink": "https://github.com/ituis18/a2-occ55",
-    "pageLink": ""
-  },
-  "a2-buyuktas18": {
-    "repoLink": "https://github.com/ituis18/a2-buyuktas18",
-    "pageLink": "https://www.herokucdn.com/deploy/button.png)](https://my-blg-101-project.herokuapp.com"
-  },
-  "a2-Escolhido1": {
-    "repoLink": "https://github.com/ituis18/a2-Escolhido1",
-    "pageLink": "https://blg101assignment2.herokuapp.com"
-  },
-  "a2-cbetul": {
-    "repoLink": "https://github.com/ituis18/a2-cbetul",
-    "pageLink": "https://juliadream.herokuapp.com",
-    "action": "/comments",
-    "passField": "pas",
-    "fields": [
-      "com",
-      "film",
-      "film",
-      "film",
-      "film",
-      "film"
-    ],
-    "raw": "<form action=\"/comments\" method=\"get\">\n\t\tComment: <input type=\"text\" name=\"com\" /><br>\n\t\tPassword: <input type=\"password\" name=\"pas\" /><br>\n\t\t<p>What is your favourite Wong Kar Wai movie?</p>\n\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Chungking Express\">Chungking Express<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Happy Together\">Happy Together<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"In the Mood for Love\">In the Mood for Love<br></p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\"Fallen Angels\">Fallen Angels</p>\n\t\t  <p><input type=\"radio\" name=\"film\" value=\":(\" checked = \"checked\">I hate Wong Kar Wai</p>\n\t\t  <p><input type=\"submit\" value=\"Submit\"></p>\t  \n\t\t</form>"
-  },
-  "a2-cashkl": {
-    "repoLink": "https://github.com/ituis18/a2-cashkl",
-    "pageLink": "https://myblg101assignment-cashkl.herokuapp.com"
-  },
-  "a2-khmaxim": {
-    "repoLink": "https://github.com/ituis18/a2-khmaxim",
-    "pageLink": "https://saynotodrm.herokuapp.com",
-    "action": "/add_comment",
-    "passField": "password",
-    "fields": [
-      "nickname",
-      "gender",
-      "gender",
-      "comment"
-    ],
-    "raw": "<form action=\"/add_comment\" method=\"POST\">\n\t\t\t<fieldset>\n\t\t\t\t<legend>What Did You Think About The Website?</legend>\n\t\t\t\tNickname:<br/>\n\t\t\t\t<input type=\"text\" name=\"nickname\" class=\"text-input\" placeholder=\"Anonymous\" maxlength=\"32\"/><br/>\n\t\t\t\tGender:<br/>\n\t\t\t\t<input type=\"radio\" name=\"gender\" value=\"Male\" checked> Male\n\t\t\t\t<input type=\"radio\" name=\"gender\" value=\"Female\"> Female<br/>\n\t\t\t\tComment:<br/>\n\t\t\t\t<input type=\"text\" name=\"comment\" class=\"text-input\" placeholder=\"Enter what you think\" maxlength=\"140\"/><br/>\n\t\t\t\tPassword:<br/>\n\t\t\t\t<input type=\"password\" name=\"password\" class=\"text-input\" placeholder=\"SecurePassword\"/><br/>\n\t\t\t\t<input type=\"submit\" class=\"text-input\" value=\"Submit\"/>\n\t\t\t</fieldset>\n\t\t</form>"
-  },
-  "a2-ozdemirahm": {
-    "repoLink": "https://github.com/ituis18/a2-ozdemirahm",
-    "pageLink": "https://ozdemir.herokuapp.com"
-  },
-  "a2-myetisir9": {
-    "repoLink": "https://github.com/ituis18/a2-myetisir9",
-    "pageLink": "https://yetisir.herokuapp.com"
-  },
-  "a2-myerekapan": {
-    "repoLink": "https://github.com/ituis18/a2-myerekapan",
-    "pageLink": "https://app-name-myerekapan.herokuapp.com",
-    "action": "/static/index.html",
-    "passField": "password",
-    "fields": [
-      "new_comment",
-      "next",
-      "next"
-    ],
-    "raw": "<form style=\"float:right;\" action = \"/static/index.html\" method = \"post\">\n  \t<fieldset>\n  \t<legend>What do you think about our trip?</legend>\n  \t<legend>Your Thoughts</legend>\n  \t<textarea name = \"new_comment\" rows=\"3\" cols=\"100\">Insert text here.</textarea>\n    <p> Do you want us to share our next trips?<p>\n    <input type=\"radio\" name = \"next\" value=\"Yes\" checked> Yes <br>\n  \t<input type=\"radio\" name = \"next\" value=\"No\"> No\n  \t<legend>Your Password Please:</legend>\n    <input type = \"password\" name = \"password\"><br>\n    <input type = \"submit\" value=\"Submit\"> <br>\n    </fieldset>\n    </form>"
-  },
-  "a2-ogzgbkn": {
-    "repoLink": "https://github.com/ituis18/a2-ogzgbkn",
-    "pageLink": "https://assignment-blg101.herokuapp.com",
-    "action": "/comments",
-    "passField": "user_password",
-    "fields": [
-      "user_name",
-      "user_surname",
-      "show_surname",
-      "show_surname",
-      "user_message"
-    ],
-    "raw": "<form action=\"/comments\" method=\"post\">\n            <p style=\"font-size:35px;color:red;\"><em>Name</em></p><br>\n            <input type=\"text\" name=\"user_name\" />      \n                 \n            <p style=\"font-size:35px;color:red;\"><em>Surname</em></p><br>\n            <input type=\"text\" name=\"user_surname\"/>        \n\n            <input type=\"radio\" name=\"show_surname\" value=\"show\">(Show my surname in my comment)\n            <input type=\"radio\" name=\"show_surname\" value=\"not_show\">(DO NOT show my surname in my comment)<br>        \n               \n            <p style=\"font-size:35px;color:red;\"><em>Message</em></p><br>    \n            <input type=\"text\" name=\"user_message\"/>        \n\n            <p style=\"font-size:35px;color:red;\"><em>Password</em></p><br>     \n            <input type=\"password\" name=\"user_password\"/>    \n            <input type=\"submit\" value=\"Submit\"/>        \n        </form>"
-  },
-  "a2-ersozser": {
-    "repoLink": "https://github.com/ituis18/a2-ersozser",
-    "pageLink": "https://hubpipboy.herokuapp.com"
-  },
-  "a2-bakteriyofan": {
-    "repoLink": "https://github.com/ituis18/a2-bakteriyofan",
-    "pageLink": "https://bakteriyofanblg101.herokuapp.com",
-    "action": "/comment",
-    "passField": "pw1",
-    "fields": [],
-    "raw": "<form action=\"/comment\" method=\"post\">\n\t\t Enter Password:\n\t\t\t <input type=\"password\" name=\"pw1\">\n\t\t\t <input type=\"submit\" value=\"GO!\">\n\t\t </form>"
-  },
   "a2-tiglifatih": {
     "repoLink": "https://github.com/ituis18/a2-tiglifatih",
     "pageLink": "https://a2-tiglifatih.herokuapp.com"
   },
-  "a2-AhmetAlperYilmaz": {
-    "repoLink": "https://github.com/ituis18/a2-AhmetAlperYilmaz",
-    "pageLink": "https://blg101assignment2-ahmetalper.herokuapp.com"
-  },
-  "a2-habili17": {
-    "repoLink": "https://github.com/ituis18/a2-habili17",
-    "pageLink": ""
-  },
-  "a2-Haytaf17": {
-    "repoLink": "https://github.com/ituis18/a2-Haytaf17",
-    "pageLink": "https://haytaf17.herokuapp.com",
-    "action": "/Submit",
-    "passField": "security",
-    "fields": [
-      "answer",
-      "answer",
-      "comment"
-    ],
-    "raw": "<form action=\"/Submit\" method=\"GET\">\n    <p class=\"question\">When did the \"MaNga Band\" take part in eurovision?</p>\n    <div class=\"boxes\">\n    <div class=\"radio\">\n    <input type=\"radio\" name=\"answer\" value=\"No\"/>\n    <label>2008</label>\n    <input type=\"radio\" name=\"answer\" value=\"correct\" checked=\"ok\"/>\n    <label>2010</label>\n    <br><br>\n    </div>\n    <div class=\"boxes\">\n    <label>- - - - - - - - - - - - - - - - - - - - - - - - - COMMENT - - - - - - - - - - - - - - - - - - - - - - - - - - -</label>\n    <textarea name=\"comment\" rows=\"7\" cols=\"150\" placeholder=\"Write here\" maxlength=\"300\" ></textarea>\n    <div class=\"pass\">\n    <label>PASSWORD</label>\n    </div>\n    <div>\n    <input type=\"password\" name=\"security\" />\n    </div>\n    <input type=\"Submit\" value=\"Send\" />\n    </form>"
-  },
-  "a2-EartaJoca": {
-    "repoLink": "https://github.com/ituis18/a2-EartaJoca",
-    "pageLink": "https://assignment2-blg101e.herokuapp.com",
-    "action": "/submit",
-    "passField": "password",
-    "fields": [
-      "Enter"
-    ],
-    "raw": "<form action = \"/submit\" method=\"post\">\n<input type= \"password\" name=\"password\"/>\n<input type=\"submit\" name= \"Enter\" value=\"Enter\"/>\n</form>"
-  },
-  "a2-aykutatmaca": {
-    "repoLink": "https://github.com/ituis18/a2-aykutatmaca",
-    "pageLink": "https://blg101eaykutatmaca.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "gender",
-      "gender",
-      "gender",
-      "gender"
-    ],
-    "raw": "<form method=\"post\">\n            Enter your comment please:<br>\n            <input type=\"text\" name=\"comment\"><br>\n            Password please:<br>\n            <input type=\"password\" name=\"password\"><br>\n            <input type=\"radio\" name=\"gender\" value=\"Male\">Male<br>\n            <input type=\"radio\" name=\"gender\" value=\"Female\">Female<br>\n            <input type=\"radio\" name=\"gender\" value=\"Other\">Other<br>\n            <input type=\"radio\" name=\"gender\" value=\"Boeing AH-64 Apache Atack Helicopter\" checked>Boeing AH-64 Apache Atack Helicopter<br>\n            <input type=\"submit\" value=\"Send Comment\">\n            <p>COMMENTS</P>\n            <p>%s</p>\n        </form>"
-  },
-  "a2-frkngry": {
-    "repoLink": "https://github.com/ituis18/a2-frkngry",
-    "pageLink": "https://blg101assgn.herokuapp.com"
-  },
-  "a2-salihfc": {
-    "repoLink": "https://github.com/ituis18/a2-salihfc",
-    "pageLink": ""
-  },
-  "a2-koraykural": {
-    "repoLink": "https://github.com/ituis18/a2-koraykural",
-    "pageLink": "https://poetrysociety.herokuapp.com",
-    "action": "/donate",
-    "passField": "password",
-    "fields": [
-      "author",
-      "author",
-      "author_name",
-      "donation"
-    ],
-    "raw": "<form action=\"/donate\" method=\"post\">\n\tChoose whether you want your name visible or not please.<br>\t\n\t<input type=\"radio\" name=\"author\" value=\"visible\" checked> Visible<br/>\n\t<input type=\"radio\" name=\"author\" value=\"hidden\"> NOT <br/> \n  Your name:<br>\n  <input type=\"text\" name=\"author_name\"><br>  \n  Donation:<br>\n  <input type=\"text\" name=\"donation\"><br>\n  Password:<br>\n  <input type=\"password\" name=\"password\"><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>"
-  },
-  "a2-burakthtl": {
-    "repoLink": "https://github.com/ituis18/a2-burakthtl",
-    "pageLink": "https://burakthtl.herokuapp.com",
-    "action": "/signup_complete",
-    "passField": "password",
-    "fields": [
-      "username"
-    ],
-    "raw": "<form method=\"POST\" action=\"/signup_complete\">\\n\n                 Userame: <input type=\"text\" name=\"username\" /><br />\\n\n                Password: <input type=\"password\" name=\"password\" /><br />\\n\n                 <input type=\"submit\" value=\"Send\" />\\n\n                </form>"
-  },
-  "a2-utkukaya": {
-    "repoLink": "https://github.com/ituis18/a2-utkukaya",
-    "pageLink": "https://itu18-a2-utkukaya.herokuapp.com",
-    "action": "/Comment",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"/Comment\" method=\"post\">\n\t <fieldset>\n\t  Password:<br>\n\t \n\t <input type=\"password\" name=\"password\"><br>\n\t <input type=\"submit\" value=\"Pass\">\n\t <input type=\"reset\" value=\"Reset\">\n\t </fieldset>\n\t </form>"
-  },
-  "a2-metinatmaca": {
-    "repoLink": "https://github.com/ituis18/a2-metinatmaca",
-    "pageLink": "https://metinatmaca.herokuapp.com",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "entered_comment",
-      "dropdown"
-    ],
-    "raw": "<form action=\"/comments\" method=\"POST\">\n\t\t   Comment: <input type=\"text\" name=\"entered_comment\" />\n\t\t   Password: <input type=\"password\" name=\"password\" />\n\t\t   <select name=\"dropdown\">\n\t\t   <option value=\"1\">1</option>\n\t\t   <option value=\"2\">2</option>\n\t\t   <option value=\"3\">3</option>\n\t\t   <option value=\"4\">4</option>\n\t\t   <option value=\"5\" selected >5</option>\n\t\t   </select>\n\t\t   <input type=\"submit\" value=\"Submit\" />\n\t\t</form>"
-  },
-  "a2-fatihfurkan46": {
-    "repoLink": "https://github.com/ituis18/a2-fatihfurkan46",
-    "pageLink": ""
-  },
-  "a2-sametcancobanli": {
-    "repoLink": "https://github.com/ituis18/a2-sametcancobanli",
-    "pageLink": "https://cobanli-assigment-2.herokuapp.com"
-  },
-  "a2-Bekci": {
-    "repoLink": "https://github.com/ituis18/a2-Bekci",
-    "pageLink": "https://bekci-black-books.herokuapp.com"
-  },
-  "a2-inesmuka": {
-    "repoLink": "https://github.com/ituis18/a2-inesmuka",
-    "pageLink": "https://a2blg101im.herokuapp.com",
-    "action": "/submit",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form method=\"post\" action=\"/submit\">\n                  Pass:<input type=\"password\" name=\"password\" />\n                  <input type=\"submit\" value=\"Submit\" />\n               </form>"
-  },
-  "a2-yifka": {
-    "repoLink": "https://github.com/ituis18/a2-yifka",
-    "pageLink": ""
-  },
-  "a2-elifkoseler": {
-    "repoLink": "https://github.com/ituis18/a2-elifkoseler",
-    "pageLink": "https://elifkoseler.herokuapp.com"
-  },
-  "a2-ismettt08": {
-    "repoLink": "https://github.com/ituis18/a2-ismettt08",
-    "pageLink": "https://blg101assigment2.herokuapp.com"
-  },
-  "a2-urbanassa": {
-    "repoLink": "https://github.com/ituis18/a2-urbanassa",
-    "pageLink": "https://anappforblg101.herokuapp.com"
-  },
-  "a2-hilmist34": {
-    "repoLink": "https://github.com/ituis18/a2-hilmist34",
-    "pageLink": "https://myblg101assignment2.herokuapp.com"
-  },
-  "a2-ekremugur17": {
-    "repoLink": "https://github.com/ituis18/a2-ekremugur17",
-    "action": "/contact.html",
-    "passField": "pass",
-    "fields": [
-      "name",
-      "msag",
-      "cbox",
-      "submit"
-    ],
-    "raw": "<form class=\"form\" method=\"post\" action=\"/contact.html\">\n      <label for=\"name\">Name: </label>\n      <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\">\n      <label for=\"key\">Key: </label>\n      <input type=\"password\" id=\"key\" name=\"pass\" placeholder=\"Key Word\">\n      <label for=\"msag\">Your message: </label>\n      <textarea name=\"msag\" id=\"msag\" rows=\"8\" cols=\"54\" placeholder=\"Give us something!\"></textarea>\n      <label class=\"container\">I want my name to be visible to other users.\n  <input type=\"checkbox\" name=\"cbox\" id=\"cbox\">\n  <span class=\"checkmark\"></span>\n</label><input type=\"submit\" name=\"submit\" value=\"Submit\">\n    </form>"
-  },
-  "a2-Onefivezero": {
-    "repoLink": "https://github.com/ituis18/a2-Onefivezero",
-    "pageLink": "https://chessisbetterthancheckers.herokuapp.com"
-  },
-  "a2-erfur": {
-    "repoLink": "https://github.com/ituis18/a2-erfur",
-    "pageLink": ""
-  },
-  "a2-iamjasd": {
-    "repoLink": "https://github.com/ituis18/a2-iamjasd",
-    "pageLink": "https://mywebappassignment.herokuapp.com",
-    "action": "/login",
-    "passField": "password",
-    "fields": [
-      "name",
-      "race",
-      "race",
-      "race",
-      "race",
-      "race",
-      "race",
-      "comments"
-    ],
-    "raw": "<form action=\"/login\" method=\"get\">\n\t\t<h1>Talk My Friend,Share Your Thoughts</h1>\n\t\t\n\t\t<table style=\"text-align:center\" >\n           <tr>\n              <th> <p>Name:</p> </th>\n              <th style=\"padding:5pt\" > <p>Race:</p> </th>\n              \n              \n             \n           </tr>    \n                       \n           <tr>\n\t\t\t   <td> <input type=\"text\" name=\"name\" placeholder=\"Enter Your Name\" ></td>\n\t\t\t   <th rowspan=\"3\" >\n\t\t\t\t<input type=\"radio\" name=\"race\" value=\"Uruk-Hai\" checked=\"checked\" > Uruk-Hai<br>\n\t            <input type=\"radio\" name=\"race\" value=\"Elves\" > Elves <br>\n\t\t        <input type=\"radio\" name=\"race\" value=\"Dwarves\"> Dwarves <br>\n\t            <input type=\"radio\" name=\"race\" value=\"Hobbits\"> Hobbits <br>\n                <input type=\"radio\" name=\"race\" value=\"Wizards\"> Wizards <br>\n                <input type=\"radio\" name=\"race\" value=\"Gollum\"> Gollum <br> </th>\n           </tr> \n           \n           \n           <tr>\n\t\t\t   \n\t\t\t   <td> <p>Password:</p> </td>\n           \n           \n           </tr> \n         \n           <tr>\n               \n               <td><input type=\"password\" name=\"password\" placeholder=\"Speak 'friend', and enter\" > <br></td>\n                \n           \n           </tr>  \t\t \n\t\t   \n\t\t\n\t\t</table>\n\t\t\n\t\t \n\t\t \n\t\n\t\t\n\t\t<textarea name=\"comments\" rows=\"6\" cols=\"50\" placeholder=\"You can share your comment right here mellon..\"></textarea> \n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<input size=\"15\" type=\"submit\" value=\"Submit\">\n\t</form>"
-  },
-  "a2-betultr": {
-    "repoLink": "https://github.com/ituis18/a2-betultr",
-    "pageLink": "https://a2betul.herokuapp.com"
-  },
-  "a2-unuvar17": {
-    "repoLink": "https://github.com/ituis18/a2-unuvar17",
-    "pageLink": "",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [],
-    "raw": "<form action=\"/comments\" method=\"POST\">\n                                <h1>Share your comment with us</h1>\n                                    <h2>comment:</h2>\n                                    \n\n\n                                    <h2 id=\"passbox\">Password:</h2>\n                                    <input type=\"password\" placeholder=\"Password\" name=\"password\"><br><br>\n                                    <input class=\"submit\" type=\"submit\" value=\"SEND\">\n                            </form>"
-  },
-  "a2-demirba18": {
-    "repoLink": "https://github.com/ituis18/a2-demirba18",
-    "pageLink": "https://demirba18.herokuapp.com"
-  },
-  "a2-mustafakucukk": {
-    "repoLink": "https://github.com/ituis18/a2-mustafakucukk",
-    "pageLink": "https://mybig101assignment.herokuapp.com",
-    "action": "/message",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "send"
-    ],
-    "raw": "<form action =\"/message\" method =\"post\" >\n\t\n\tPassword = <input type=\"password\" name=\"password\" maxlength=\"9\"/>\n\t\n\t\n\t\n\t<br><br>\n\t\n\t\n\tComment here!<br>\t\n\t<textarea name=\"comment\"  rows=\"10\" cols=\"50\"></textarea><br>\n\t\n\t\n\t\n<input type=\"submit\" name=\"send\" value=\"Send\"/>\n\t</form>"
-  },
-  "a2-sinansar123": {
-    "repoLink": "https://github.com/ituis18/a2-sinansar123",
-    "pageLink": "https://myblg101assignment-2.herokuapp.com",
-    "action": "/submit",
-    "passField": "password",
-    "fields": [
-      "userid",
-      "guest",
-      "comment_text"
-    ],
-    "raw": "<form action=\"/submit\" method=\"post\">\n\t\t\t\t\t\t<div class=\"userID\">\n\t\t\t\t\t\t\t<input id=\"useridbox\" name=\"userid\" placeholder=\"Your Name\" type=\"text\"/>\n\t\t\t\t\t\t\t<div><input name=\"guest\" id=\"guestbox\" type=\"checkbox\" onclick=\"myFunction()\" value=\"yes\" > Comment as a guest(without username)  </div>\n\t\t\t\t\t\t\t<input id=\"passwordBox\" name=\"password\" type=\"password\" placeholder=\"Password\"/>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<input id=\"commentBox\" name=\"comment_text\" type=\"text\" placeholder=\"Enter your comment here\"/>\n\t\t\t\t\t\t<input value=\"Send\" type=\"submit\" />\n\t\t\t\t\t</form>"
-  },
-  "a2-kilicaslane": {
-    "repoLink": "https://github.com/ituis18/a2-kilicaslane",
-    "pageLink": ""
-  },
-  "a2-pearlescen7": {
-    "repoLink": "https://github.com/ituis18/a2-pearlescen7",
-    "pageLink": "https://ff-webapp.herokuapp.com"
-  },
-  "a2-asederf": {
-    "repoLink": "https://github.com/ituis18/a2-asederf",
-    "pageLink": "https://blg101assignment-2.herokuapp.com"
-  },
-  "a2-AydinDeniz": {
-    "repoLink": "https://github.com/ituis18/a2-AydinDeniz",
-    "pageLink": "https://denizblg101assignment.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "comment",
-      "safe",
-      "safe"
-    ],
-    "raw": "<form method=\"get\">\n\t\t \t <textarea name=\"comment\" rows=\"8\" cols=\"64\">\n\t\t\t </textarea><br>\n\t\t \tPassword:<br>\n\t\t \t<input type=\"password\" name=\"password\"> \n\t\t \t<input type=\"submit\" value=\"send\">\n            <input type=\"radio\" value=\"0\" name=\"safe\" checked>\n            <label>I am a robot</label>\n\t\t \t<input type=\"radio\" value=\"1\" name=\"safe\">\n            <label>I am not a robot</label>\n\t\t \t</form>"
-  },
-  "a2-yusufalptigin": {
-    "repoLink": "https://github.com/ituis18/a2-yusufalptigin",
-    "pageLink": "https://blgassignment2.herokuapp.com"
-  },
-  "a2-tugberkozmen": {
-    "repoLink": "https://github.com/ituis18/a2-tugberkozmen",
-    "pageLink": "https://blg101.herokuapp.com",
-    "action": "/comments.html",
-    "passField": "password",
-    "fields": [
-      "cmnt",
-      "gender",
-      "gender",
-      "submit"
-    ],
-    "raw": "<form action=\"/comments.html\" method=\"POST\">\n      <label for=\"pwd\">Password: </label>\n      <input type=\"password\" id=\"pwd\" name=\"password\" />\n      <div>\n      <label for=\"cmnt\">Comment:</label>\n      <textarea name=\"cmnt\" id=\"cmnt\" rows=\"4\" cols=\"30\" ></textarea>\n      </div>\n      <div>\n            <input type=\"radio\" name=\"gender\" value=\"male\"> Male<br>\n            <input type=\"radio\" name=\"gender\" value=\"female\"> Female<br>\n    </div>\n\n      <input type=\"submit\" name=\"submit\" value=\"Submit\">\n            </form>"
-  },
-  "a2-Laprodience": {
-    "repoLink": "https://github.com/ituis18/a2-Laprodience",
-    "pageLink": "https://snoopyplayers.herokuapp.com"
-  },
-  "a2-rahimova18": {
-    "repoLink": "https://github.com/ituis18/a2-rahimova18",
-    "pageLink": "https://a2-fatimarahimova18.herokuapp.com"
-  },
-  "a2-Isydmr": {
-    "repoLink": "https://github.com/ituis18/a2-Isydmr",
-    "pageLink": "https://blg101webapp.herokuapp.com",
-    "action": "/comments",
-    "passField": "password",
-    "fields": [
-      "comment"
-    ],
-    "raw": "<form action=\"/comments\" method=\"post\">\n                <div \"><h3>Ebooks vs traditional books, which is better?:</h3></div><input name=\"comment\" type=\"text\" />\n                <div \"><h3>Your password?:</h3></div> <input name=\"password\" type=\"password\" />\n                <input value=\"ADD\" type=\"submit\" />\n            </form>"
+  "a2-abdinli18": {
+    "repoLink": "https://github.com/ituis18/a2-abdinli18",
+    "pageLink": "https://ituis18-a2-abdinli18.herokuapp.com",
+    "hash": "6702882accdf7b55591d5e4ef6a012ae4cd7264a1ff4e3a07ac471a190e62c8e",
+    "password": "goodpassword"
   },
   "a2-jnspar": {
     "repoLink": "https://github.com/ituis18/a2-jnspar",
     "pageLink": "https://jnspar101.herokuapp.com",
+    "hash": "2c371c2ada73a02e26e14416800e8a49f875d27b8b5ff31f1dbe37bdaa6d7faa",
+    "password": "dance",
     "action": "/deneme",
     "passField": "pwd",
     "fields": [
@@ -1296,161 +1620,125 @@
     ],
     "raw": "<form action=\"/deneme\">\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  <label for=\"name\">Name: </label>\n\t\t\t\t  <input type=\"text\" id=\"name\" name=\"name\" />\n\t\t\t\t  <br>\n\t\t\t\t  <label for=\"pwd\">Password: </label>\n\t\t\t\t  <input type=\"password\" id=\"pwd\" name=\"pwd\" />\n\t\t\t\t  <br>\n\t\t\t\t  <label for=\"cmt\">Comments: </label>\n\t\t\t\t  <textarea name=\"cmt\" id=\"cmt\" rows=\"4\" cols=\"30\" placeholder=\"Please enter a comment!\"></textarea>  <br><br>\t\t\t  \n\t\t\t \n\t\t\t\t  <label for =\"selector\">Which one to comment ? </label><br>\n\t\t\t\t  <input type=\"radio\" id =\"selector\" name=\"selector\" value=\"awards\"> Awards<br>\n\t\t\t\t  <input type=\"radio\"  name=\"selector\" value=\"films\"> Films<br>\n\t\t\t\t  <input type=\"radio\"  name=\"selector\" value=\"other\"> Other <br><br>\n\t\t\t\t  <input type=\"checkbox\" name=\"terms\" value=\"Agree\"> I have agreed the terms<br><br>\n\t\t\t\t  <input type=\"submit\" value=\"submit\" />\n\t\t\t\t  \n\t\t\t\t  <p style=\"color:red\">%s</p>\n\t\t\t\t  \n</form>"
   },
-  "a2-Cem6Akalin": {
-    "repoLink": "https://github.com/ituis18/a2-Cem6Akalin",
-    "pageLink": "https://pandaspandas.herokuapp.com",
-    "action": "/comment",
+  "a2-utkukaya": {
+    "repoLink": "https://github.com/ituis18/a2-utkukaya",
+    "pageLink": "https://itu18-a2-utkukaya.herokuapp.com",
+    "hash": "c3f40febe92af01b63f507209d8f4da6939bdd9317573717697f08ffae975310",
+    "password": "utkukaya",
+    "action": "/Comment",
     "passField": "password",
-    "fields": [
-      "comment",
-      "checkbox"
-    ],
-    "raw": "<form action=\"/comment\" style=\"font-size:22px;\"><br>\nPassword:<br>\n<input type=\"password\" name=\"password\" style=\"border: 2px solid black;\"><br>\nYour Comment:<br>\n<input type=\"text\" name=\"comment\" style=\"border: 2px solid black;\"><br>\n<button type=\"button\">Submit</button> <input type=\"checkbox\" name=\"checkbox\" value=\"cb\">I am not a robot\n</form>"
+    "fields": [],
+    "raw": "<form action=\"/Comment\" method=\"post\">\n\t <fieldset>\n\t  Password:<br>\n\t \n\t <input type=\"password\" name=\"password\"><br>\n\t <input type=\"submit\" value=\"Pass\">\n\t <input type=\"reset\" value=\"Reset\">\n\t </fieldset>\n\t </form>"
   },
-  "a2-atatrkz": {
-    "repoLink": "https://github.com/ituis18/a2-atatrkz",
-    "pageLink": "https://atatrkzblg101eassignment.herokuapp.com"
-  },
-  "a2-bengisuozbek": {
-    "repoLink": "https://github.com/ituis18/a2-bengisuozbek",
-    "pageLink": "https://myblgassignment.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "username",
-      "comment",
-      "anonymous"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n\t\t\t\t\t\t\t<input name=\"username\" type=\"text\" placeholder=\"Username\" /> <br />\n\t\t\t\t\t\t\t<input name=\"password\" type=\"password\" placeholder=\"Password\" /> <br />\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<textarea rows=\"8\" cols=\"50\" name=\"comment\"></textarea>\n\t\t\t\t\t\t\t <br />\n\t\t\t\t\t\t\t <input type=\"checkbox\" name=\"anonymous\" value=\"False\"> Anonymous </br>\n\t\t\t\t\t\t\t<input value=\"Submit\" type=\"submit\" />\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</form>"
-  },
-  "a2-Bedir2131": {
-    "repoLink": "https://github.com/ituis18/a2-Bedir2131",
-    "pageLink": "https://homewrk2.herokuapp.com",
-    "action": "/SignIn",
-    "passField": "password",
-    "fields": [
-      "username"
-    ],
-    "raw": "<form action=\"/SignIn\"  method=\"POST\">\n      <div>\n        <input type=\"text\" name=\"username\" placeholder=\"Username\" required>\n        <input type=\"password\" name=\"password\" placeholder=\"Password\" required>\n        <input type=\"submit\" value=\"Login\">\n      </div>\n  </form>"
-  },
-  "a2-aydinbugra": {
-    "repoLink": "https://github.com/ituis18/a2-aydinbugra",
-    "pageLink": "",
-    "action": "/comments",
+  "a2-frkntplglu": {
+    "repoLink": "https://github.com/ituis18/a2-frkntplglu",
+    "pageLink": "https://a2-frkntplglu.herokuapp.com",
+    "hash": "a816be71c5b52e459305d0503e07c88b24c978fb40a4c8597e42c3735633690d",
+    "password": "",
+    "action": "/addcomment",
     "passField": "password",
     "fields": [
       "comment",
       "human",
       "human"
     ],
-    "raw": "<form action=\"/comments\" method=\"GET\">\n\t\t  <h3>Enter Comment</h3>\n\t\t  <p>Comment:</p>\n          <div class=\"Input_Text\">\n          <input type=\"text\" name=\"comment\" size=\"50\" />\n          </div>\n          <p>Password:</p>\n          <div class=\"Input_Pass\">\n          <input type=\"password\" name=\"password\" />\n          <input type=\"radio\" name=\"human\" value=\"on\"/>\n          <label>I'm not a robot</label>\n          <input type=\"radio\" name=\"human\" value=\"off\" checked=\"checked\"/>\n          <label>I'm a robot</label>\n          </div>\n          <div>\n          <input type=\"submit\" value=\"Submit\" />\n          </div>\n        </form>"
+    "raw": "<form action=\"/addcomment\" method=\"post\">\n                                <div class=\"form-group\">\n                                    <p>Please enter comment password :  </p>\n                                    <input type=\"password\" name=\"password\">\n                                </div>\n                                <div class=\"form-group\">\n                                    <p>Your ideas :  </p>\n                                    <textarea name=\"comment\"></textarea>\n                                </div>\n                                <div class=\"form-group\">\n                                    <p>Are you human :  </p>\n                                    YES <input type=\"radio\" name=\"human\" value=\"yes\" /> <br/>\n                                    NO <input type=\"radio\" name=\"human\" value=\"no\" />\n                                </div>\n                                <input type=\"submit\" value=\"make comment\">\n                            </form>"
   },
-  "a2-by-waryoq": {
-    "repoLink": "https://github.com/ituis18/a2-by-waryoq",
-    "pageLink": "https://blg101assignment.herokuapp.com",
-    "action": "/control",
-    "passField": "password",
+  "a2-CahitCem": {
+    "repoLink": "https://github.com/ituis18/a2-CahitCem",
+    "pageLink": "",
+    "hash": "b25d0fd93fbf5e6149c36b620b6da0f9a17b90fabd27c215a56311deecd6d7aa",
+    "password": "sada",
+    "action": "/comment",
+    "passField": "paw",
     "fields": [
-      "nickname",
-      "anon",
-      "content"
+      "word",
+      "wrestlers",
+      "wrestlers",
+      "wrestlers"
     ],
-    "raw": "<form action=\"/control\" method=\"post\">\n\n    <div id=\"allCommentDiv\" style=\"margin:0 auto;padding:0 auto; \noverflow:hidden;\">\n    \n\t<div id=\"commentDiv\" style=\"float:left;\">\n    <label for=\"nickname\" style=\"color:whitesmoke\">Nickname :</label>\n    <input type=\"text\" id=\"nickname\" name=\"nickname\" placeholder=\"Your Nickname\"><br>\n\n    <label for=\"password\" style=\"color:whitesmoke\">Password &nbsp;: </label>\n    <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"Your Password\"><br>\n    <label style=\"color:whitesmoke\">Write as an anonymous</label>\n    <input type=\"checkbox\" name=\"anon\" value=\"selectAnon\"><br>\n    <input type=\"submit\" value=\"Send Your Comment\">\n        \n</div>\n        <div style=\"float:left;padding:11px\">\n            <textarea placeholder=\"Write your comment here\" name=\"content\" rows=\"11\" cols=\"95\" style=\"padding:10px\"></textarea>  \n       \n        </div>\n            </div>\n        </form>"
+    "raw": "<form action=\"/comment\" method=\"get\">\n                <input type=\"text\" name=\"word\" />\n                <input type=\"password\" name=\"paw\" />\n                <input type=\"submit\" value=\"login\" /><br>\n                <input type=\"radio\" name=\"wrestlers\" value=\"Edge\"> Edge<br>\n\t\t        <input type=\"radio\" name=\"wrestlers\" value=\"Undertaker\"> Undertaker<br>\n\t\t\t\t<input type=\"radio\" name=\"wrestlers\" value=\"Kane\"> Kane<br>\n                                     \n\t\t\t\t</form>"
   },
-  "a2-polatpasa": {
-    "repoLink": "https://github.com/ituis18/a2-polatpasa",
-    "pageLink": "https://a2-polatpasa.herokuapp.com"
-  },
-  "a2-furkanpala": {
-    "repoLink": "https://github.com/ituis18/a2-furkanpala",
-    "pageLink": "https://earth-and-beyond.herokuapp.com"
-  },
-  "a2-yalcina": {
-    "repoLink": "https://github.com/ituis18/a2-yalcina",
-    "pageLink": "https://aerobase.herokuapp.com",
-    "action": "/",
-    "passField": "passwd",
-    "fields": [
-      "name",
-      "gender",
-      "gender",
-      "comment",
-      "rate",
-      "improving1",
-      "improving2",
-      "improving3",
-      "improving4",
-      "airplane"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n\t\t    <h3>Your Name:</h3>\n\t\t    <input type=\"text\" name=\"name\" />\n\n\t\t    <p>Password:</p>\n\t\t    <input type=\"password\" name=\"passwd\" />\n\n\t\t    <br/>\n\t\t    <br/>\n\t\t    <br/>\n\t\t    <p>Gender:</p>\n\t\t    <input type=\"radio\" name=\"gender\" value=\"male\" /> Male\n\t\t    <input type=\"radio\" name=\"gender\" value=\"female\" /> Female <br/>\n\n\t\t    <br/><br/>\n\t\t    <p>Your comment:</p>\n\t\t    <textarea name=\"comment\" rows=\"10\" cols=\"70\"></textarea>\n\n\t\t    <br/><br/>\n\t\t    <p>Rate this site:</p>\n\t\t    <select name=\"rate\">\n\t\t\t<option value=\"5\"> 5 </option>\n\t\t\t<option value=\"4\"> 4 </option>\n\t\t\t<option value=\"3\"> 3 </option>\n\t\t\t<option value=\"2\"> 2 </option>\n\t\t\t<option value=\"1\"> 1 </option>\n\t\t    </select>\n\n\n\t\t    <br/><br/><br/>\n\t\t    <p>How to improve this website:</p>\n\t\t    <input type=\"checkbox\" name=\"improving1\" value=\"image\" checked=\"checked\" /> More images can be used <br/>\n\t\t    <input type=\"checkbox\" name=\"improving2\" value=\"content\" /> More contents can be added <br/>\n\t\t    <input type=\"checkbox\" name=\"improving3\" value=\"attraction\" /> More attractive colors, styles, layouts can be applied <br/>\n\t\t    <input type=\"checkbox\" name=\"improving4\" value=\"video\" /> Related videos can be inserted <br/>\n\n\n\t\t    <br/><br/><br/>\n\t\t    <p>Choose your favorite airplanes:</p>\n\t\t    <select name=\"airplane\" size=\"5\" multiple>\n\t\t\t<option value=\"A380\"> Airbus A380 </option>\n\t\t\t<option value=\"B787\"> Boeing 787 </option>\n\t\t\t<option value=\"A320\"> Airbus A320 </option>\n\t\t\t<option value=\"B737\"> Boeing 737 </option>\n\t\t\t<option value=\"A350\"> Airbus A350 </option>\n\t\t\t<option value=\"B747\"> Boeing 747 </option>\n\t\t\t<option value=\"A340\"> Airbus A340 </option>\n\t\t\t<option value=\"B777\"> Boeing 777</option>\n\t\t\t<option value=\"A330\"> Airbus A330</option>\n\t\t    </select>\n\n\n\n\t\t    <br/><br/><br/>\n\t\t    <input type=\"submit\" value=\"Submit\" />\n\t\t</form>"
-  },
-  "a2-yusufhilmi": {
-    "repoLink": "https://github.com/ituis18/a2-yusufhilmi",
-    "pageLink": "https://a2-yusufhilmi.herokuapp.com",
-    "action": "/",
-    "passField": "user_password",
-    "fields": [
-      "user_choice",
-      "user_choice",
-      "user_name",
-      "user_submit"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n                <div>\n                    \n                    <label for=\"radio\">Which one did you like most?</label>\n                    <br><br>\n                    \n                    <input type =\"radio\" name=\"user_choice\" value=\"dan\">Dan Auerbach<br>\n                    <input type =\"radio\" name=\"user_choice\" value=\"patrick\">Patrick Carney<br>\n                </div>\n                \n                <div>\n                    <br><br><br>\n                    <label for=\"name\">Enter Your Comment:</label>\n                    <input class=\"comment\" type=\"text\"  name=\"user_name\">\n                </div>\n                <div>\n                    <br>\n                    <label for=\"mail\">Enter Your Password:</label>\n                    <input class=\"password\" type=\"password\" name=\"user_password\">\n                    <br><br>\n                        \n                    <input style=\"margin-left: 150px;\" type=\"submit\" name=\"user_submit\" value=\"Submit My Comment\">\n                </div>\n                <ol>\n                    %s\n                </ol>\n            </form>"
-  },
-  "a2-anilkeskin": {
-    "repoLink": "https://github.com/ituis18/a2-anilkeskin",
-    "pageLink": "https://myassignment-2.herokuapp.com"
-  },
-  "a2-nazilli": {
-    "repoLink": "https://github.com/ituis18/a2-nazilli",
-    "pageLink": "https://nazilli.herokuapp.com"
-  },
-  "a2-Demirmu18": {
-    "repoLink": "https://github.com/ituis18/a2-Demirmu18",
-    "pageLink": "https://a2demirmu18.herokuapp.com"
-  },
-  "a2-ArdaCuce": {
-    "repoLink": "https://github.com/ituis18/a2-ArdaCuce",
-    "pageLink": "https://blg101app.herokuapp.com"
-  },
-  "a2-eminedari": {
-    "repoLink": "https://github.com/ituis18/a2-eminedari",
-    "pageLink": "https://eminedariblg101a2.herokuapp.com",
-    "action": "/",
-    "passField": "password",
-    "fields": [
-      "checkbox",
-      "comment"
-    ],
-    "raw": "<form action=\"/\" method=\"post\">\n\t\t  <input id=\"checkbox\" type=\"checkbox\" name=\"checkbox\"> I've read the book series that this page is about.<br>\n\t\t\tComment:\n\t\t\t<input type=\"text\" name=\"comment\"><br>\n\t\t\tPassword:\n\t\t\t<input type=\"password\" name=\"password\">\n\t\t\t<input value=\"Enter\" type=\"submit\" />\n\t\t\t<br><br>\n\t        <p><span style=\"font-weight:bold;\"><i>Comments Entered So Far:</i></<span></p>\n\t\t\t<hr>\n\t      %s\n\t   </form>"
-  },
-  "a2-turgaytinas": {
-    "repoLink": "https://github.com/ituis18/a2-turgaytinas",
-    "pageLink": "https://tinas17build.herokuapp.com",
-    "action": "/repl.html",
+  "a2-okuro15": {
+    "repoLink": "https://github.com/ituis18/a2-okuro15",
+    "pageLink": "https://blg101ass.herokuapp.com",
+    "hash": "770e607624d689265ca6c44884d0807d9b054d23c473c106c72be9de08b7376c",
+    "password": "good",
+    "action": "/comment",
     "passField": "password",
     "fields": [
       "comment",
-      "point",
-      "point"
+      "isBest"
     ],
-    "raw": "<form action = \"/repl.html\" method = \"post\">\n    \t\t\t<h1>Comment:</h1> <br>\n    \t\t\t<textarea name=\"comment\" rows=\"12\" cols=\"170\">Please be nice on your comments</textarea>\n    \t\t\t<br> <h3>Password:</h3> <br>\n    \t\t\t<input type = \"password\" name = \"password\" ><br>\n\t\t\t\t<input type=\"radio\" name=\"point\" value=\"yes\" checked/>good comment<br>\n\t\t\t\t<input type=\"radio\" name=\"point\" value=\"no\" />bad comment<br>\n    \t\t\t<input type = \"submit\" value=\"SEND\">\t\t\n    \t\t\t\n    \t</form>"
+    "raw": "<form action=\"/comment\" method=\"post\">\n              Comment: <input type=\"text\" name=\"comment\"/> <br>\n              Password: <input type=\"password\" name=\"password\"/> <br>\n              <input type=\"checkbox\" name=\"isBest\" value=\"1\"> Mozart is the best ever\n              <input type=\"submit\" value=\"Send Your Review\" />\n            </form>"
   },
-  "a2-cansuynk": {
-    "repoLink": "https://github.com/ituis18/a2-cansuynk",
-    "pageLink": "https://isaacasimov.herokuapp.com",
-    "action": "/contact",
-    "passField": "password",
-    "fields": [
-      "name",
-      "option",
-      "option",
-      "comment"
-    ],
-    "raw": "<form action=\"/contact\" method=\"post\">\n\t\t\t\t<br/><br/>\t\t\t\n\t\t\t\tYour Username:\n\t\t\t\t<input type=\"text\" name=\"name\" placeholder=\"Name\">\n\t\t\t\t\t  \n\t\t\t\tYour Password:\n\t\t\t\t<input type=\"password\" name=\"password\" placeholder=\"Password\">\n\t\t\t\t\t  \n\t\t\t\t<input type=\"submit\" value=\"Submit\"><br/><br/>\n\t\t\t\t\n\t\t\t\t<input type=\"radio\" name=\"option\" value=\"Register\" checked>Register\n\t\t\t\t<input type=\"radio\" name=\"option\" value=\"Comment\">Comment\n\t\t\t\t\n\t\t\t\t<br/><br/><p>%s</p>\n\t\t\t\t<div class=\"comment\">\n\t\t\t\t\t<input type=\"text\" name=\"comment\" placeholder=\"Write your comment here\"/>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</form>"
+  "a2-cetinkayaevren": {
+    "repoLink": "https://github.com/ituis18/a2-cetinkayaevren",
+    "pageLink": "https://ketchap.herokuapp.com",
+    "hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "password": "1234"
+  },
+  "a2-Laprodience": {
+    "repoLink": "https://github.com/ituis18/a2-Laprodience",
+    "pageLink": "https://snoopyplayers.herokuapp.com",
+    "hash": "752bde120c21a9217058c23f71786034be9f0a67afe8530cd74c5c2c0858bfa0",
+    "password": ""
+  },
+  "a2-myetisir9": {
+    "repoLink": "https://github.com/ituis18/a2-myetisir9",
+    "pageLink": "https://yetisir.herokuapp.com",
+    "hash": "1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94",
+    "password": "orange"
   },
   "a2-busraozcan": {
     "repoLink": "https://github.com/ituis18/a2-busraozcan",
-    "pageLink": "https://busraozcanblg101assignment.herokuapp.com"
+    "pageLink": "https://busraozcanblg101assignment.herokuapp.com",
+    "hash": "401f83e57ce50aaa8d46d44f0303e10133188f618d616f25a36d8d90e7b50ece",
+    "password": ""
+  },
+  "a2-itubilgas": {
+    "repoLink": "https://github.com/ituis18/a2-itubilgas",
+    "pageLink": "https://blg101assignment2as.herokuapp.com",
+    "hash": "932f3c1b56257ce8539ac269d7aab42550dacf8818d075f0bdf1990562aae3ef",
+    "password": "123123123"
+  },
+  "a2-cashkl": {
+    "repoLink": "https://github.com/ituis18/a2-cashkl",
+    "pageLink": "https://myblg101assignment-cashkl.herokuapp.com"
+  },
+  "a2-rizafairuzzabadi": {
+    "repoLink": "https://github.com/ituis18/a2-rizafairuzzabadi",
+    "pageLink": "https://fairuzzabadi101.herokuapp.com",
+    "hash": "b68cacbadaee450b8a8ce2dd44842f1de03ee9993ad97b5e99dea64ef93960ba",
+    "password": "",
+    "action": "/all_comments",
+    "passField": "password",
+    "fields": [
+      "your_name",
+      "your_comment"
+    ],
+    "raw": "<form action='/all_comments' method='POST'>\n\t<br><input type='password' name='password' value='your password'> <br>\n\t<input name ='your_name' value='your name'> <br>\n\t<input name='your_comment' value='your comment'> <br>\n\t<input type='submit' value='Submit'> \n</form>"
+  },
+  "a2-gimmefiv5": {
+    "repoLink": "https://github.com/ituis18/a2-gimmefiv5",
+    "pageLink": "https://zirka101.herokuapp.com"
+  },
+  "a2-myerekapan": {
+    "repoLink": "https://github.com/ituis18/a2-myerekapan",
+    "pageLink": "https://app-name-myerekapan.herokuapp.com",
+    "hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "password": "123456",
+    "action": "/static/index.html",
+    "passField": "password",
+    "fields": [
+      "new_comment",
+      "next",
+      "next"
+    ],
+    "raw": "<form style=\"float:right;\" action = \"/static/index.html\" method = \"post\">\n  \t<fieldset>\n  \t<legend>What do you think about our trip?</legend>\n  \t<legend>Your Thoughts</legend>\n  \t<textarea name = \"new_comment\" rows=\"3\" cols=\"100\">Insert text here.</textarea>\n    <p> Do you want us to share our next trips?<p>\n    <input type=\"radio\" name = \"next\" value=\"Yes\" checked> Yes <br>\n  \t<input type=\"radio\" name = \"next\" value=\"No\"> No\n  \t<legend>Your Password Please:</legend>\n    <input type = \"password\" name = \"password\"><br>\n    <input type = \"submit\" value=\"Submit\"> <br>\n    </fieldset>\n    </form>"
+  },
+  "a2-xdebron": {
+    "repoLink": "https://github.com/ituis18/a2-xdebron",
+    "pageLink": ""
   }
 }
