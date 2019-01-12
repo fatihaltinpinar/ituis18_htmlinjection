@@ -20,4 +20,8 @@ python3 get_repositories.py
 sh ./grep.sh
 ```
 
-- INJECTION WILL BE ADDED LATER
+*Not Working ATM*
+- Inject the sites with the hardcoded message in "injection.py"
+```shell
+python3 injection.py
+```
