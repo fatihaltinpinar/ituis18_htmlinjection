@@ -20,8 +20,8 @@ python3 get_repositories.py
 sh ./grep.sh
 ```
 
-*Not Working ATM*
 - Inject the sites with the hardcoded message in "injection.py"
+*You can change the message at line 61 under the variable name "hackMessage"*
 ```shell
 python3 injection.py
 ```
