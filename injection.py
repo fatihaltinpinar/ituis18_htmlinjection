@@ -66,8 +66,8 @@ try:
                 # If you are going to send a loaded text message it is better to disable get method.
                 # Because URLs do have a limitation in length.
                 try:
-                    responseGet = requests.get((pageLink + action), params=parameters, timeout=10)
-                    responsePost = requests.post((pageLink + action), data=parameters, timeout=10)
+                    requests.get((pageLink + action), params=parameters, timeout=10)
+                    requests.post((pageLink + action), data=parameters, timeout=10)
                     count += 1
 
                 except requests.exceptions.ReadTimeout:
