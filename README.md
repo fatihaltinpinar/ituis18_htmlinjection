@@ -14,10 +14,10 @@ git clone https://github.com/fatihaltinpinar/ituis18_hacking.git
 pip3 install gitpython
 python3 get_repositories.py
 ```
-- Find all the hashes in all files
+- Collect all the required data
 
 ```shell
-sh ./grep.sh
+python3 parse.py
 ```
 
 - Inject the sites with the hardcoded message in "injection.py"
